@@ -1,0 +1,14 @@
+<map id="AdaptiveQuadrature.h" name="AdaptiveQuadrature.h">
+<area shape="rect" id="node1" title="The AdaptiveQuadrature template." alt="" coords="359,5,525,32"/>
+<area shape="rect" id="node2" href="$dd/d50/AQ__Util_8h.html" title="Utilities for the implementation of the Adaptive Quadrature." alt="" coords="27,80,110,107"/>
+<area shape="rect" id="node4" href="$d1/d26/CellCountViolation_8h.html" title="Predefined policies for handling a cell count violation." alt="" coords="202,80,357,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="121,155,208,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="433,155,513,181"/>
+<area shape="rect" id="node9" href="$df/d92/Convergence_8h.html" title="Predefined convergence policies for the AdaptiveQuadrature template." alt="" coords="432,80,551,107"/>
+<area shape="rect" id="node10" title=" " alt="" coords="548,155,611,181"/>
+<area shape="rect" id="node11" title=" " alt="" coords="627,80,684,107"/>
+<area shape="rect" id="node12" title=" " alt="" coords="708,80,763,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,155,97,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="232,155,297,181"/>
+<area shape="rect" id="node8" title=" " alt="" coords="321,155,408,181"/>
+</map>

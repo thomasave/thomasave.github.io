@@ -1,0 +1,6 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title="Demo use of the Integral wrapper." alt="" coords="5,64,60,91"/>
+<area shape="rect" id="node2" href="$d4/da6/namespaceUA__CoMP_1_1Num.html#ace3fa6041be6b7e53e2599782dcf9a06" title=" " alt="" coords="118,5,301,32"/>
+<area shape="rect" id="node3" href="$d0/dbd/classUA__CoMP_1_1Num_1_1OscillatoryFunctor.html#a95bace4b2219b50958da9de86d94428c" title="Return the analytic integral object." alt="" coords="108,57,311,98"/>
+<area shape="rect" id="node4" href="$d4/da6/namespaceUA__CoMP_1_1Num.html#a3fa6aa1d195477fa94a9eccd61dbc65f" title="Helper function that returns an Integral for a quadrature algorithm and a functor." alt="" coords="125,122,293,163"/>
+</map>

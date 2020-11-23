@@ -1,0 +1,5 @@
+<map id="UA_CoMP::Container::SegmentedVector::end" name="UA_CoMP::Container::SegmentedVector::end">
+<area shape="rect" id="node1" title="Returns an iterator to the end of the container." alt="" coords="249,39,427,80"/>
+<area shape="rect" id="node2" href="$db/d5a/classUA__CoMP_1_1Container_1_1SegmentedVector.html#a91a5e07b235aa4edc6273cf86d6ac405" title="Returns an iterator to the beginning of the container." alt="" coords="9,5,198,47"/>
+<area shape="rect" id="node3" href="$db/d5a/classUA__CoMP_1_1Container_1_1SegmentedVector.html#a2a8db1857749c2225cf3f830e93b576d" title="Returns a const_iterator to the beginning of the container." alt="" coords="5,71,201,112"/>
+</map>

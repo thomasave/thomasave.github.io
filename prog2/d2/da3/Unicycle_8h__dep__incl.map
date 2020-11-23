@@ -1,0 +1,5 @@
+<map id="Unicycle.h" name="Unicycle.h">
+<area shape="rect" id="node1" title="Header for the Unicycle class." alt="" coords="120,5,211,32"/>
+<area shape="rect" id="node2" href="$dc/d11/app__essentialops_8cpp.html" title="Demo code for what happens with essential operators (ctor, dtor, assignment)." alt="" coords="5,80,168,107"/>
+<area shape="rect" id="node3" href="$df/d4f/Unicycle_8cpp.html" title="Implementation for the Unicycle class used to demo object aggregation features." alt="" coords="193,80,298,107"/>
+</map>

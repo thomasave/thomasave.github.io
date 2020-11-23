@@ -1,0 +1,4 @@
+<map id="UA_CoMP::Container::SegmentedVector::size" name="UA_CoMP::Container::SegmentedVector::size">
+<area shape="rect" id="node1" title="Returns the number of elements." alt="" coords="247,13,425,54"/>
+<area shape="rect" id="node2" href="$db/d5a/classUA__CoMP_1_1Container_1_1SegmentedVector.html#a14700fffe7974e078509911077b3e591" title="Deallocates (empty) blocks to schrink capacity to fit current size." alt="" coords="5,5,199,61"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="UA_CoMP::Misc::BlockTracer::BlockTracer" name="UA_CoMP::Misc::BlockTracer::BlockTracer">
+<area shape="rect" id="node1" title="Constructor insert message in TrackerOutput about entering a block." alt="" coords="5,35,212,76"/>
+<area shape="rect" id="node2" href="$df/dd1/classUA__CoMP_1_1Misc_1_1TracerOutput.html#aaebef96a971e26f59b355c0a81563785" title="Increase the indentation level." alt="" coords="274,5,489,47"/>
+<area shape="rect" id="node3" href="$df/dd1/classUA__CoMP_1_1Misc_1_1TracerOutput.html#a820a4dcc16f5b442fbe4ab5eb7bd176d" title="Insert the message in the google log at given severity level." alt="" coords="260,71,503,98"/>
+</map>

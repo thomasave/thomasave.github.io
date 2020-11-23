@@ -1,0 +1,8 @@
+<map id="employee.h" name="employee.h">
+<area shape="rect" id="node1" title="Employee POD." alt="" coords="224,5,323,32"/>
+<area shape="rect" id="node2" href="$d6/d94/abstract-factory_2main_8cpp.html" title="Main for Abstract Factory demo." alt="" coords="232,155,315,181"/>
+<area shape="rect" id="node3" href="$da/d2a/ptree-employee-factory_8h.html" title="Concrete ptree based factory." alt="" coords="49,80,236,107"/>
+<area shape="rect" id="node5" href="$df/d4c/stdin-employee-factory_8h.html" title="Concrete stdin input based factory." alt="" coords="311,80,497,107"/>
+<area shape="rect" id="node4" href="$d3/d8b/ptree-employee-factory_8cpp.html" title="Concrete ptree based factory." alt="" coords="5,155,208,181"/>
+<area shape="rect" id="node6" href="$d4/da6/stdin-employee-factory_8cpp.html" title="Concrete stdin input based factory." alt="" coords="339,155,539,181"/>
+</map>

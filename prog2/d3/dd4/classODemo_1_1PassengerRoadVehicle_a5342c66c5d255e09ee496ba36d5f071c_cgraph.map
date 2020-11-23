@@ -1,0 +1,4 @@
+<map id="ODemo::PassengerRoadVehicle::info" name="ODemo::PassengerRoadVehicle::info">
+<area shape="rect" id="node1" title="Return identification info." alt="" coords="5,5,231,47"/>
+<area shape="rect" id="node2" href="$d3/df7/classUA__CoMP_1_1Util_1_1StringUtils.html#a76641a2be7fe3116ffded8baf1ce2afe" title="Builds a string representation of a value of type T." alt="" coords="279,5,471,47"/>
+</map>

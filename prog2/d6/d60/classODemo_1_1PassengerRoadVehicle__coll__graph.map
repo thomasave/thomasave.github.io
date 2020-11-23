@@ -1,0 +1,7 @@
+<map id="ODemo::PassengerRoadVehicle" name="ODemo::PassengerRoadVehicle">
+<area shape="rect" id="node1" title="A PassengerRoadVehicle transports one or more passengers." alt="" coords="64,648,289,872"/>
+<area shape="rect" id="node2" href="$d8/def/classODemo_1_1RoadVehicle.html" title="A RoadVehicle is any kind of vehicle that moves on the road." alt="" coords="5,391,164,571"/>
+<area shape="rect" id="node3" href="$de/dbd/classODemo_1_1LandVehicle.html" title="A LandVehicle drives on land." alt="" coords="6,161,163,341"/>
+<area shape="rect" id="node4" href="$dd/de3/classODemo_1_1Vehicle.html" title="This Vehicle interface class." alt="" coords="21,5,148,112"/>
+<area shape="rect" id="node5" title=" " alt="" coords="188,442,227,519"/>
+</map>

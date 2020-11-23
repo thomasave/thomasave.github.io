@@ -1,0 +1,9 @@
+<map id="UA_CoMP::Num::AQRule1&lt; T &gt;" name="UA_CoMP::Num::AQRule1&lt; T &gt;">
+<area shape="rect" id="node1" title="Used to disambiguate rules in AdaptiveQuadrature." alt="" coords="136,132,363,209"/>
+<area shape="rect" id="node3" href="$d1/d6e/classUA__CoMP_1_1Num_1_1AQRule1.html" title=" " alt="" coords="67,287,255,379"/>
+<area shape="rect" id="node7" href="$d1/d6e/classUA__CoMP_1_1Num_1_1AQRule1.html" title=" " alt="" coords="262,403,450,509"/>
+<area shape="rect" id="node2" href="$d1/def/classT.html" title=" " alt="" coords="230,5,269,83"/>
+<area shape="rect" id="node4" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html" title="The AdaptiveQuadrature is a host class with policy classes QuadRule1, QuadRule2, ErrorPolicy and Conv..." alt="" coords="5,533,285,816"/>
+<area shape="rect" id="node5" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html" title=" " alt="" coords="102,923,365,1235"/>
+<area shape="rect" id="node6" href="$d3/d1c/classUA__CoMP_1_1Num_1_1AGL__Quadrature.html" title="AGL (Adaptive GaussLegendre) Quadrature." alt="" coords="114,1284,353,1391"/>
+</map>

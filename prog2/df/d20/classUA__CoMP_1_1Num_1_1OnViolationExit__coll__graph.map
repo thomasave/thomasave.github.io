@@ -1,0 +1,3 @@
+<map id="UA_CoMP::Num::OnViolationExit" name="UA_CoMP::Num::OnViolationExit">
+<area shape="rect" id="node1" title="Policy that exits, after writing a message to standard error." alt="" coords="5,5,239,83"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Stack::operator=" name="Stack::operator=">
+<area shape="rect" id="node1" title="Assignment of one stack to another." alt="" coords="5,56,137,83"/>
+<area shape="rect" id="node2" href="$d4/dc1/classStack.html#a275d43ff89b91a9c6c5636cc8539d285" title="Check whether stack is empty." alt="" coords="185,5,293,32"/>
+<area shape="rect" id="node3" href="$d4/dc1/classStack.html#a9783dc560d6c20fd58842ca01611fe49" title="Pop element off the stack." alt="" coords="194,56,285,83"/>
+<area shape="rect" id="node4" href="$d4/dc1/classStack.html#a092d76df2cec30a9b24d2ea7be7b4e5b" title="Return top element of the stack (but not pop&#45;ing it)." alt="" coords="196,107,283,133"/>
+</map>

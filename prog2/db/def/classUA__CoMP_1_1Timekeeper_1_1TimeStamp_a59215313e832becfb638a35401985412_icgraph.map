@@ -1,0 +1,4 @@
+<map id="UA_CoMP::Timekeeper::TimeStamp::ToString" name="UA_CoMP::Timekeeper::TimeStamp::ToString">
+<area shape="rect" id="node1" title="Returns string with the time stamp after eliminating newline." alt="" coords="224,5,395,47"/>
+<area shape="rect" id="node2" href="$d1/dd2/namespaceUA__CoMP_1_1Timekeeper.html#accbe1282c14d097b9dd26ce31e0f4f45" title="TimeStamp helper inserts string representation in output stream." alt="" coords="5,5,176,47"/>
+</map>

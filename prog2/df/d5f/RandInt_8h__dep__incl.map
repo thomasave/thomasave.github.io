@@ -1,0 +1,8 @@
+<map id="RandInt.h" name="RandInt.h">
+<area shape="rect" id="node1" title="Functor produces random values." alt="" coords="191,5,275,32"/>
+<area shape="rect" id="node2" href="$dd/d33/algo_8cpp.html" title="Demo for generic programming." alt="" coords="5,80,83,107"/>
+<area shape="rect" id="node3" href="$db/df9/fill_8cpp.html" title="Fill container with random values, using STL." alt="" coords="107,80,173,107"/>
+<area shape="rect" id="node4" href="$d4/dfc/find_8cpp.html" title="Demo for find algorithm &amp; ranges." alt="" coords="197,80,270,107"/>
+<area shape="rect" id="node5" href="$dc/d50/freq_8cpp.html" title="Bin values in frequency table." alt="" coords="295,80,369,107"/>
+<area shape="rect" id="node6" href="$d7/dc1/trans_8cpp.html" title="Tranform sequences, using STL." alt="" coords="393,80,476,107"/>
+</map>

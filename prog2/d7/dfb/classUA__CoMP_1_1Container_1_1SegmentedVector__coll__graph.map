@@ -1,0 +1,8 @@
+<map id="UA_CoMP::Container::SegmentedVector&lt; T, N &gt;" name="UA_CoMP::Container::SegmentedVector&lt; T, N &gt;">
+<area shape="rect" id="node1" title="Container that stores objects &quot;almost contiguously&quot; and guarantees that pointers/iterators are not in..." alt="" coords="5,425,207,679"/>
+<area shape="rect" id="node2" title=" " alt="" coords="33,285,93,363"/>
+<area shape="rect" id="node3" title=" " alt="" coords="118,285,291,363"/>
+<area shape="rect" id="node4" title=" " alt="" coords="109,145,183,223"/>
+<area shape="rect" id="node5" title="STL class." alt="" coords="208,145,337,223"/>
+<area shape="rect" id="node6" title=" " alt="" coords="253,5,292,83"/>
+</map>

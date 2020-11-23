@@ -1,0 +1,16 @@
+<map id="UA_CoMP::Num::AdaptiveQuadrature&lt; QuadRule1, QuadRule2, ConvergencePolicy, CellCountPolicy &gt;" name="UA_CoMP::Num::AdaptiveQuadrature&lt; QuadRule1, QuadRule2, ConvergencePolicy, CellCountPolicy &gt;">
+<area shape="rect" id="node1" title="The AdaptiveQuadrature is a host class with policy classes QuadRule1, QuadRule2, ErrorPolicy and Conv..." alt="" coords="476,583,756,865"/>
+<area shape="rect" id="node13" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html" title=" " alt="" coords="485,972,747,1284"/>
+<area shape="rect" id="node2" href="$d1/d6e/classUA__CoMP_1_1Num_1_1AQRule1.html" title=" " alt="" coords="113,441,301,533"/>
+<area shape="rect" id="node3" href="$d8/d22/classQuadRule1.html" title="Template parameter provides first quadrature rule for AdaptiveQuadrature." alt="" coords="5,139,99,217"/>
+<area shape="rect" id="node7" href="$dc/d77/classUA__CoMP_1_1Num_1_1Bisector.html" title=" " alt="" coords="90,287,275,379"/>
+<area shape="rect" id="node4" href="$d1/d6e/classUA__CoMP_1_1Num_1_1AQRule1.html" title="Used to disambiguate rules in AdaptiveQuadrature." alt="" coords="300,294,527,371"/>
+<area shape="rect" id="node5" href="$d1/def/classT.html" title=" " alt="" coords="519,139,558,217"/>
+<area shape="rect" id="node10" href="$d1/d0a/classUA__CoMP_1_1Num_1_1AQRule2.html" title="Used to disambiguate rules in AdaptiveQuadrature." alt="" coords="551,294,777,371"/>
+<area shape="rect" id="node6" href="$d1/d0a/classUA__CoMP_1_1Num_1_1AQRule2.html" title=" " alt="" coords="325,441,531,533"/>
+<area shape="rect" id="node8" href="$dc/d77/classUA__CoMP_1_1Num_1_1Bisector.html" title="Given a quadrature rule, a new rule is generated that consists of applying the original rule on both ..." alt="" coords="123,132,309,224"/>
+<area shape="rect" id="node9" title=" " alt="" coords="191,5,241,83"/>
+<area shape="rect" id="node11" href="$d8/d4f/classUA__CoMP_1_1Num_1_1ComboDifference.html" title="Policy that checks convergence via combo difference." alt="" coords="556,449,801,526"/>
+<area shape="rect" id="node12" href="$d4/d78/classUA__CoMP_1_1Num_1_1OnViolationThrow.html" title="Policy throws a std::runtime_error exception when condition is violated." alt="" coords="825,441,1033,533"/>
+<area shape="rect" id="node14" href="$d3/d1c/classUA__CoMP_1_1Num_1_1AGL__Quadrature.html" title="AGL (Adaptive GaussLegendre) Quadrature." alt="" coords="497,1333,735,1440"/>
+</map>

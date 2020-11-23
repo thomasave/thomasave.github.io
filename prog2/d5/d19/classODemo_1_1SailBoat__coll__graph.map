@@ -1,0 +1,8 @@
+<map id="ODemo::SailBoat" name="ODemo::SailBoat">
+<area shape="rect" id="node1" title="A simple SailBoat class." alt="" coords="151,447,285,627"/>
+<area shape="rect" id="node2" href="$db/da2/classODemo_1_1WaterVehicle.html" title="Abstract WaterVehicle class." alt="" coords="5,175,169,384"/>
+<area shape="rect" id="node3" href="$dd/de3/classODemo_1_1Vehicle.html" title="This Vehicle interface class." alt="" coords="13,5,140,112"/>
+<area shape="rect" id="node4" title=" " alt="" coords="179,20,230,97"/>
+<area shape="rect" id="node5" title="STL class." alt="" coords="325,241,412,318"/>
+<area shape="rect" id="node6" title="STL class." alt="" coords="299,13,438,105"/>
+</map>

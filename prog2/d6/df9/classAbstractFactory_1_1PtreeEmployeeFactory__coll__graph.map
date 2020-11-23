@@ -1,0 +1,7 @@
+<map id="AbstractFactory::PtreeEmployeeFactory" name="AbstractFactory::PtreeEmployeeFactory">
+<area shape="rect" id="node1" title="An employee factory implementation that uses Boost property trees to construct employee instances." alt="" coords="121,373,350,480"/>
+<area shape="rect" id="node2" href="$d1/d42/classAbstractFactory_1_1Factory.html" title=" " alt="" coords="5,175,183,281"/>
+<area shape="rect" id="node3" href="$d1/d42/classAbstractFactory_1_1Factory.html" title="A class template for abstract factories: objects that construct values based on their internal state,..." alt="" coords="5,5,183,112"/>
+<area shape="rect" id="node4" title=" " alt="" coords="207,189,263,267"/>
+<area shape="rect" id="node5" title=" " alt="" coords="287,182,453,274"/>
+</map>

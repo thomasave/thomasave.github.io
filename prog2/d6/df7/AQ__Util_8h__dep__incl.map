@@ -1,0 +1,10 @@
+<map id="AQ_Util.h" name="AQ_Util.h">
+<area shape="rect" id="node1" title="Utilities for the implementation of the Adaptive Quadrature." alt="" coords="255,5,338,32"/>
+<area shape="rect" id="node2" href="$d5/d15/AdaptiveQuadrature_8h.html" title="The AdaptiveQuadrature template." alt="" coords="45,80,210,107"/>
+<area shape="rect" id="node6" href="$d2/def/OscillatoryFunctor_8h.html" title="Oscillatory functor." alt="" coords="169,155,320,181"/>
+<area shape="rect" id="node7" href="$da/d3f/PowerFunctor_8h.html" title="Power functor." alt="" coords="344,155,465,181"/>
+<area shape="rect" id="node8" href="$d1/df3/SimpleRules_8h.html" title="Elementary Quadrature Rules." alt="" coords="490,155,605,181"/>
+<area shape="rect" id="node3" href="$d1/dee/AGL__Quadrature_8h.html" title="AGL (Adaptive GaussLegendre) Quadrature." alt="" coords="5,155,145,181"/>
+<area shape="rect" id="node4" href="$dc/db6/aquad__demo_8cpp.html" title="Demo for the AdaptiveQuadrature template." alt="" coords="177,229,310,256"/>
+<area shape="rect" id="node5" href="$d4/da9/integral__demo_8cpp.html" title="Demo for the Integral template." alt="" coords="335,229,477,256"/>
+</map>
