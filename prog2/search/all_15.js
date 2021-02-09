@@ -1,4 +1,12 @@
 var searchData=
 [
-  ['zero_538',['zero',['../de/da3/classAccumulationTraits_3_01char_01_4.html#a9d9e85c17ea4b831b19acdf94d41c51f',1,'AccumulationTraits&lt; char &gt;::zero()'],['../d8/d65/classAccumulationTraits_3_01short_01_4.html#a09614367bfddd2b63b9f6adcfb20dbb2',1,'AccumulationTraits&lt; short &gt;::zero()'],['../d7/dfd/classAccumulationTraits_3_01int_01_4.html#aaa8e0d6b2084d3d29fc04d47ea3f98ff',1,'AccumulationTraits&lt; int &gt;::zero()'],['../dc/dfa/classAccumulationTraits_3_01unsigned_01int_01_4.html#a55db00f2abe2f3b8545d327c342b155a',1,'AccumulationTraits&lt; unsigned int &gt;::zero()'],['../de/de1/classAccumulationTraits_3_01float_01_4.html#acfeb8a0d00d149c53233ddec3bf07e36',1,'AccumulationTraits&lt; float &gt;::zero()']]]
+  ['watervehicle_578',['WaterVehicle',['../db/da2/classODemo_1_1WaterVehicle.html',1,'ODemo::WaterVehicle'],['../db/da2/classODemo_1_1WaterVehicle.html#a75f519d640b85fbb4acf1a66fb3f893c',1,'ODemo::WaterVehicle::WaterVehicle()'],['../db/da2/classODemo_1_1WaterVehicle.html#a468abb1a250b5ca23fc8b1f30a80419e',1,'ODemo::WaterVehicle::WaterVehicle(const WaterVehicle &amp;ori)'],['../db/da2/classODemo_1_1WaterVehicle.html#a6d1550e5ca0e10363546e3f232d2785d',1,'ODemo::WaterVehicle::WaterVehicle(WaterVehicle &amp;&amp;ori) noexcept']]],
+  ['watervehicle_2ecpp_579',['WaterVehicle.cpp',['../dd/d85/WaterVehicle_8cpp.html',1,'']]],
+  ['watervehicle_2eh_580',['WaterVehicle.h',['../df/df4/WaterVehicle_8h.html',1,'']]],
+  ['what_581',['what',['../dd/da3/classODemo_1_1Exception.html#a60590752bfe03f82838d0886f1d62942',1,'ODemo::Exception']]],
+  ['wheel_582',['Wheel',['../d2/de7/classODemo_1_1Wheel.html',1,'ODemo::Wheel'],['../d2/de7/classODemo_1_1Wheel.html#af031b547261cc407b0c4a2dfb558c578',1,'ODemo::Wheel::Wheel()'],['../d2/de7/classODemo_1_1Wheel.html#ae468beb40ea0f83d84ead1a604e77de8',1,'ODemo::Wheel::Wheel(const Wheel &amp;ori)'],['../d2/de7/classODemo_1_1Wheel.html#a3f8bcca7630a19999655950bde2d1a82',1,'ODemo::Wheel::Wheel(Wheel &amp;&amp;ori) noexcept']]],
+  ['wheel_2ecpp_583',['Wheel.cpp',['../d2/de3/Wheel_8cpp.html',1,'']]],
+  ['wheel_2eh_584',['Wheel.h',['../d0/dfd/Wheel_8h.html',1,'']]],
+  ['writechar_585',['WriteChar',['../da/d7f/classRaii_1_1File.html#ad3b6ffae5554b191a0efeb04a898ea4c',1,'Raii::File']]],
+  ['writeerror_586',['WriteError',['../d7/d37/classRaii_1_1WriteError.html',1,'Raii']]]
 ];

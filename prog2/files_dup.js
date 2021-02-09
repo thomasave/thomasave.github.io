@@ -67,6 +67,7 @@ var files_dup =
     [ "algo.cpp", "dd/d33/algo_8cpp.html", "dd/d33/algo_8cpp" ],
     [ "app_copy.cpp", "df/d4d/app__copy_8cpp.html", "df/d4d/app__copy_8cpp" ],
     [ "app_essentialops.cpp", "dc/d11/app__essentialops_8cpp.html", "dc/d11/app__essentialops_8cpp" ],
+    [ "app_example_exam.cpp", "d7/dc6/app__example__exam_8cpp.html", "d7/dc6/app__example__exam_8cpp" ],
     [ "app_exception.cpp", "dc/d57/app__exception_8cpp.html", "dc/d57/app__exception_8cpp" ],
     [ "app_exec.cpp", "d4/de9/app__exec_8cpp.html", "d4/de9/app__exec_8cpp" ],
     [ "app_fcalls.cpp", "dc/dc2/app__fcalls_8cpp.html", "dc/dc2/app__fcalls_8cpp" ],
@@ -78,6 +79,10 @@ var files_dup =
     ] ],
     [ "aquad_demo.cpp", "dc/db6/aquad__demo_8cpp.html", "dc/db6/aquad__demo_8cpp" ],
     [ "array-impl.cpp", "d6/dac/array-impl_8cpp.html", null ],
+    [ "BathRoom.cpp", "d2/df9/BathRoom_8cpp.html", null ],
+    [ "BathRoom.h", "d5/d48/BathRoom_8h.html", "d5/d48/BathRoom_8h" ],
+    [ "BedRoom.cpp", "d8/d12/BedRoom_8cpp.html", null ],
+    [ "BedRoom.h", "df/dbf/BedRoom_8h.html", "df/dbf/BedRoom_8h" ],
     [ "Bicycle.cpp", "d0/d43/Bicycle_8cpp.html", null ],
     [ "Bicycle.h", "d2/d8e/Bicycle_8h.html", [
       [ "Bicycle", "d6/d19/classODemo_1_1Bicycle.html", "d6/d19/classODemo_1_1Bicycle" ]
@@ -92,6 +97,8 @@ var files_dup =
     [ "buffer.h", "d5/d08/buffer_8h.html", [
       [ "Buffer", "d0/dfe/classRaii_1_1Buffer.html", "d0/dfe/classRaii_1_1Buffer" ]
     ] ],
+    [ "Building.cpp", "da/d23/Building_8cpp.html", null ],
+    [ "Building.h", "d8/dac/Building_8h.html", "d8/dac/Building_8h" ],
     [ "CellCountViolation.h", "d1/d26/CellCountViolation_8h.html", [
       [ "OnViolationThrow", "d4/d78/classUA__CoMP_1_1Num_1_1OnViolationThrow.html", "d4/d78/classUA__CoMP_1_1Num_1_1OnViolationThrow" ],
       [ "OnViolationReturn", "d2/d6c/classUA__CoMP_1_1Num_1_1OnViolationReturn.html", "d2/d6c/classUA__CoMP_1_1Num_1_1OnViolationReturn" ],
@@ -166,10 +173,16 @@ var files_dup =
       [ "GaussLegendre32Rule", "dc/d63/classUA__CoMP_1_1Num_1_1GaussLegendre32Rule.html", "dc/d63/classUA__CoMP_1_1Num_1_1GaussLegendre32Rule" ]
     ] ],
     [ "GNUC_VERSION.h", "d7/d21/GNUC__VERSION_8h.html", null ],
+    [ "HolidayHome.cpp", "da/db7/HolidayHome_8cpp.html", null ],
+    [ "HolidayHome.h", "d4/dbb/HolidayHome_8h.html", "d4/dbb/HolidayHome_8h" ],
+    [ "House.cpp", "d7/d82/House_8cpp.html", null ],
+    [ "House.h", "d5/dfe/House_8h.html", "d5/dfe/House_8h" ],
     [ "incompatible-template.cpp", "d7/de2/incompatible-template_8cpp.html", "d7/de2/incompatible-template_8cpp" ],
     [ "inline-functions.cpp", "d8/dd2/inline-functions_8cpp.html", "d8/dd2/inline-functions_8cpp" ],
     [ "Integral.h", "dc/db3/Integral_8h.html", "dc/db3/Integral_8h" ],
     [ "integral_demo.cpp", "d4/da9/integral__demo_8cpp.html", "d4/da9/integral__demo_8cpp" ],
+    [ "Kitchen.cpp", "db/d6f/Kitchen_8cpp.html", null ],
+    [ "Kitchen.h", "d5/d5d/Kitchen_8h.html", "d5/d5d/Kitchen_8h" ],
     [ "lambda-by-reference.cpp", "d8/de8/lambda-by-reference_8cpp.html", "d8/de8/lambda-by-reference_8cpp" ],
     [ "lambda-by-value.cpp", "d2/d3b/lambda-by-value_8cpp.html", "d2/d3b/lambda-by-value_8cpp" ],
     [ "lambda-functor.cpp", "d7/dbd/lambda-functor_8cpp.html", "d7/dbd/lambda-functor_8cpp" ],
@@ -211,7 +224,9 @@ var files_dup =
     [ "PassengerRoadVehicle.h", "d5/da9/PassengerRoadVehicle_8h.html", [
       [ "PassengerRoadVehicle", "d3/dd4/classODemo_1_1PassengerRoadVehicle.html", "d3/dd4/classODemo_1_1PassengerRoadVehicle" ]
     ] ],
+    [ "example_exam/Person.cpp", "d0/d84/example__exam_2Person_8cpp.html", null ],
     [ "Person.cpp", "df/df6/Person_8cpp.html", null ],
+    [ "example_exam/Person.h", "de/d60/example__exam_2Person_8h.html", "de/d60/example__exam_2Person_8h" ],
     [ "Person.h", "de/d1c/Person_8h.html", [
       [ "Person", "df/d17/classODemo_1_1Person.html", "df/d17/classODemo_1_1Person" ]
     ] ],
@@ -238,10 +253,14 @@ var files_dup =
       [ "RandomReadFile", "d9/d33/classRaii_1_1RandomReadFile.html", "d9/d33/classRaii_1_1RandomReadFile" ]
     ] ],
     [ "Range.h", "d9/db6/Range_8h.html", "d9/db6/Range_8h" ],
+    [ "Rentable.cpp", "d0/d90/Rentable_8cpp.html", null ],
+    [ "Rentable.h", "dc/dc7/Rentable_8h.html", "dc/dc7/Rentable_8h" ],
     [ "RoadVehicle.cpp", "d2/ddb/RoadVehicle_8cpp.html", null ],
     [ "RoadVehicle.h", "df/d0d/RoadVehicle_8h.html", [
       [ "RoadVehicle", "d8/def/classODemo_1_1RoadVehicle.html", "d8/def/classODemo_1_1RoadVehicle" ]
     ] ],
+    [ "Room.cpp", "df/d56/Room_8cpp.html", null ],
+    [ "Room.h", "d9/d31/Room_8h.html", "d9/d31/Room_8h" ],
     [ "SailBoat.cpp", "db/dd5/SailBoat_8cpp.html", null ],
     [ "SailBoat.h", "d8/d05/SailBoat_8h.html", [
       [ "SailBoat", "dc/d0a/classODemo_1_1SailBoat.html", "dc/d0a/classODemo_1_1SailBoat" ]

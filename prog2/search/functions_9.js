@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['landvehicle_937',['LandVehicle',['../de/dbd/classODemo_1_1LandVehicle.html#a0e3d7481e4984e77cbd46aa15deaad3f',1,'ODemo::LandVehicle::LandVehicle()'],['../de/dbd/classODemo_1_1LandVehicle.html#a12e6bf30153bcdec04e9ddf1add87252',1,'ODemo::LandVehicle::LandVehicle(const LandVehicle &amp;ori)'],['../de/dbd/classODemo_1_1LandVehicle.html#a1c781aba9f875b1a7a3edb6e0923959b',1,'ODemo::LandVehicle::LandVehicle(LandVehicle &amp;&amp;ori) noexcept']]],
-  ['loadingexception_938',['LoadingException',['../d4/d05/classODemo_1_1LoadingException.html#a6a493c693b3feea096a51d21328a8b2e',1,'ODemo::LoadingException']]],
-  ['log_939',['log',['../df/dd1/classUA__CoMP_1_1Misc_1_1TracerOutput.html#a820a4dcc16f5b442fbe4ab5eb7bd176d',1,'UA_CoMP::Misc::TracerOutput']]]
+  ['kitchen_1029',['Kitchen',['../df/d63/classtracing__example__exam_1_1Kitchen.html#a10a46aa368e210f0779539fe47cfd2cd',1,'tracing_example_exam::Kitchen::Kitchen()'],['../df/d63/classtracing__example__exam_1_1Kitchen.html#acd7e14e64d3dca08e38bfb733def6c74',1,'tracing_example_exam::Kitchen::Kitchen(const Kitchen &amp;p)'],['../df/d63/classtracing__example__exam_1_1Kitchen.html#aa4c7bf259bfaf2b0c2a7c219963677f1',1,'tracing_example_exam::Kitchen::Kitchen(Kitchen &amp;&amp;p)']]]
 ];

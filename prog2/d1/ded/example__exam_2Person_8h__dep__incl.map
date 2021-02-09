@@ -1,0 +1,13 @@
+<map id="Person.h" name="Person.h">
+<area shape="rect" id="node1" title="Header for the Person class." alt="" coords="173,5,251,32"/>
+<area shape="rect" id="node2" href="$d7/dc6/app__example__exam_8cpp.html" title="Example tracing exam." alt="" coords="5,304,187,331"/>
+<area shape="rect" id="node3" href="$d8/dac/Building_8h.html" title="Header for the Building class." alt="" coords="111,80,198,107"/>
+<area shape="rect" id="node9" href="$d0/d84/example__exam_2Person_8cpp.html" title="Implementation for the class Person." alt="" coords="223,80,316,107"/>
+<area shape="rect" id="node10" href="$dc/dc7/Rentable_8h.html" title="Header for the Rentable class." alt="" coords="341,80,433,107"/>
+<area shape="rect" id="node4" href="$da/d23/Building_8cpp.html" title="Implementation for the class Building." alt="" coords="103,155,206,181"/>
+<area shape="rect" id="node5" href="$d5/dfe/House_8h.html" title="Header for the House class." alt="" coords="231,155,305,181"/>
+<area shape="rect" id="node6" href="$d4/dbb/HolidayHome_8h.html" title="Header for the HolidayHome class." alt="" coords="249,229,372,256"/>
+<area shape="rect" id="node8" href="$d7/d82/House_8cpp.html" title="Implementation for the class House." alt="" coords="135,229,225,256"/>
+<area shape="rect" id="node7" href="$da/db7/HolidayHome_8cpp.html" title="Implementation for the class HolidayHome." alt="" coords="241,304,380,331"/>
+<area shape="rect" id="node11" href="$d0/d90/Rentable_8cpp.html" title="Implementation for the class Rentable." alt="" coords="380,155,487,181"/>
+</map>

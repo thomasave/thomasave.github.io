@@ -1,5 +1,6 @@
 var namespaceUA__CoMP =
 [
+    [ "Clock", "de/d22/namespaceUA__CoMP_1_1Clock.html", null ],
     [ "Container", "db/dd2/namespaceUA__CoMP_1_1Container.html", "db/dd2/namespaceUA__CoMP_1_1Container" ],
     [ "Misc", "da/d7d/namespaceUA__CoMP_1_1Misc.html", "da/d7d/namespaceUA__CoMP_1_1Misc" ],
     [ "Num", "d4/da6/namespaceUA__CoMP_1_1Num.html", "d4/da6/namespaceUA__CoMP_1_1Num" ],

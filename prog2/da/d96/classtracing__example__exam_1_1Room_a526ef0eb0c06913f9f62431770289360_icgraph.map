@@ -1,0 +1,6 @@
+<map id="tracing_example_exam::Room::operator=" name="tracing_example_exam::Room::operator=">
+<area shape="rect" id="node1" title="Copy&#45;assignment of a Room:" alt="" coords="228,71,403,112"/>
+<area shape="rect" id="node2" href="$da/dbe/classtracing__example__exam_1_1BathRoom.html#a2653ae71d54c9e45e409af48457116d4" title="Copy&#45;assignment of a BathRoom:" alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node3" href="$d5/d56/classtracing__example__exam_1_1BedRoom.html#a4734b8941e1fd9be34cf28a39ff2af18" title="Copy&#45;assignment of a BedRoom:" alt="" coords="5,71,180,112"/>
+<area shape="rect" id="node4" href="$df/d63/classtracing__example__exam_1_1Kitchen.html#a4696ec13e43178e55d6cd77f1ec5d6a9" title="Copy&#45;assignment of a Kitchen:" alt="" coords="5,136,180,177"/>
+</map>

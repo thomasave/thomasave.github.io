@@ -1,0 +1,8 @@
+<map id="Rule" name="Rule">
+<area shape="rect" id="node1" title=" " alt="" coords="120,5,171,83"/>
+<area shape="rect" id="node2" href="$dc/d77/classUA__CoMP_1_1Num_1_1Bisector.html" title="Given a quadrature rule, a new rule is generated that consists of applying the original rule on both ..." alt="" coords="53,132,238,224"/>
+<area shape="rect" id="node3" href="$d1/d0a/classUA__CoMP_1_1Num_1_1AQRule2.html" title=" " alt="" coords="42,273,249,365"/>
+<area shape="rect" id="node4" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html" title="The AdaptiveQuadrature is a host class with policy classes QuadRule1, QuadRule2, ErrorPolicy and Conv..." alt="" coords="5,415,285,697"/>
+<area shape="rect" id="node5" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html" title=" " alt="" coords="14,804,277,1116"/>
+<area shape="rect" id="node6" href="$d3/d1c/classUA__CoMP_1_1Num_1_1AGL__Quadrature.html" title="AGL (Adaptive GaussLegendre) Quadrature." alt="" coords="26,1165,265,1272"/>
+</map>

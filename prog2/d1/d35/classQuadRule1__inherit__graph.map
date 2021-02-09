@@ -1,9 +1,7 @@
 <map id="QuadRule1" name="QuadRule1">
-<area shape="rect" id="node1" title="Template parameter provides first quadrature rule for AdaptiveQuadrature." alt="" coords="107,5,200,83"/>
-<area shape="rect" id="node2" href="$d1/d6e/classUA__CoMP_1_1Num_1_1AQRule1.html" title=" " alt="" coords="41,248,229,340"/>
-<area shape="rect" id="node6" href="$dc/d77/classUA__CoMP_1_1Num_1_1Bisector.html" title=" " alt="" coords="177,132,362,224"/>
-<area shape="rect" id="node3" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html" title="The AdaptiveQuadrature is a host class with policy classes QuadRule1, QuadRule2, ErrorPolicy and Conv..." alt="" coords="5,505,285,788"/>
-<area shape="rect" id="node4" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html" title=" " alt="" coords="14,895,277,1207"/>
-<area shape="rect" id="node5" href="$d3/d1c/classUA__CoMP_1_1Num_1_1AGL__Quadrature.html" title="AGL (Adaptive GaussLegendre) Quadrature." alt="" coords="26,1256,265,1363"/>
-<area shape="rect" id="node7" href="$d1/d0a/classUA__CoMP_1_1Num_1_1AQRule2.html" title=" " alt="" coords="167,364,374,456"/>
+<area shape="rect" id="node1" title="Template parameter provides first quadrature rule for AdaptiveQuadrature." alt="" coords="99,5,192,83"/>
+<area shape="rect" id="node2" href="$d1/d6e/classUA__CoMP_1_1Num_1_1AQRule1.html" title=" " alt="" coords="51,132,239,224"/>
+<area shape="rect" id="node3" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html" title="The AdaptiveQuadrature is a host class with policy classes QuadRule1, QuadRule2, ErrorPolicy and Conv..." alt="" coords="5,273,285,556"/>
+<area shape="rect" id="node4" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html" title=" " alt="" coords="14,663,277,975"/>
+<area shape="rect" id="node5" href="$d3/d1c/classUA__CoMP_1_1Num_1_1AGL__Quadrature.html" title="AGL (Adaptive GaussLegendre) Quadrature." alt="" coords="26,1024,265,1131"/>
 </map>

@@ -19,17 +19,6 @@ var hierarchy =
     [ "AbstractFactory::Factory< TResult, TArgs... >", "d1/d42/classAbstractFactory_1_1Factory.html", [
       [ "AbstractFactory::ConstantFactory< TResult, TArgs >", "d3/dd2/classAbstractFactory_1_1ConstantFactory.html", null ]
     ] ],
-    [ "Rule", null, [
-      [ "UA_CoMP::Num::AQRule1< GaussLegendreSelect< N1 >::Rule >", "d1/d6e/classUA__CoMP_1_1Num_1_1AQRule1.html", [
-        [ "UA_CoMP::Num::AdaptiveQuadrature< GaussLegendreSelect< N1 >::Rule, GaussLegendreSelect< N2 >::Rule, ComboDifference, OnViolationThrow >", "d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html", [
-          [ "UA_CoMP::Num::AGL_Quadrature< N1, N2, ConvergencePolicy, CellCountPolicy >", "d3/d1c/classUA__CoMP_1_1Num_1_1AGL__Quadrature.html", null ]
-        ] ]
-      ] ],
-      [ "UA_CoMP::Num::AQRule2< GaussLegendreSelect< N2 >::Rule >", "d1/d0a/classUA__CoMP_1_1Num_1_1AQRule2.html", [
-        [ "UA_CoMP::Num::AdaptiveQuadrature< GaussLegendreSelect< N1 >::Rule, GaussLegendreSelect< N2 >::Rule, ComboDifference, OnViolationThrow >", "d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html", null ]
-      ] ],
-      [ "UA_CoMP::Num::Bisector< Rule >", "dc/d77/classUA__CoMP_1_1Num_1_1Bisector.html", null ]
-    ] ],
     [ "ODemo::Body", "df/d87/classODemo_1_1Body.html", null ],
     [ "ODemo::Engine", "dd/db3/classODemo_1_1Engine.html", null ],
     [ "ODemo::Motorcycle", "df/d03/classODemo_1_1Motorcycle.html", null ],
@@ -54,11 +43,6 @@ var hierarchy =
     [ "QuadRule1", "d8/d22/classQuadRule1.html", [
       [ "UA_CoMP::Num::AQRule1< QuadRule1 >", "d1/d6e/classUA__CoMP_1_1Num_1_1AQRule1.html", [
         [ "UA_CoMP::Num::AdaptiveQuadrature< QuadRule1, QuadRule2, ConvergencePolicy, CellCountPolicy >", "d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html", null ]
-      ] ],
-      [ "UA_CoMP::Num::Bisector< QuadRule1 >", "dc/d77/classUA__CoMP_1_1Num_1_1Bisector.html", [
-        [ "UA_CoMP::Num::AQRule2< Bisector< QuadRule1 > >", "d1/d0a/classUA__CoMP_1_1Num_1_1AQRule2.html", [
-          [ "UA_CoMP::Num::AdaptiveQuadrature< QuadRule1, QuadRule2, ConvergencePolicy, CellCountPolicy >", "d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html", null ]
-        ] ]
       ] ]
     ] ],
     [ "QuadRule2", "dd/df7/classQuadRule2.html", null ],
@@ -66,13 +50,20 @@ var hierarchy =
     [ "Raii::File", "da/d7f/classRaii_1_1File.html", null ],
     [ "Raii::RandomReadFile", "d9/d33/classRaii_1_1RandomReadFile.html", null ],
     [ "RandInt", "d9/da9/classRandInt.html", null ],
+    [ "Rule", "da/ddc/classRule.html", [
+      [ "UA_CoMP::Num::Bisector< Rule >", "dc/d77/classUA__CoMP_1_1Num_1_1Bisector.html", [
+        [ "UA_CoMP::Num::AQRule2< Bisector< QuadRule1 > >", "d1/d0a/classUA__CoMP_1_1Num_1_1AQRule2.html", [
+          [ "UA_CoMP::Num::AdaptiveQuadrature< QuadRule1, QuadRule2, ConvergencePolicy, CellCountPolicy >", "d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html", null ]
+        ] ]
+      ] ]
+    ] ],
     [ "select< T1, T2, b >", "db/d9e/structselect.html", null ],
     [ "select< T1, T2, false >", "dd/d4a/structselect_3_01T1_00_01T2_00_01false_01_4.html", null ],
     [ "select< T1, T2, true >", "da/d47/structselect_3_01T1_00_01T2_00_01true_01_4.html", null ],
     [ "smaller< T1, T2 >", "d5/d17/structsmaller.html", null ],
     [ "Stack< T >", "d4/dc1/classStack.html", null ],
     [ "Stack< std::string >", "d5/d70/classStack_3_01std_1_1string_01_4.html", null ],
-    [ "binary_function", null, [
+    [ "std::binary_function", null, [
       [ "UA_CoMP::Num::Integral< QuadAlgorithm, Integrand >", "d4/daf/classUA__CoMP_1_1Num_1_1Integral.html", null ],
       [ "UA_CoMP::Num::OscillatoryFunctor::Integral", "d4/d8d/classUA__CoMP_1_1Num_1_1OscillatoryFunctor_1_1Integral.html", null ],
       [ "UA_CoMP::Num::PowerFunctor::Integral", "d5/df1/classUA__CoMP_1_1Num_1_1PowerFunctor_1_1Integral.html", null ]
@@ -94,22 +85,32 @@ var hierarchy =
         [ "UA_CoMP::Util::Exception", "df/db1/classUA__CoMP_1_1Util_1_1Exception.html", null ]
       ] ]
     ] ],
-    [ "iterator", null, [
+    [ "std::iterator", null, [
       [ "UA_CoMP::Container::Impl_::CircularIterator< T, V, P, R >", "d5/d85/classUA__CoMP_1_1Container_1_1Impl___1_1CircularIterator.html", null ],
       [ "UA_CoMP::Container::SVIterator< T, N, P, R, is_const_iterator >", "d2/d79/classUA__CoMP_1_1Container_1_1SVIterator.html", null ]
     ] ],
-    [ "pair", null, [
+    [ "std::pair", null, [
       [ "Range< Iter >", "d5/d98/structRange.html", null ]
     ] ],
-    [ "unary_function", null, [
+    [ "std::unary_function", null, [
       [ "UA_CoMP::Num::OscillatoryFunctor", "d0/dbd/classUA__CoMP_1_1Num_1_1OscillatoryFunctor.html", null ],
       [ "UA_CoMP::Num::PowerFunctor", "d3/d51/classUA__CoMP_1_1Num_1_1PowerFunctor.html", null ]
     ] ],
     [ "SumPolicy< T1, T2 >", "d7/d3b/classSumPolicy.html", null ],
     [ "SumPolicy< false >", "de/d14/classSumPolicy_3_01false_01_4.html", null ],
-    [ "T", "d1/def/classT.html", [
-      [ "UA_CoMP::Num::AQRule1< T >", "d1/d6e/classUA__CoMP_1_1Num_1_1AQRule1.html", null ],
-      [ "UA_CoMP::Num::AQRule2< T >", "d1/d0a/classUA__CoMP_1_1Num_1_1AQRule2.html", null ]
+    [ "tracing_example_exam::Building", "dc/d4a/classtracing__example__exam_1_1Building.html", [
+      [ "tracing_example_exam::House", "d8/d2e/classtracing__example__exam_1_1House.html", [
+        [ "tracing_example_exam::HolidayHome", "dd/d8c/classtracing__example__exam_1_1HolidayHome.html", null ]
+      ] ]
+    ] ],
+    [ "tracing_example_exam::Person", "df/d87/classtracing__example__exam_1_1Person.html", null ],
+    [ "tracing_example_exam::Rentable", "d0/d1f/classtracing__example__exam_1_1Rentable.html", [
+      [ "tracing_example_exam::HolidayHome", "dd/d8c/classtracing__example__exam_1_1HolidayHome.html", null ]
+    ] ],
+    [ "tracing_example_exam::Room", "da/d96/classtracing__example__exam_1_1Room.html", [
+      [ "tracing_example_exam::BathRoom", "da/dbe/classtracing__example__exam_1_1BathRoom.html", null ],
+      [ "tracing_example_exam::BedRoom", "d5/d56/classtracing__example__exam_1_1BedRoom.html", null ],
+      [ "tracing_example_exam::Kitchen", "df/d63/classtracing__example__exam_1_1Kitchen.html", null ]
     ] ],
     [ "UA_CoMP::Container::SegmentedVector< T, N >", "db/d5a/classUA__CoMP_1_1Container_1_1SegmentedVector.html", null ],
     [ "UA_CoMP::Misc::BlockTracer", "d9/de9/classUA__CoMP_1_1Misc_1_1BlockTracer.html", null ],
@@ -118,7 +119,9 @@ var hierarchy =
     [ "UA_CoMP::Misc::TracerOutput", "df/dd1/classUA__CoMP_1_1Misc_1_1TracerOutput.html", null ],
     [ "UA_CoMP::Num::AbsoluteDifference", "dc/df9/classUA__CoMP_1_1Num_1_1AbsoluteDifference.html", null ],
     [ "UA_CoMP::Num::ComboDifference", "d8/d4f/classUA__CoMP_1_1Num_1_1ComboDifference.html", [
-      [ "UA_CoMP::Num::AdaptiveQuadrature< GaussLegendreSelect< N1 >::Rule, GaussLegendreSelect< N2 >::Rule, ComboDifference, OnViolationThrow >", "d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html", null ],
+      [ "UA_CoMP::Num::AdaptiveQuadrature< GaussLegendreSelect< N1 >::Rule, GaussLegendreSelect< N2 >::Rule, ComboDifference, OnViolationThrow >", "d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html", [
+        [ "UA_CoMP::Num::AGL_Quadrature< N1, N2, ConvergencePolicy, CellCountPolicy >", "d3/d1c/classUA__CoMP_1_1Num_1_1AGL__Quadrature.html", null ]
+      ] ],
       [ "UA_CoMP::Num::AdaptiveQuadrature< QuadRule1, QuadRule2, ConvergencePolicy, CellCountPolicy >", "d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html", null ]
     ] ],
     [ "UA_CoMP::Num::GaussLegendre16Rule", "de/d6d/classUA__CoMP_1_1Num_1_1GaussLegendre16Rule.html", null ],
@@ -147,6 +150,12 @@ var hierarchy =
     [ "UA_CoMP::Timekeeper::TimeStamp", "db/def/classUA__CoMP_1_1Timekeeper_1_1TimeStamp.html", null ],
     [ "UA_CoMP::Timekeeper::Utils", "d0/d3f/structUA__CoMP_1_1Timekeeper_1_1Utils.html", null ],
     [ "UA_CoMP::Util::StringUtils", "d3/df7/classUA__CoMP_1_1Util_1_1StringUtils.html", null ],
-    [ "double", "df/de6/classdouble.html", null ],
-    [ "unsigned int", "d2/d5f/classunsigned_01int.html", null ]
+    [ "T", null, [
+      [ "UA_CoMP::Num::AQRule1< T >", "d1/d6e/classUA__CoMP_1_1Num_1_1AQRule1.html", [
+        [ "UA_CoMP::Num::AdaptiveQuadrature< GaussLegendreSelect< N1 >::Rule, GaussLegendreSelect< N2 >::Rule, ComboDifference, OnViolationThrow >", "d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html", null ]
+      ] ],
+      [ "UA_CoMP::Num::AQRule2< T >", "d1/d0a/classUA__CoMP_1_1Num_1_1AQRule2.html", [
+        [ "UA_CoMP::Num::AdaptiveQuadrature< GaussLegendreSelect< N1 >::Rule, GaussLegendreSelect< N2 >::Rule, ComboDifference, OnViolationThrow >", "d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html", null ]
+      ] ]
+    ] ]
 ];

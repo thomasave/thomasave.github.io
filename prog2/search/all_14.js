@@ -1,12 +1,8 @@
 var searchData=
 [
-  ['watervehicle_529',['WaterVehicle',['../db/da2/classODemo_1_1WaterVehicle.html',1,'ODemo::WaterVehicle'],['../db/da2/classODemo_1_1WaterVehicle.html#a75f519d640b85fbb4acf1a66fb3f893c',1,'ODemo::WaterVehicle::WaterVehicle()'],['../db/da2/classODemo_1_1WaterVehicle.html#a468abb1a250b5ca23fc8b1f30a80419e',1,'ODemo::WaterVehicle::WaterVehicle(const WaterVehicle &amp;ori)'],['../db/da2/classODemo_1_1WaterVehicle.html#a6d1550e5ca0e10363546e3f232d2785d',1,'ODemo::WaterVehicle::WaterVehicle(WaterVehicle &amp;&amp;ori) noexcept']]],
-  ['watervehicle_2ecpp_530',['WaterVehicle.cpp',['../dd/d85/WaterVehicle_8cpp.html',1,'']]],
-  ['watervehicle_2eh_531',['WaterVehicle.h',['../df/df4/WaterVehicle_8h.html',1,'']]],
-  ['what_532',['what',['../dd/da3/classODemo_1_1Exception.html#a60590752bfe03f82838d0886f1d62942',1,'ODemo::Exception']]],
-  ['wheel_533',['Wheel',['../d2/de7/classODemo_1_1Wheel.html',1,'ODemo::Wheel'],['../d2/de7/classODemo_1_1Wheel.html#af031b547261cc407b0c4a2dfb558c578',1,'ODemo::Wheel::Wheel()'],['../d2/de7/classODemo_1_1Wheel.html#ae468beb40ea0f83d84ead1a604e77de8',1,'ODemo::Wheel::Wheel(const Wheel &amp;ori)'],['../d2/de7/classODemo_1_1Wheel.html#a3f8bcca7630a19999655950bde2d1a82',1,'ODemo::Wheel::Wheel(Wheel &amp;&amp;ori) noexcept']]],
-  ['wheel_2ecpp_534',['Wheel.cpp',['../d2/de3/Wheel_8cpp.html',1,'']]],
-  ['wheel_2eh_535',['Wheel.h',['../d0/dfd/Wheel_8h.html',1,'']]],
-  ['writechar_536',['WriteChar',['../da/d7f/classRaii_1_1File.html#ad3b6ffae5554b191a0efeb04a898ea4c',1,'Raii::File']]],
-  ['writeerror_537',['WriteError',['../d7/d37/classRaii_1_1WriteError.html',1,'Raii']]]
+  ['value_573',['value',['../de/da3/classAccumulationTraits_3_01char_01_4.html#a070613d2ff9698438490fe6eb5466dab',1,'AccumulationTraits&lt; char &gt;::value()'],['../d8/d65/classAccumulationTraits_3_01short_01_4.html#a756e3ecf2b4962c94c4907ae2aeb35db',1,'AccumulationTraits&lt; short &gt;::value()'],['../d7/dfd/classAccumulationTraits_3_01int_01_4.html#abaa8a0077d0ff8f7b9e0aa4c09268e98',1,'AccumulationTraits&lt; int &gt;::value()']]],
+  ['value_5ftype_574',['value_type',['../db/d5a/classUA__CoMP_1_1Container_1_1SegmentedVector.html#af8657e0b8f7e0d30357d863fc3e3021d',1,'UA_CoMP::Container::SegmentedVector']]],
+  ['vect_575',['vect',['../d8/dd4/classPolynomial.html#ab55a2219846c278bb58ebf8c0ced41ce',1,'Polynomial']]],
+  ['vehicle_576',['Vehicle',['../dd/de3/classODemo_1_1Vehicle.html',1,'ODemo']]],
+  ['vehicle_2eh_577',['Vehicle.h',['../d9/d18/Vehicle_8h.html',1,'']]]
 ];

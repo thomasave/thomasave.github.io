@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['integral_615',['Integral',['../d4/daf/classUA__CoMP_1_1Num_1_1Integral.html',1,'UA_CoMP::Num::Integral&lt; QuadAlgorithm, Integrand &gt;'],['../d4/d8d/classUA__CoMP_1_1Num_1_1OscillatoryFunctor_1_1Integral.html',1,'UA_CoMP::Num::OscillatoryFunctor::Integral'],['../d5/df1/classUA__CoMP_1_1Num_1_1PowerFunctor_1_1Integral.html',1,'UA_CoMP::Num::PowerFunctor::Integral']]]
+  ['holidayhome_672',['HolidayHome',['../dd/d8c/classtracing__example__exam_1_1HolidayHome.html',1,'tracing_example_exam']]],
+  ['house_673',['House',['../d8/d2e/classtracing__example__exam_1_1House.html',1,'tracing_example_exam']]]
 ];

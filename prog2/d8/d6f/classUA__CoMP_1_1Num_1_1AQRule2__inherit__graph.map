@@ -1,9 +1,8 @@
 <map id="UA_CoMP::Num::AQRule2&lt; T &gt;" name="UA_CoMP::Num::AQRule2&lt; T &gt;">
-<area shape="rect" id="node1" title="Used to disambiguate rules in AdaptiveQuadrature." alt="" coords="87,132,314,209"/>
-<area shape="rect" id="node3" href="$d1/d0a/classUA__CoMP_1_1Num_1_1AQRule2.html" title=" " alt="" coords="19,403,207,509"/>
-<area shape="rect" id="node6" href="$d1/d0a/classUA__CoMP_1_1Num_1_1AQRule2.html" title=" " alt="" coords="192,287,399,379"/>
-<area shape="rect" id="node2" href="$d1/def/classT.html" title=" " alt="" coords="181,5,220,83"/>
-<area shape="rect" id="node4" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html" title=" " alt="" coords="5,923,268,1235"/>
-<area shape="rect" id="node5" href="$d3/d1c/classUA__CoMP_1_1Num_1_1AGL__Quadrature.html" title="AGL (Adaptive GaussLegendre) Quadrature." alt="" coords="17,1284,256,1391"/>
-<area shape="rect" id="node7" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html" title="The AdaptiveQuadrature is a host class with policy classes QuadRule1, QuadRule2, ErrorPolicy and Conv..." alt="" coords="154,533,434,816"/>
+<area shape="rect" id="node1" title="Used to disambiguate rules in AdaptiveQuadrature." alt="" coords="23,132,250,209"/>
+<area shape="rect" id="node3" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html" title=" " alt="" coords="5,803,268,1115"/>
+<area shape="rect" id="node5" href="$d1/d0a/classUA__CoMP_1_1Num_1_1AQRule2.html" title=" " alt="" coords="171,272,377,364"/>
+<area shape="rect" id="node2" title=" " alt="" coords="117,5,156,83"/>
+<area shape="rect" id="node4" href="$d3/d1c/classUA__CoMP_1_1Num_1_1AGL__Quadrature.html" title="AGL (Adaptive GaussLegendre) Quadrature." alt="" coords="17,1164,256,1271"/>
+<area shape="rect" id="node6" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html" title="The AdaptiveQuadrature is a host class with policy classes QuadRule1, QuadRule2, ErrorPolicy and Conv..." alt="" coords="153,413,433,696"/>
 </map>

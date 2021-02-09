@@ -1,12 +1,7 @@
 var searchData=
 [
-  ['lambda_2dby_2dreference_2ecpp_239',['lambda-by-reference.cpp',['../d8/de8/lambda-by-reference_8cpp.html',1,'']]],
-  ['lambda_2dby_2dvalue_2ecpp_240',['lambda-by-value.cpp',['../d2/d3b/lambda-by-value_8cpp.html',1,'']]],
-  ['lambda_2dfunctor_2ecpp_241',['lambda-functor.cpp',['../d7/dbd/lambda-functor_8cpp.html',1,'']]],
-  ['landvehicle_242',['LandVehicle',['../de/dbd/classODemo_1_1LandVehicle.html',1,'ODemo::LandVehicle'],['../de/dbd/classODemo_1_1LandVehicle.html#a0e3d7481e4984e77cbd46aa15deaad3f',1,'ODemo::LandVehicle::LandVehicle()'],['../de/dbd/classODemo_1_1LandVehicle.html#a12e6bf30153bcdec04e9ddf1add87252',1,'ODemo::LandVehicle::LandVehicle(const LandVehicle &amp;ori)'],['../de/dbd/classODemo_1_1LandVehicle.html#a1c781aba9f875b1a7a3edb6e0923959b',1,'ODemo::LandVehicle::LandVehicle(LandVehicle &amp;&amp;ori) noexcept']]],
-  ['landvehicle_2ecpp_243',['LandVehicle.cpp',['../d8/de4/LandVehicle_8cpp.html',1,'']]],
-  ['landvehicle_2eh_244',['LandVehicle.h',['../d2/d15/LandVehicle_8h.html',1,'']]],
-  ['loadingexception_245',['LoadingException',['../d4/d05/classODemo_1_1LoadingException.html',1,'ODemo::LoadingException'],['../d4/d05/classODemo_1_1LoadingException.html#a6a493c693b3feea096a51d21328a8b2e',1,'ODemo::LoadingException::LoadingException()']]],
-  ['log_246',['log',['../df/dd1/classUA__CoMP_1_1Misc_1_1TracerOutput.html#a820a4dcc16f5b442fbe4ab5eb7bd176d',1,'UA_CoMP::Misc::TracerOutput']]],
-  ['logdemo_2ecpp_247',['logdemo.cpp',['../d6/db4/logdemo_8cpp.html',1,'']]]
+  ['kitchen_266',['Kitchen',['../df/d63/classtracing__example__exam_1_1Kitchen.html#a10a46aa368e210f0779539fe47cfd2cd',1,'tracing_example_exam::Kitchen::Kitchen()'],['../df/d63/classtracing__example__exam_1_1Kitchen.html#acd7e14e64d3dca08e38bfb733def6c74',1,'tracing_example_exam::Kitchen::Kitchen(const Kitchen &amp;p)'],['../df/d63/classtracing__example__exam_1_1Kitchen.html#aa4c7bf259bfaf2b0c2a7c219963677f1',1,'tracing_example_exam::Kitchen::Kitchen(Kitchen &amp;&amp;p)'],['../df/d63/classtracing__example__exam_1_1Kitchen.html',1,'tracing_example_exam::Kitchen']]],
+  ['kitchen_2ecpp_267',['Kitchen.cpp',['../db/d6f/Kitchen_8cpp.html',1,'']]],
+  ['kitchen_2eh_268',['Kitchen.h',['../d5/d5d/Kitchen_8h.html',1,'']]],
+  ['kitchen_5fh_269',['KITCHEN_H',['../d5/d5d/Kitchen_8h.html#a2f61a9eb9746d8072a53596f4657fbca',1,'Kitchen.h']]]
 ];

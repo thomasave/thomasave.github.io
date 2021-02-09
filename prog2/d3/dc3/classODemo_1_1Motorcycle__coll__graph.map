@@ -1,18 +1,16 @@
 <map id="ODemo::Motorcycle" name="ODemo::Motorcycle">
-<area shape="rect" id="node1" title="Motorcycle with Engine and Owner." alt="" coords="431,849,582,1073"/>
-<area shape="rect" id="node2" href="$df/d17/classODemo_1_1Person.html" title="A fairly simple class for Person." alt="" coords="929,505,1052,671"/>
-<area shape="rect" id="node3" title="STL class." alt="" coords="900,147,987,224"/>
-<area shape="rect" id="node15" href="$df/d87/classODemo_1_1Body.html" title=" " alt="" coords="839,301,952,467"/>
-<area shape="rect" id="node4" title="STL class." alt="" coords="874,5,1013,97"/>
-<area shape="rect" id="node5" href="$df/de6/classdouble.html" title=" " alt="" coords="10,147,77,224"/>
-<area shape="rect" id="node7" href="$d2/de7/classODemo_1_1Wheel.html" title="A really simple class for Wheel." alt="" coords="184,287,304,481"/>
-<area shape="rect" id="node12" href="$dd/db3/classODemo_1_1Engine.html" title="Engine that provides motion." alt="" coords="37,287,160,481"/>
-<area shape="rect" id="node6" title=" " alt="" coords="428,695,584,787"/>
-<area shape="rect" id="node8" title=" " alt="" coords="273,147,324,224"/>
-<area shape="rect" id="node9" title="STL class." alt="" coords="509,345,632,423"/>
-<area shape="rect" id="node10" title=" " alt="" coords="551,147,590,224"/>
-<area shape="rect" id="node13" title="STL class." alt="" coords="328,345,485,423"/>
-<area shape="rect" id="node16" title="STL class." alt="" coords="656,345,813,423"/>
-<area shape="rect" id="node11" title=" " alt="" coords="187,695,370,787"/>
-<area shape="rect" id="node14" title=" " alt="" coords="642,695,824,787"/>
+<area shape="rect" id="node1" title="Motorcycle with Engine and Owner." alt="" coords="250,660,401,884"/>
+<area shape="rect" id="node2" href="$df/d17/classODemo_1_1Person.html" title="A fairly simple class for Person." alt="" coords="13,432,136,597"/>
+<area shape="rect" id="node3" title=" " alt="" coords="31,219,118,296"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,5,144,97"/>
+<area shape="rect" id="node5" title=" " alt="" coords="176,13,243,90"/>
+<area shape="rect" id="node7" href="$d2/de7/classODemo_1_1Wheel.html" title="A really simple class for Wheel." alt="" coords="211,160,331,355"/>
+<area shape="rect" id="node6" title=" " alt="" coords="247,469,403,561"/>
+<area shape="rect" id="node8" title=" " alt="" coords="292,13,343,90"/>
+<area shape="rect" id="node9" title=" " alt="" coords="355,219,477,296"/>
+<area shape="rect" id="node10" title=" " alt="" coords="561,13,599,90"/>
+<area shape="rect" id="node12" title=" " alt="" coords="501,219,659,296"/>
+<area shape="rect" id="node14" title=" " alt="" coords="683,219,840,296"/>
+<area shape="rect" id="node11" title=" " alt="" coords="445,469,627,561"/>
+<area shape="rect" id="node13" title=" " alt="" coords="661,469,843,561"/>
 </map>

@@ -1,24 +1,5 @@
 var searchData=
 [
-  ['main_2ecpp_386',['main.cpp',['../d7/db6/raii_2files_2main_8cpp.html',1,'(Global Namespace)'],['../d8/d7a/raii_2memory_2main_8cpp.html',1,'(Global Namespace)'],['../db/db6/raii_2random-read-files_2main_8cpp.html',1,'(Global Namespace)']]],
-  ['raii_387',['Raii',['../d9/dea/namespaceRaii.html',1,'']]],
-  ['randint_388',['RandInt',['../d9/da9/classRandInt.html',1,'RandInt'],['../d9/da9/classRandInt.html#a5d9fafcc4c61f9e15943cfc1b7f87953',1,'RandInt::RandInt()']]],
-  ['randint_2eh_389',['RandInt.h',['../de/d13/RandInt_8h.html',1,'']]],
-  ['random_2dread_2dfile_2eh_390',['random-read-file.h',['../d3/d12/random-read-file_8h.html',1,'']]],
-  ['randomreadfile_391',['RandomReadFile',['../d9/d33/classRaii_1_1RandomReadFile.html',1,'Raii::RandomReadFile'],['../d9/d33/classRaii_1_1RandomReadFile.html#ac8476cb34dad651a125c289345fffa20',1,'Raii::RandomReadFile::RandomReadFile()']]],
-  ['range_392',['Range',['../d5/d98/structRange.html',1,'Range&lt; Iter &gt;'],['../d5/d98/structRange.html#a0f53d859c0054e637f5c1c41307e6d9f',1,'Range::Range()']]],
-  ['range_2eh_393',['Range.h',['../d9/db6/Range_8h.html',1,'']]],
-  ['readchar_394',['ReadChar',['../da/d7f/classRaii_1_1File.html#a6b6a43ad75c186c887fa494ba216c7c7',1,'Raii::File']]],
-  ['readerror_395',['ReadError',['../d3/d34/classRaii_1_1ReadError.html',1,'Raii']]],
-  ['remove_5fpassenger_396',['remove_passenger',['../d3/dd4/classODemo_1_1PassengerRoadVehicle.html#a988b50b79e81467101dfcda48b108526',1,'ODemo::PassengerRoadVehicle']]],
-  ['rep_397',['rep',['../d2/d02/classUA__CoMP_1_1Timekeeper_1_1ClockCLib.html#a481741d3a8926eeeef8fc0d0aa1887ee',1,'UA_CoMP::Timekeeper::ClockCLib']]],
-  ['res_398',['Res',['../d0/dbd/classUA__CoMP_1_1Num_1_1OscillatoryFunctor.html#a1fea7f86c3893dbd2d56a2666ad60a37',1,'UA_CoMP::Num::OscillatoryFunctor']]],
-  ['reserve_399',['reserve',['../db/d5a/classUA__CoMP_1_1Container_1_1SegmentedVector.html#a6d70bb976cd0edb2acb5622a77dbbc10',1,'UA_CoMP::Container::SegmentedVector']]],
-  ['reset_400',['Reset',['../d1/d65/classUA__CoMP_1_1Timekeeper_1_1Stopwatch.html#a24e36e8126eae0608a72eab394d29026',1,'UA_CoMP::Timekeeper::Stopwatch']]],
-  ['roadvehicle_401',['RoadVehicle',['../d8/def/classODemo_1_1RoadVehicle.html',1,'ODemo::RoadVehicle'],['../d8/def/classODemo_1_1RoadVehicle.html#a44e8cbabd858b0325f29daef7438ce61',1,'ODemo::RoadVehicle::RoadVehicle()'],['../d8/def/classODemo_1_1RoadVehicle.html#a453ddd16d697956e0c87b3b6b2d64d0c',1,'ODemo::RoadVehicle::RoadVehicle(const RoadVehicle &amp;ori)'],['../d8/def/classODemo_1_1RoadVehicle.html#a6e76e2135cc3036da4ebaf3df2e35df3',1,'ODemo::RoadVehicle::RoadVehicle(RoadVehicle &amp;&amp;ori) noexcept']]],
-  ['roadvehicle_2ecpp_402',['RoadVehicle.cpp',['../d2/ddb/RoadVehicle_8cpp.html',1,'']]],
-  ['roadvehicle_2eh_403',['RoadVehicle.h',['../df/d0d/RoadVehicle_8h.html',1,'']]],
-  ['rule_404',['Rule',['../d6/d0c/classUA__CoMP_1_1Num_1_1GaussLegendreSelect_3_012_01_4.html#a27eef39ce0065504597c92e54b98b88c',1,'UA_CoMP::Num::GaussLegendreSelect&lt; 2 &gt;::Rule()'],['../d0/d0f/classUA__CoMP_1_1Num_1_1GaussLegendreSelect_3_014_01_4.html#aedde01df9202f8b2478eb053574d493e',1,'UA_CoMP::Num::GaussLegendreSelect&lt; 4 &gt;::Rule()'],['../d6/da6/classUA__CoMP_1_1Num_1_1GaussLegendreSelect_3_018_01_4.html#a7132b387e9420b04a8505dedfeded5f4',1,'UA_CoMP::Num::GaussLegendreSelect&lt; 8 &gt;::Rule()'],['../d4/d62/classUA__CoMP_1_1Num_1_1GaussLegendreSelect_3_0116_01_4.html#a2a9907dc7ab624361265b3d577b51edb',1,'UA_CoMP::Num::GaussLegendreSelect&lt; 16 &gt;::Rule()'],['../db/d78/classUA__CoMP_1_1Num_1_1GaussLegendreSelect_3_0132_01_4.html#a532effcded49987c40cf9b81ac7578f5',1,'UA_CoMP::Num::GaussLegendreSelect&lt; 32 &gt;::Rule()']]],
-  ['rule1_405',['rule1',['../d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html#aab2446468b98bb636dca369792d09032',1,'UA_CoMP::Num::AdaptiveQuadrature']]],
-  ['rule2_406',['rule2',['../d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html#abc04df5d59010242300596dd608632d8',1,'UA_CoMP::Num::AdaptiveQuadrature']]]
+  ['quadrule1_421',['QuadRule1',['../d8/d22/classQuadRule1.html',1,'']]],
+  ['quadrule2_422',['QuadRule2',['../dd/df7/classQuadRule2.html',1,'']]]
 ];
