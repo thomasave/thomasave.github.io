@@ -1,19 +1,20 @@
 <map id="PassengerRoadVehicle.h" name="PassengerRoadVehicle.h">
-<area shape="rect" id="node1" title="Header for PassengerRoadVehicle class." alt="" coords="469,5,649,32"/>
-<area shape="rect" id="node2" href="$d2/d8e/Bicycle_8h.html" title="Header for Bicycle class." alt="" coords="405,80,486,107"/>
-<area shape="rect" id="node4" href="$d5/db9/demobj_8h.html" title="Comprehensive include file for all of objtracer." alt="" coords="420,229,503,256"/>
-<area shape="rect" id="node11" href="$da/d95/Body_8h.html" title="Header for Bicycle class." alt="" coords="562,80,627,107"/>
-<area shape="rect" id="node17" href="$d9/d41/PassengerRoadVehicle_8cpp.html" title="Implementation for the class PassenggerRoadVehicle." alt="" coords="652,80,847,107"/>
-<area shape="rect" id="node3" href="$d0/d43/Bicycle_8cpp.html" title="Implementation for the class Bicycle." alt="" coords="328,155,424,181"/>
-<area shape="rect" id="node5" href="$df/d4d/app__copy_8cpp.html" title="Demo code for deep vs." alt="" coords="5,304,115,331"/>
-<area shape="rect" id="node6" href="$dc/d57/app__exception_8cpp.html" title="Demo for exceptions." alt="" coords="139,304,283,331"/>
-<area shape="rect" id="node7" href="$d6/d8b/app__hierarchies_8cpp.html" title="Demo for inheritance hierarchies." alt="" coords="307,304,459,331"/>
-<area shape="rect" id="node8" href="$dc/da6/app__poly1_8cpp.html" title="Implementation file for demo programs for run&#45;time polymorphism." alt="" coords="483,304,599,331"/>
-<area shape="rect" id="node9" href="$da/d2f/app__poly2_8cpp.html" title="Implementation file for demo programs for run&#45;time polymorphism." alt="" coords="623,304,739,331"/>
-<area shape="rect" id="node10" href="$d7/dc6/app__example__exam_8cpp.html" title="Example tracing exam." alt="" coords="764,304,945,331"/>
-<area shape="rect" id="node12" href="$dc/d11/app__essentialops_8cpp.html" title="Demo code for what happens with essential operators (ctor, dtor, assignment)." alt="" coords="527,229,689,256"/>
-<area shape="rect" id="node13" href="$d2/d96/Body_8cpp.html" title="Implementation for the class Bicycle." alt="" coords="753,155,833,181"/>
-<area shape="rect" id="node14" href="$d2/d9f/Motorcycle_8h.html" title="Header for the Motorcycle class." alt="" coords="623,155,729,181"/>
-<area shape="rect" id="node15" href="$dc/dc2/app__fcalls_8cpp.html" title="Demo code for what happens with function call arguments." alt="" coords="713,229,828,256"/>
-<area shape="rect" id="node16" href="$d2/d4d/Motorcycle_8cpp.html" title="Implementation of Motorcycle used to demo object aggregation features." alt="" coords="853,229,974,256"/>
+<area shape="rect" id="node1" title="Header for PassengerRoadVehicle class." alt="" coords="658,5,838,32"/>
+<area shape="rect" id="node2" href="$d2/d8e/Bicycle_8h.html" title="Header for Bicycle class." alt="" coords="590,80,671,107"/>
+<area shape="rect" id="node4" href="$d5/db9/demobj_8h.html" title="Comprehensive include file for all of objtracer." alt="" coords="605,229,688,256"/>
+<area shape="rect" id="node12" href="$da/d95/Body_8h.html" title="Header for Bicycle class." alt="" coords="754,80,819,107"/>
+<area shape="rect" id="node18" href="$d9/d41/PassengerRoadVehicle_8cpp.html" title="Implementation for the class PassenggerRoadVehicle." alt="" coords="844,80,1039,107"/>
+<area shape="rect" id="node3" href="$d0/d43/Bicycle_8cpp.html" title="Implementation for the class Bicycle." alt="" coords="513,155,609,181"/>
+<area shape="rect" id="node5" href="$df/d4d/app__copy_8cpp.html" title="Demo code for deep vs." alt="" coords="5,311,115,338"/>
+<area shape="rect" id="node6" href="$d8/dc1/app__example__exam__2021__1_8cpp.html" title="Example tracing exam." alt="" coords="139,304,333,345"/>
+<area shape="rect" id="node7" href="$d7/ddb/app__example__exam__2021__2_8cpp.html" title="Tracing exam, August 2021." alt="" coords="357,304,550,345"/>
+<area shape="rect" id="node8" href="$dc/d57/app__exception_8cpp.html" title="Demo for exceptions." alt="" coords="575,311,719,338"/>
+<area shape="rect" id="node9" href="$d6/d8b/app__hierarchies_8cpp.html" title="Demo for inheritance hierarchies." alt="" coords="743,311,895,338"/>
+<area shape="rect" id="node10" href="$dc/da6/app__poly1_8cpp.html" title="Implementation file for demo programs for run&#45;time polymorphism." alt="" coords="919,311,1035,338"/>
+<area shape="rect" id="node11" href="$da/d2f/app__poly2_8cpp.html" title="Implementation file for demo programs for run&#45;time polymorphism." alt="" coords="1059,311,1175,338"/>
+<area shape="rect" id="node13" href="$d2/d96/Body_8cpp.html" title="Implementation for the class Bicycle." alt="" coords="747,155,827,181"/>
+<area shape="rect" id="node14" href="$d2/d9f/Motorcycle_8h.html" title="Header for the Motorcycle class." alt="" coords="851,155,957,181"/>
+<area shape="rect" id="node16" href="$dc/d11/app__essentialops_8cpp.html" title="Demo code for what happens with essential operators (ctor, dtor, assignment)." alt="" coords="997,229,1160,256"/>
+<area shape="rect" id="node15" href="$d2/d4d/Motorcycle_8cpp.html" title="Implementation of Motorcycle used to demo object aggregation features." alt="" coords="713,229,834,256"/>
+<area shape="rect" id="node17" href="$dc/dc2/app__fcalls_8cpp.html" title="Demo code for what happens with function call arguments." alt="" coords="859,229,973,256"/>
 </map>

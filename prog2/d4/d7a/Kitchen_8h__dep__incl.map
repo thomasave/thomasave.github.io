@@ -1,9 +1,10 @@
 <map id="Kitchen.h" name="Kitchen.h">
-<area shape="rect" id="node1" title="Header for the Kitchen class." alt="" coords="267,5,349,32"/>
-<area shape="rect" id="node2" href="$d5/dfe/House_8h.html" title="Header for the House class." alt="" coords="216,80,291,107"/>
-<area shape="rect" id="node7" href="$db/d6f/Kitchen_8cpp.html" title="Implementation for the class Kitchen." alt="" coords="315,80,413,107"/>
-<area shape="rect" id="node3" href="$d4/dbb/HolidayHome_8h.html" title="Header for the HolidayHome class." alt="" coords="127,155,249,181"/>
-<area shape="rect" id="node6" href="$d7/d82/House_8cpp.html" title="Implementation for the class House." alt="" coords="273,155,364,181"/>
-<area shape="rect" id="node4" href="$d7/dc6/app__example__exam_8cpp.html" title="Example tracing exam." alt="" coords="5,229,187,256"/>
-<area shape="rect" id="node5" href="$da/db7/HolidayHome_8cpp.html" title="Implementation for the class HolidayHome." alt="" coords="211,229,349,256"/>
+<area shape="rect" id="node1" title="Header for the Kitchen class." alt="" coords="344,5,427,32"/>
+<area shape="rect" id="node2" href="$d5/dfe/House_8h.html" title="Header for the House class." alt="" coords="293,80,368,107"/>
+<area shape="rect" id="node8" href="$db/d6f/Kitchen_8cpp.html" title="Implementation for the class Kitchen." alt="" coords="392,80,491,107"/>
+<area shape="rect" id="node3" href="$d4/dbb/HolidayHome_8h.html" title="Header for the HolidayHome class." alt="" coords="204,155,327,181"/>
+<area shape="rect" id="node7" href="$d7/d82/House_8cpp.html" title="Implementation for the class House." alt="" coords="351,155,441,181"/>
+<area shape="rect" id="node4" href="$da/db7/HolidayHome_8cpp.html" title="Implementation for the class HolidayHome." alt="" coords="5,237,144,263"/>
+<area shape="rect" id="node5" href="$d8/dc1/app__example__exam__2021__1_8cpp.html" title="Example tracing exam." alt="" coords="169,229,362,271"/>
+<area shape="rect" id="node6" href="$d7/ddb/app__example__exam__2021__2_8cpp.html" title="Tracing exam, August 2021." alt="" coords="386,229,579,271"/>
 </map>

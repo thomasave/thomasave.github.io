@@ -7,5 +7,6 @@ var demos_8h =
     [ "app_hierarchies", "d8/d70/demos_8h.html#abf38388e7dbaf7791cd378531cd46eee", null ],
     [ "app_poly1", "d8/d70/demos_8h.html#a843e5bc9db0d0c2e31f7524476297ca9", null ],
     [ "app_poly2", "d8/d70/demos_8h.html#afa07a096875418e71b9efe055c07992e", null ],
-    [ "app_example_exam", "d8/d70/demos_8h.html#a5350f5e385940297ad6da93c8eee7cf8", null ]
+    [ "app_example_exam_2021_1", "d8/d70/demos_8h.html#a46461b476c29d07c7f2b24a86963391c", null ],
+    [ "app_example_exam_2021_2", "d8/d70/demos_8h.html#a512546182ea87ecbe3c2924cba256ff4", null ]
 ];

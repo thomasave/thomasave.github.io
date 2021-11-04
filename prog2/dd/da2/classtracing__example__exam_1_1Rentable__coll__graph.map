@@ -1,6 +1,4 @@
 <map id="tracing_example_exam::Rentable" name="tracing_example_exam::Rentable">
-<area shape="rect" id="node1" title=" " alt="" coords="17,455,191,635"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,300,203,392"/>
-<area shape="rect" id="node3" title=" " alt="" coords="25,145,183,223"/>
-<area shape="rect" id="node4" title=" " alt="" coords="85,5,123,83"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,145,180,325"/>
+<area shape="rect" id="node2" title=" " alt="" coords="41,5,144,83"/>
 </map>

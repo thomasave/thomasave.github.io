@@ -1,5 +1,6 @@
 <map id="tracing_example_exam::Building::info" name="tracing_example_exam::Building::info">
-<area shape="rect" id="node1" title="Prints building information." alt="" coords="311,5,485,47"/>
-<area shape="rect" id="node2" href="$d8/d70/demos_8h.html#a5350f5e385940297ad6da93c8eee7cf8" title=" " alt="" coords="108,13,263,39"/>
-<area shape="rect" id="node3" href="$d4/de9/app__exec_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,13,60,39"/>
+<area shape="rect" id="node1" title="Prints building information." alt="" coords="364,23,539,65"/>
+<area shape="rect" id="node2" href="$d8/dc1/app__example__exam__2021__1_8cpp.html#a46461b476c29d07c7f2b24a86963391c" title=" " alt="" coords="108,5,316,32"/>
+<area shape="rect" id="node4" href="$d7/ddb/app__example__exam__2021__2_8cpp.html#a512546182ea87ecbe3c2924cba256ff4" title=" " alt="" coords="108,56,316,83"/>
+<area shape="rect" id="node3" href="$d4/de9/app__exec_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,31,60,57"/>
 </map>

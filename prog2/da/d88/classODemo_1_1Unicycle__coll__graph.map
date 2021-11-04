@@ -1,6 +1,6 @@
 <map id="ODemo::Unicycle" name="ODemo::Unicycle">
 <area shape="rect" id="node1" title="Unicycle interface." alt="" coords="5,403,140,597"/>
-<area shape="rect" id="node2" title=" " alt="" coords="53,5,119,83"/>
-<area shape="rect" id="node3" href="$d2/de7/classODemo_1_1Wheel.html" title="A really simple class for Wheel." alt="" coords="162,145,282,340"/>
+<area shape="rect" id="node2" href="$d2/de7/classODemo_1_1Wheel.html" title="A really simple class for Wheel." alt="" coords="162,145,282,340"/>
+<area shape="rect" id="node3" title=" " alt="" coords="53,5,119,83"/>
 <area shape="rect" id="node4" title=" " alt="" coords="197,5,247,83"/>
 </map>

@@ -1,0 +1,7 @@
+<map id="app_example_exam_2021_2" name="app_example_exam_2021_2">
+<area shape="rect" id="node1" title=" " alt="" coords="5,78,213,105"/>
+<area shape="rect" id="node2" href="$dc/d4a/classtracing__example__exam_1_1Building.html#acfc4d0496a65cb94551c235293f21462" title="Returns the Person who owns the building." alt="" coords="261,5,436,47"/>
+<area shape="rect" id="node3" href="$dc/d4a/classtracing__example__exam_1_1Building.html#a1a4af2f3a782223ec0ea558e76e536c3" title="Prints building information." alt="" coords="261,71,436,112"/>
+<area shape="rect" id="node5" href="$d0/d1f/classtracing__example__exam_1_1Rentable.html#a89854099d9610f71eded13f4357eb9fd" title="Rent this Rentable." alt="" coords="261,136,436,177"/>
+<area shape="rect" id="node4" href="$dc/d4a/classtracing__example__exam_1_1Building.html#aab4a8be6116fc1e69a2d26f115c9e203" title="Returns the name of the Building." alt="" coords="484,71,659,112"/>
+</map>

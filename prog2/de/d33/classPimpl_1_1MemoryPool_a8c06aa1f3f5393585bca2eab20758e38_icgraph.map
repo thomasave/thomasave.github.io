@@ -1,5 +1,5 @@
 <map id="Pimpl::MemoryPool::AllocateMemory" name="Pimpl::MemoryPool::AllocateMemory">
 <area shape="rect" id="node1" title="Allocates a region of memory that is the given number of bytes in size." alt="" coords="313,5,471,47"/>
-<area shape="rect" id="node2" href="$de/d33/classPimpl_1_1MemoryPool.html#abdea75fa8c5b30d5a88c2b454a8359dd" title="Allocates a region of memory that is &#39;size * sizeof(T)&#39; of bytes in size." alt="" coords="108,5,265,47"/>
+<area shape="rect" id="node2" href="$de/d33/classPimpl_1_1MemoryPool.html#ab102973415bfd6ad5715427079ee9d51" title="Allocates a region of memory that is &#39;size * sizeof(T)&#39; of bytes in size." alt="" coords="108,5,265,47"/>
 <area shape="rect" id="node3" href="$d2/db1/pimpl_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,60,39"/>
 </map>

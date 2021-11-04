@@ -1,6 +1,6 @@
 var max2_8hpp =
 [
-    [ "max", "d1/d3c/max2_8hpp.html#a4bd4fb28f4559b85f9aa07e1c5f72ea3", null ],
-    [ "max", "d1/d3c/max2_8hpp.html#a0c79ca380fb785067046013e5e0d7596", null ],
-    [ "max", "d1/d3c/max2_8hpp.html#a70843a764c6764cba8d6a4e154ab345b", null ]
+    [ "max", "d1/d3c/max2_8hpp.html#afd861c9c862947edac24728443e37a85", null ],
+    [ "max", "d1/d3c/max2_8hpp.html#a11ebd0076d2d44c1afd489da90472f5e", null ],
+    [ "max", "d1/d3c/max2_8hpp.html#a68096e727fb570664e4702277c1aa92b", null ]
 ];

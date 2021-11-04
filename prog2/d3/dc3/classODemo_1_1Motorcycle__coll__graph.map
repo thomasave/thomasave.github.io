@@ -1,16 +1,10 @@
 <map id="ODemo::Motorcycle" name="ODemo::Motorcycle">
-<area shape="rect" id="node1" title="Motorcycle with Engine and Owner." alt="" coords="250,660,401,884"/>
-<area shape="rect" id="node2" href="$df/d17/classODemo_1_1Person.html" title="A fairly simple class for Person." alt="" coords="13,432,136,597"/>
-<area shape="rect" id="node3" title=" " alt="" coords="31,219,118,296"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,5,144,97"/>
-<area shape="rect" id="node5" title=" " alt="" coords="176,13,243,90"/>
-<area shape="rect" id="node7" href="$d2/de7/classODemo_1_1Wheel.html" title="A really simple class for Wheel." alt="" coords="211,160,331,355"/>
-<area shape="rect" id="node6" title=" " alt="" coords="247,469,403,561"/>
-<area shape="rect" id="node8" title=" " alt="" coords="292,13,343,90"/>
-<area shape="rect" id="node9" title=" " alt="" coords="355,219,477,296"/>
-<area shape="rect" id="node10" title=" " alt="" coords="561,13,599,90"/>
-<area shape="rect" id="node12" title=" " alt="" coords="501,219,659,296"/>
-<area shape="rect" id="node14" title=" " alt="" coords="683,219,840,296"/>
-<area shape="rect" id="node11" title=" " alt="" coords="445,469,627,561"/>
-<area shape="rect" id="node13" title=" " alt="" coords="661,469,843,561"/>
+<area shape="rect" id="node1" title="Motorcycle with Engine and Owner." alt="" coords="245,529,396,753"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,331,108,408"/>
+<area shape="rect" id="node3" title=" " alt="" coords="132,331,235,408"/>
+<area shape="rect" id="node4" href="$df/d17/classODemo_1_1Person.html" title="A fairly simple class for Person." alt="" coords="259,287,382,452"/>
+<area shape="rect" id="node5" title=" " alt="" coords="277,147,364,224"/>
+<area shape="rect" id="node6" title=" " alt="" coords="251,5,390,97"/>
+<area shape="rect" id="node7" title=" " alt="" coords="406,331,473,408"/>
+<area shape="rect" id="node8" title=" " alt="" coords="505,331,571,408"/>
 </map>

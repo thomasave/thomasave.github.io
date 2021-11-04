@@ -1,9 +1,9 @@
 <map id="Stack&lt; T &gt;" name="Stack&lt; T &gt;">
-<area shape="rect" id="node1" title="Stack class using vector as element container." alt="" coords="290,285,406,509"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,64,83"/>
-<area shape="rect" id="node3" title=" " alt="" coords="87,145,233,223"/>
-<area shape="rect" id="node4" title=" " alt="" coords="258,145,358,223"/>
-<area shape="rect" id="node5" title=" " alt="" coords="382,145,421,223"/>
-<area shape="rect" id="node6" title=" " alt="" coords="447,145,548,223"/>
-<area shape="rect" id="node7" title=" " alt="" coords="573,145,611,223"/>
+<area shape="rect" id="node1" title="Stack class using vector as element container." alt="" coords="195,145,311,369"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,80,83"/>
+<area shape="rect" id="node3" title=" " alt="" coords="104,5,163,83"/>
+<area shape="rect" id="node4" title=" " alt="" coords="194,5,233,83"/>
+<area shape="rect" id="node5" title=" " alt="" coords="257,5,330,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="354,5,425,83"/>
+<area shape="rect" id="node7" title=" " alt="" coords="449,5,487,83"/>
 </map>

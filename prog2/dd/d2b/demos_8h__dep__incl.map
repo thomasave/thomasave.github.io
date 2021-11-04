@@ -1,12 +1,13 @@
 <map id="demos.h" name="demos.h">
-<area shape="rect" id="node1" title="Header for object tracer demo routines." alt="" coords="647,5,726,32"/>
-<area shape="rect" id="node2" href="$df/d4d/app__copy_8cpp.html" title="Demo code for deep vs." alt="" coords="5,80,115,107"/>
-<area shape="rect" id="node3" href="$dc/d11/app__essentialops_8cpp.html" title="Demo code for what happens with essential operators (ctor, dtor, assignment)." alt="" coords="139,80,301,107"/>
-<area shape="rect" id="node4" href="$dc/d57/app__exception_8cpp.html" title="Demo for exceptions." alt="" coords="325,80,469,107"/>
-<area shape="rect" id="node5" href="$d4/de9/app__exec_8cpp.html" title="Driver to select routines." alt="" coords="494,80,605,107"/>
-<area shape="rect" id="node6" href="$dc/dc2/app__fcalls_8cpp.html" title="Demo code for what happens with function call arguments." alt="" coords="629,80,744,107"/>
-<area shape="rect" id="node7" href="$d6/d8b/app__hierarchies_8cpp.html" title="Demo for inheritance hierarchies." alt="" coords="768,80,920,107"/>
-<area shape="rect" id="node8" href="$dc/da6/app__poly1_8cpp.html" title="Implementation file for demo programs for run&#45;time polymorphism." alt="" coords="945,80,1061,107"/>
-<area shape="rect" id="node9" href="$da/d2f/app__poly2_8cpp.html" title="Implementation file for demo programs for run&#45;time polymorphism." alt="" coords="1085,80,1201,107"/>
-<area shape="rect" id="node10" href="$d7/dc6/app__example__exam_8cpp.html" title="Example tracing exam." alt="" coords="1225,80,1407,107"/>
+<area shape="rect" id="node1" title="Header for object tracer demo routines." alt="" coords="870,5,949,32"/>
+<area shape="rect" id="node2" href="$df/d4d/app__copy_8cpp.html" title="Demo code for deep vs." alt="" coords="5,87,115,114"/>
+<area shape="rect" id="node3" href="$dc/d11/app__essentialops_8cpp.html" title="Demo code for what happens with essential operators (ctor, dtor, assignment)." alt="" coords="139,87,301,114"/>
+<area shape="rect" id="node4" href="$d8/dc1/app__example__exam__2021__1_8cpp.html" title="Example tracing exam." alt="" coords="326,80,519,121"/>
+<area shape="rect" id="node5" href="$d7/ddb/app__example__exam__2021__2_8cpp.html" title="Tracing exam, August 2021." alt="" coords="543,80,737,121"/>
+<area shape="rect" id="node6" href="$dc/d57/app__exception_8cpp.html" title="Demo for exceptions." alt="" coords="761,87,905,114"/>
+<area shape="rect" id="node7" href="$d4/de9/app__exec_8cpp.html" title="Driver to select routines." alt="" coords="930,87,1041,114"/>
+<area shape="rect" id="node8" href="$dc/dc2/app__fcalls_8cpp.html" title="Demo code for what happens with function call arguments." alt="" coords="1065,87,1180,114"/>
+<area shape="rect" id="node9" href="$d6/d8b/app__hierarchies_8cpp.html" title="Demo for inheritance hierarchies." alt="" coords="1204,87,1356,114"/>
+<area shape="rect" id="node10" href="$dc/da6/app__poly1_8cpp.html" title="Implementation file for demo programs for run&#45;time polymorphism." alt="" coords="1381,87,1497,114"/>
+<area shape="rect" id="node11" href="$da/d2f/app__poly2_8cpp.html" title="Implementation file for demo programs for run&#45;time polymorphism." alt="" coords="1521,87,1637,114"/>
 </map>

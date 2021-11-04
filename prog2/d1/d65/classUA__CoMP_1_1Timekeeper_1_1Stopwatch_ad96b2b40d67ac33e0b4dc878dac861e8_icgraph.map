@@ -1,4 +1,4 @@
 <map id="UA_CoMP::Timekeeper::Stopwatch::ToString" name="UA_CoMP::Timekeeper::Stopwatch::ToString">
 <area shape="rect" id="node1" title="Returns string representation of readout." alt="" coords="224,5,395,47"/>
-<area shape="rect" id="node2" href="$d1/dd2/namespaceUA__CoMP_1_1Timekeeper.html#a9828ea83cf6f5ed0df356537fb605ced" title="Insert accumulated time into output stream without altering stopwatch state." alt="" coords="5,5,176,47"/>
+<area shape="rect" id="node2" href="$d1/dd2/namespaceUA__CoMP_1_1Timekeeper.html#a39271a137cfc3ea3be3191eed60c02c8" title="Insert accumulated time into output stream without altering stopwatch state." alt="" coords="5,5,176,47"/>
 </map>

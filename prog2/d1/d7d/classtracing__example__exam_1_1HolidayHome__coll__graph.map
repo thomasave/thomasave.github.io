@@ -1,19 +1,13 @@
 <map id="tracing_example_exam::HolidayHome" name="tracing_example_exam::HolidayHome">
-<area shape="rect" id="node1" title=" " alt="" coords="489,1544,664,1739"/>
-<area shape="rect" id="node2" href="$d8/d2e/classtracing__example__exam_1_1House.html" title=" " alt="" coords="576,1300,751,1495"/>
-<area shape="rect" id="node3" href="$dc/d4a/classtracing__example__exam_1_1Building.html" title=" " alt="" coords="208,984,383,1237"/>
-<area shape="rect" id="node4" title=" " alt="" coords="48,1351,265,1443"/>
-<area shape="rect" id="node5" title=" " alt="" coords="5,329,135,407"/>
-<area shape="rect" id="node10" title=" " alt="" coords="90,613,301,719"/>
-<area shape="rect" id="node6" title=" " alt="" coords="72,5,111,83"/>
-<area shape="rect" id="node12" title=" " alt="" coords="419,153,577,230"/>
-<area shape="rect" id="node7" href="$df/d87/classtracing__example__exam_1_1Person.html" title=" " alt="" coords="325,576,500,756"/>
-<area shape="rect" id="node8" title=" " alt="" coords="179,329,265,407"/>
-<area shape="rect" id="node9" title=" " alt="" coords="171,145,310,237"/>
-<area shape="rect" id="node11" title=" " alt="" coords="290,315,469,421"/>
-<area shape="rect" id="node13" title=" " alt="" coords="698,445,877,552"/>
-<area shape="rect" id="node17" title=" " alt="" coords="493,322,690,414"/>
-<area shape="rect" id="node14" href="$df/d63/classtracing__example__exam_1_1Kitchen.html" title=" " alt="" coords="576,1021,751,1201"/>
-<area shape="rect" id="node15" href="$da/d96/classtracing__example__exam_1_1Room.html" title=" " alt="" coords="576,576,751,756"/>
-<area shape="rect" id="node16" href="$d0/d1f/classtracing__example__exam_1_1Rentable.html" title=" " alt="" coords="451,780,625,960"/>
+<area shape="rect" id="node1" title=" " alt="" coords="425,1104,600,1299"/>
+<area shape="rect" id="node2" href="$d8/d2e/classtracing__example__exam_1_1House.html" title=" " alt="" coords="327,860,501,1055"/>
+<area shape="rect" id="node3" href="$dc/d4a/classtracing__example__exam_1_1Building.html" title=" " alt="" coords="129,544,304,797"/>
+<area shape="rect" id="node4" title=" " alt="" coords="205,338,279,415"/>
+<area shape="rect" id="node5" href="$df/d87/classtracing__example__exam_1_1Person.html" title=" " alt="" coords="5,287,180,467"/>
+<area shape="rect" id="node6" title=" " alt="" coords="49,147,136,224"/>
+<area shape="rect" id="node7" title=" " alt="" coords="23,5,162,97"/>
+<area shape="rect" id="node8" title=" " alt="" coords="561,632,664,709"/>
+<area shape="rect" id="node11" href="$d0/d1f/classtracing__example__exam_1_1Rentable.html" title=" " alt="" coords="533,867,708,1047"/>
+<area shape="rect" id="node9" href="$df/d63/classtracing__example__exam_1_1Kitchen.html" title=" " alt="" coords="328,581,503,761"/>
+<area shape="rect" id="node10" href="$da/d96/classtracing__example__exam_1_1Room.html" title=" " alt="" coords="328,287,503,467"/>
 </map>

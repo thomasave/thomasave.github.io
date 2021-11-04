@@ -1,18 +1,18 @@
 var searchData=
 [
-  ['clock_558',['Clock',['../de/d22/namespaceUA__CoMP_1_1Clock.html',1,'UA_CoMP']]],
-  ['container_559',['Container',['../db/dd2/namespaceUA__CoMP_1_1Container.html',1,'UA_CoMP']]],
-  ['exception_2eh_560',['Exception.h',['../d9/dda/util_2Exception_8h.html',1,'']]],
-  ['impl_5f_561',['Impl_',['../dc/d52/namespaceUA__CoMP_1_1Container_1_1Impl__.html',1,'UA_CoMP::Container']]],
-  ['misc_562',['Misc',['../da/d7d/namespaceUA__CoMP_1_1Misc.html',1,'UA_CoMP']]],
-  ['num_563',['Num',['../d4/da6/namespaceUA__CoMP_1_1Num.html',1,'UA_CoMP']]],
-  ['quadtests_564',['QuadTests',['../d5/d61/namespaceUA__CoMP_1_1Num_1_1QuadTests.html',1,'UA_CoMP::Num']]],
-  ['timekeeper_565',['Timekeeper',['../d1/dd2/namespaceUA__CoMP_1_1Timekeeper.html',1,'UA_CoMP']]],
-  ['ua_5fcomp_566',['UA_CoMP',['../d4/d69/namespaceUA__CoMP.html',1,'']]],
-  ['unicycle_567',['Unicycle',['../d8/db7/classODemo_1_1Unicycle.html',1,'ODemo::Unicycle'],['../d8/db7/classODemo_1_1Unicycle.html#af8ffaf8375926ffa51462055395b74de',1,'ODemo::Unicycle::Unicycle(Unicycle &amp;&amp;ori) noexcept'],['../d8/db7/classODemo_1_1Unicycle.html#a2d1696ddf23c53c6caa492fff829c01e',1,'ODemo::Unicycle::Unicycle(const Unicycle &amp;ori)'],['../d8/db7/classODemo_1_1Unicycle.html#a0e77e00adf1ff24648b8d748f6ec57f1',1,'ODemo::Unicycle::Unicycle()']]],
-  ['unicycle_2ecpp_568',['Unicycle.cpp',['../df/d4f/Unicycle_8cpp.html',1,'']]],
-  ['unicycle_2eh_569',['Unicycle.h',['../d2/d2b/Unicycle_8h.html',1,'']]],
-  ['util_570',['Util',['../d4/deb/namespaceUA__CoMP_1_1Util.html',1,'UA_CoMP']]],
-  ['utils_571',['Utils',['../d0/d3f/structUA__CoMP_1_1Timekeeper_1_1Utils.html',1,'UA_CoMP::Timekeeper']]],
-  ['utils_2eh_572',['Utils.h',['../d9/ded/Utils_8h.html',1,'']]]
+  ['clock_0',['Clock',['../de/d22/namespaceUA__CoMP_1_1Clock.html',1,'UA_CoMP']]],
+  ['container_1',['Container',['../db/dd2/namespaceUA__CoMP_1_1Container.html',1,'UA_CoMP']]],
+  ['exception_2eh_2',['Exception.h',['../d9/dda/util_2Exception_8h.html',1,'']]],
+  ['impl_5f_3',['Impl_',['../dc/d52/namespaceUA__CoMP_1_1Container_1_1Impl__.html',1,'UA_CoMP::Container']]],
+  ['misc_4',['Misc',['../da/d7d/namespaceUA__CoMP_1_1Misc.html',1,'UA_CoMP']]],
+  ['num_5',['Num',['../d4/da6/namespaceUA__CoMP_1_1Num.html',1,'UA_CoMP']]],
+  ['quadtests_6',['QuadTests',['../d5/d61/namespaceUA__CoMP_1_1Num_1_1QuadTests.html',1,'UA_CoMP::Num']]],
+  ['timekeeper_7',['Timekeeper',['../d1/dd2/namespaceUA__CoMP_1_1Timekeeper.html',1,'UA_CoMP']]],
+  ['ua_5fcomp_8',['UA_CoMP',['../d4/d69/namespaceUA__CoMP.html',1,'']]],
+  ['unicycle_9',['Unicycle',['../d8/db7/classODemo_1_1Unicycle.html',1,'ODemo::Unicycle'],['../d8/db7/classODemo_1_1Unicycle.html#af8ffaf8375926ffa51462055395b74de',1,'ODemo::Unicycle::Unicycle(Unicycle &amp;&amp;ori) noexcept'],['../d8/db7/classODemo_1_1Unicycle.html#a2d1696ddf23c53c6caa492fff829c01e',1,'ODemo::Unicycle::Unicycle(const Unicycle &amp;ori)'],['../d8/db7/classODemo_1_1Unicycle.html#a0e77e00adf1ff24648b8d748f6ec57f1',1,'ODemo::Unicycle::Unicycle()']]],
+  ['unicycle_2ecpp_10',['Unicycle.cpp',['../df/d4f/Unicycle_8cpp.html',1,'']]],
+  ['unicycle_2eh_11',['Unicycle.h',['../d2/d2b/Unicycle_8h.html',1,'']]],
+  ['util_12',['Util',['../d4/deb/namespaceUA__CoMP_1_1Util.html',1,'UA_CoMP']]],
+  ['utils_13',['Utils',['../d0/d3f/structUA__CoMP_1_1Timekeeper_1_1Utils.html',1,'UA_CoMP::Timekeeper']]],
+  ['utils_2eh_14',['Utils.h',['../d9/ded/Utils_8h.html',1,'']]]
 ];

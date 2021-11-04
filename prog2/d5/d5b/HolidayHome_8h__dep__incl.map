@@ -1,5 +1,6 @@
 <map id="HolidayHome.h" name="HolidayHome.h">
-<area shape="rect" id="node1" title="Header for the HolidayHome class." alt="" coords="127,5,249,32"/>
-<area shape="rect" id="node2" href="$d7/dc6/app__example__exam_8cpp.html" title="Example tracing exam." alt="" coords="5,80,187,107"/>
-<area shape="rect" id="node3" href="$da/db7/HolidayHome_8cpp.html" title="Implementation for the class HolidayHome." alt="" coords="211,80,349,107"/>
+<area shape="rect" id="node1" title="Header for the HolidayHome class." alt="" coords="204,5,327,32"/>
+<area shape="rect" id="node2" href="$da/db7/HolidayHome_8cpp.html" title="Implementation for the class HolidayHome." alt="" coords="5,87,144,114"/>
+<area shape="rect" id="node3" href="$d8/dc1/app__example__exam__2021__1_8cpp.html" title="Example tracing exam." alt="" coords="169,80,362,121"/>
+<area shape="rect" id="node4" href="$d7/ddb/app__example__exam__2021__2_8cpp.html" title="Tracing exam, August 2021." alt="" coords="386,80,579,121"/>
 </map>

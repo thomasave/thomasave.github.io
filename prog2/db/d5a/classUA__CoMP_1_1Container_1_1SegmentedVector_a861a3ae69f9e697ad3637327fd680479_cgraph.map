@@ -1,7 +1,7 @@
 <map id="UA_CoMP::Container::SegmentedVector::SegmentedVector" name="UA_CoMP::Container::SegmentedVector::SegmentedVector">
 <area shape="rect" id="node1" title="Copy constructor (copies elements &amp; capacity)." alt="" coords="5,27,232,83"/>
 <area shape="rect" id="node2" href="$db/d5a/classUA__CoMP_1_1Container_1_1SegmentedVector.html#a497d837c4890f4097fad757b39c45d9c" title="Returns number of elements that can be stored without allocating additional blocks." alt="" coords="557,5,765,47"/>
-<area shape="rect" id="node3" href="$db/d5a/classUA__CoMP_1_1Container_1_1SegmentedVector.html#a4dc1678c7a2d7af0199b89007113b179" title="Adds element to end." alt="" coords="280,100,503,141"/>
+<area shape="rect" id="node3" href="$db/d5a/classUA__CoMP_1_1Container_1_1SegmentedVector.html#a0c45ca0d6f4d1f9a98a520fea00958df" title="Adds element to end." alt="" coords="280,100,503,141"/>
 <area shape="rect" id="node5" href="$db/d5a/classUA__CoMP_1_1Container_1_1SegmentedVector.html#a6d70bb976cd0edb2acb5622a77dbbc10" title="Allocates aditional blocks to achieve requested capacity." alt="" coords="290,35,493,76"/>
-<area shape="rect" id="node4" href="$db/d5a/classUA__CoMP_1_1Container_1_1SegmentedVector.html#aa90d31e81bc26c8da45b85f927dd46b5" title="Get next available chunk for element construction with placement new." alt="" coords="551,100,771,141"/>
+<area shape="rect" id="node4" href="$db/d5a/classUA__CoMP_1_1Container_1_1SegmentedVector.html#a941e2a8e78a5115226f46783a40493c4" title="Get next available chunk for element construction with placement new." alt="" coords="551,100,771,141"/>
 </map>

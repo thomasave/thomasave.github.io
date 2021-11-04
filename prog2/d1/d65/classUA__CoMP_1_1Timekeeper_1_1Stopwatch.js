@@ -2,9 +2,9 @@ var classUA__CoMP_1_1Timekeeper_1_1Stopwatch =
 [
     [ "TClock", "d1/d65/classUA__CoMP_1_1Timekeeper_1_1Stopwatch.html#ae4240f45e620f9db7e42ba8bb45b8850", null ],
     [ "Stopwatch", "d1/d65/classUA__CoMP_1_1Timekeeper_1_1Stopwatch.html#a691f80cbd11b3a275520a2d64edd8fb5", null ],
-    [ "Start", "d1/d65/classUA__CoMP_1_1Timekeeper_1_1Stopwatch.html#aa48f46566192f8a72040b88e403c2a00", null ],
-    [ "Stop", "d1/d65/classUA__CoMP_1_1Timekeeper_1_1Stopwatch.html#a51d506fe621f56d2a673424fe1ca1d34", null ],
-    [ "Reset", "d1/d65/classUA__CoMP_1_1Timekeeper_1_1Stopwatch.html#a24e36e8126eae0608a72eab394d29026", null ],
+    [ "Start", "d1/d65/classUA__CoMP_1_1Timekeeper_1_1Stopwatch.html#a0a86b1e7e4155bad37accdec9de65a2a", null ],
+    [ "Stop", "d1/d65/classUA__CoMP_1_1Timekeeper_1_1Stopwatch.html#a80621de8dc8f090b8dbae77086573f35", null ],
+    [ "Reset", "d1/d65/classUA__CoMP_1_1Timekeeper_1_1Stopwatch.html#a71fc24573b9c28b4f16c41500d17a942", null ],
     [ "IsRunning", "d1/d65/classUA__CoMP_1_1Timekeeper_1_1Stopwatch.html#ac8060325a0800774644a18421f8753cc", null ],
     [ "GetName", "d1/d65/classUA__CoMP_1_1Timekeeper_1_1Stopwatch.html#a2a7083ea0c3d7a62035074784d7ecaa6", null ],
     [ "Get", "d1/d65/classUA__CoMP_1_1Timekeeper_1_1Stopwatch.html#a4d2ab956699e5db15b71f03acdbda06a", null ],

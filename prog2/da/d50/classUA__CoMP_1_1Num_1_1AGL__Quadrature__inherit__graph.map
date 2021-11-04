@@ -1,15 +1,17 @@
 <map id="UA_CoMP::Num::AGL_Quadrature&lt; N1, N2, ConvergencePolicy, CellCountPolicy &gt;" name="UA_CoMP::Num::AGL_Quadrature&lt; N1, N2, ConvergencePolicy, CellCountPolicy &gt;">
-<area shape="rect" id="node1" title="AGL (Adaptive GaussLegendre) Quadrature." alt="" coords="297,1179,535,1285"/>
-<area shape="rect" id="node2" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html" title=" " alt="" coords="285,817,547,1129"/>
-<area shape="rect" id="node3" href="$d1/d6e/classUA__CoMP_1_1Num_1_1AQRule1.html" title="Used to disambiguate rules in AdaptiveQuadrature." alt="" coords="5,139,232,217"/>
-<area shape="rect" id="node9" href="$d1/d6e/classUA__CoMP_1_1Num_1_1AQRule1.html" title=" " alt="" coords="563,287,751,379"/>
-<area shape="rect" id="node4" title=" " alt="" coords="285,5,323,83"/>
-<area shape="rect" id="node5" href="$d1/d0a/classUA__CoMP_1_1Num_1_1AQRule2.html" title="Used to disambiguate rules in AdaptiveQuadrature." alt="" coords="373,139,600,217"/>
-<area shape="rect" id="node11" href="$d1/d0a/classUA__CoMP_1_1Num_1_1AQRule2.html" title=" " alt="" coords="775,287,982,379"/>
-<area shape="rect" id="node6" href="$d8/d4f/classUA__CoMP_1_1Num_1_1ComboDifference.html" title="Policy that checks convergence via combo difference." alt="" coords="293,294,539,371"/>
-<area shape="rect" id="node8" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html" title="The AdaptiveQuadrature is a host class with policy classes QuadRule1, QuadRule2, ErrorPolicy and Conv..." alt="" coords="517,428,797,711"/>
-<area shape="rect" id="node7" href="$d4/d78/classUA__CoMP_1_1Num_1_1OnViolationThrow.html" title="Policy throws a std::runtime_error exception when condition is violated." alt="" coords="1007,287,1215,379"/>
-<area shape="rect" id="node10" href="$d8/d22/classQuadRule1.html" title="Template parameter provides first quadrature rule for AdaptiveQuadrature." alt="" coords="256,139,349,217"/>
-<area shape="rect" id="node12" href="$dc/d77/classUA__CoMP_1_1Num_1_1Bisector.html" title="Given a quadrature rule, a new rule is generated that consists of applying the original rule on both ..." alt="" coords="786,132,971,224"/>
-<area shape="rect" id="node13" href="$da/ddc/classRule.html" title=" " alt="" coords="853,5,904,83"/>
+<area shape="rect" id="node1" title="AGL (Adaptive GaussLegendre) Quadrature." alt="" coords="727,1317,966,1424"/>
+<area shape="rect" id="node2" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html" title=" " alt="" coords="715,956,978,1268"/>
+<area shape="rect" id="node3" href="$d1/d6e/classUA__CoMP_1_1Num_1_1AQRule1.html" title="Used to disambiguate rules in AdaptiveQuadrature." alt="" coords="848,248,1075,325"/>
+<area shape="rect" id="node4" title=" " alt="" coords="898,5,937,83"/>
+<area shape="rect" id="node5" href="$d1/d0a/classUA__CoMP_1_1Num_1_1AQRule2.html" title="Used to disambiguate rules in AdaptiveQuadrature." alt="" coords="984,465,1211,543"/>
+<area shape="rect" id="node11" href="$d1/d6e/classUA__CoMP_1_1Num_1_1AQRule1.html" title="Used to disambiguate rules in AdaptiveQuadrature." alt="" coords="687,139,913,217"/>
+<area shape="rect" id="node15" href="$d1/d0a/classUA__CoMP_1_1Num_1_1AQRule2.html" title="Used to disambiguate rules in AdaptiveQuadrature." alt="" coords="304,139,531,217"/>
+<area shape="rect" id="node6" href="$d8/d4f/classUA__CoMP_1_1Num_1_1ComboDifference.html" title="Policy that checks convergence via combo difference." alt="" coords="5,357,251,434"/>
+<area shape="rect" id="node8" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html" title="The AdaptiveQuadrature is a host class with policy classes QuadRule1, QuadRule2, ErrorPolicy and Conv..." alt="" coords="436,567,716,849"/>
+<area shape="rect" id="node7" href="$d4/d78/classUA__CoMP_1_1Num_1_1OnViolationThrow.html" title="Policy throws a std::runtime_error exception when condition is violated." alt="" coords="719,349,927,441"/>
+<area shape="rect" id="node9" href="$d1/d6e/classUA__CoMP_1_1Num_1_1AQRule1.html" title=" " alt="" coords="506,349,694,441"/>
+<area shape="rect" id="node10" href="$d8/d22/classQuadRule1.html" title="Template parameter provides first quadrature rule for AdaptiveQuadrature." alt="" coords="555,139,648,217"/>
+<area shape="rect" id="node12" href="$d1/d0a/classUA__CoMP_1_1Num_1_1AQRule2.html" title=" " alt="" coords="275,349,482,441"/>
+<area shape="rect" id="node13" href="$dc/d77/classUA__CoMP_1_1Num_1_1Bisector.html" title="Given a quadrature rule, a new rule is generated that consists of applying the original rule on both ..." alt="" coords="94,132,279,224"/>
+<area shape="rect" id="node14" href="$da/ddc/classRule.html" title=" " alt="" coords="161,5,212,83"/>
 </map>

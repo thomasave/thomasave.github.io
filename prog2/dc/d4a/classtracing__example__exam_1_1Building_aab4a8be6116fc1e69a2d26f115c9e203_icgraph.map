@@ -1,6 +1,7 @@
 <map id="tracing_example_exam::Building::getName" name="tracing_example_exam::Building::getName">
-<area shape="rect" id="node1" title="Returns the name of the Building." alt="" coords="533,5,708,47"/>
-<area shape="rect" id="node2" href="$dc/d4a/classtracing__example__exam_1_1Building.html#a1a4af2f3a782223ec0ea558e76e536c3" title="Prints building information." alt="" coords="311,5,485,47"/>
-<area shape="rect" id="node3" href="$d8/d70/demos_8h.html#a5350f5e385940297ad6da93c8eee7cf8" title=" " alt="" coords="108,13,263,39"/>
-<area shape="rect" id="node4" href="$d4/de9/app__exec_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,13,60,39"/>
+<area shape="rect" id="node1" title="Returns the name of the Building." alt="" coords="587,23,761,65"/>
+<area shape="rect" id="node2" href="$dc/d4a/classtracing__example__exam_1_1Building.html#a1a4af2f3a782223ec0ea558e76e536c3" title="Prints building information." alt="" coords="364,23,539,65"/>
+<area shape="rect" id="node3" href="$d8/dc1/app__example__exam__2021__1_8cpp.html#a46461b476c29d07c7f2b24a86963391c" title=" " alt="" coords="108,5,316,32"/>
+<area shape="rect" id="node5" href="$d7/ddb/app__example__exam__2021__2_8cpp.html#a512546182ea87ecbe3c2924cba256ff4" title=" " alt="" coords="108,56,316,83"/>
+<area shape="rect" id="node4" href="$d4/de9/app__exec_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,31,60,57"/>
 </map>
