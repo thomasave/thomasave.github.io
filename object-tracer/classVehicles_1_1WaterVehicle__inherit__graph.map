@@ -1,0 +1,5 @@
+<map id="Vehicles::WaterVehicle" name="Vehicles::WaterVehicle">
+<area shape="rect" id="node1" title=" " alt="" coords="5,80,175,107"/>
+<area shape="rect" id="node3" href="$classVehicles_1_1SailBoat.html" title=" " alt="" coords="21,155,159,181"/>
+<area shape="rect" id="node2" href="$classVehicles_1_1Vehicle.html" title=" " alt="" coords="25,5,155,32"/>
+</map>

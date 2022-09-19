@@ -1,6 +1,0 @@
-<map id="AbstractFactory::ConstantFactory&lt; TResult, TArgs &gt;" name="AbstractFactory::ConstantFactory&lt; TResult, TArgs &gt;">
-<area shape="rect" id="node1" title="A factory class template that always returns a constant, pre&#45;defined value." alt="" coords="109,344,301,465"/>
-<area shape="rect" id="node2" href="$d1/d42/classAbstractFactory_1_1Factory.html" title=" " alt="" coords="5,175,183,281"/>
-<area shape="rect" id="node3" href="$d1/d42/classAbstractFactory_1_1Factory.html" title="A class template for abstract factories: objects that construct values based on their internal state,..." alt="" coords="5,5,183,112"/>
-<area shape="rect" id="node4" title=" " alt="" coords="207,189,277,267"/>
-</map>

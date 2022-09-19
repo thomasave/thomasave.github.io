@@ -1,6 +1,0 @@
-<map id="UA_CoMP::Num::OnViolationThrow" name="UA_CoMP::Num::OnViolationThrow">
-<area shape="rect" id="node1" title="Policy throws a std::runtime_error exception when condition is violated." alt="" coords="63,5,271,97"/>
-<area shape="rect" id="node2" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html" title=" " alt="" coords="5,536,268,848"/>
-<area shape="rect" id="node4" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html" title="The AdaptiveQuadrature is a host class with policy classes QuadRule1, QuadRule2, ErrorPolicy and Conv..." alt="" coords="153,147,433,429"/>
-<area shape="rect" id="node3" href="$d3/d1c/classUA__CoMP_1_1Num_1_1AGL__Quadrature.html" title="AGL (Adaptive GaussLegendre) Quadrature." alt="" coords="17,897,256,1004"/>
-</map>

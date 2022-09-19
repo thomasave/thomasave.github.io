@@ -1,6 +1,0 @@
-<map id="Raii::File::ReadChar" name="Raii::File::ReadChar">
-<area shape="rect" id="node1" title="Reads the next input character from this file." alt="" coords="321,42,471,69"/>
-<area shape="rect" id="node2" href="$d9/d33/classRaii_1_1RandomReadFile.html#a81784ef583e20f40c155cfa488a50f1b" title=" " alt="" coords="108,5,273,47"/>
-<area shape="rect" id="node3" href="$d7/db6/raii_2files_2main_8cpp.html#a811db80f29e90335a4d5ce8b73370c49" title="Prints the contents of the given file." alt="" coords="153,71,228,98"/>
-<area shape="rect" id="node4" href="$d7/db6/raii_2files_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,71,60,98"/>
-</map>

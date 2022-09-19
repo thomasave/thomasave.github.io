@@ -1,6 +1,0 @@
-<map id="AdaptiveQuadrature.h" name="AdaptiveQuadrature.h">
-<area shape="rect" id="node1" title="The AdaptiveQuadrature template." alt="" coords="71,5,236,32"/>
-<area shape="rect" id="node2" href="$d1/dee/AGL__Quadrature_8h.html" title="AGL (Adaptive GaussLegendre) Quadrature." alt="" coords="83,80,223,107"/>
-<area shape="rect" id="node3" href="$dc/db6/aquad__demo_8cpp.html" title="Demo for the AdaptiveQuadrature template." alt="" coords="5,155,139,181"/>
-<area shape="rect" id="node4" href="$d4/da9/integral__demo_8cpp.html" title="Demo for the Integral template." alt="" coords="163,155,306,181"/>
-</map>

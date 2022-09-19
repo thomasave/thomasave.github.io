@@ -1,6 +1,0 @@
-<map id="Raii::RandomReadFile" name="Raii::RandomReadFile">
-<area shape="rect" id="node1" title="A file that supports random reads: reads that are based on an offset." alt="" coords="39,447,205,539"/>
-<area shape="rect" id="node2" href="$da/d7f/classRaii_1_1File.html" title="A wrapper around the C FILE*&#45;based IO API." alt="" coords="5,145,119,384"/>
-<area shape="rect" id="node3" title=" " alt="" coords="32,5,92,83"/>
-<area shape="rect" id="node4" title=" " alt="" coords="143,226,218,303"/>
-</map>

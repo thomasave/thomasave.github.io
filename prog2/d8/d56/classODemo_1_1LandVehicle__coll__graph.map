@@ -1,4 +1,0 @@
-<map id="ODemo::LandVehicle" name="ODemo::LandVehicle">
-<area shape="rect" id="node1" title="A LandVehicle drives on land." alt="" coords="5,160,163,340"/>
-<area shape="rect" id="node2" href="$dd/de3/classODemo_1_1Vehicle.html" title="This Vehicle interface class." alt="" coords="21,5,147,112"/>
-</map>

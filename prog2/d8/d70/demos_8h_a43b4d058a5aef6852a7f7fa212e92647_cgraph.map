@@ -1,9 +1,0 @@
-<map id="app_exception" name="app_exception">
-<area shape="rect" id="node1" title="Demo prog for ctor/dtor features in class derivation." alt="" coords="5,148,123,175"/>
-<area shape="rect" id="node2" href="$d6/d19/classODemo_1_1Bicycle.html#ae5d67fab3fdab9dc01e3b84f62af3f92" title="Display info on model and color of the bike." alt="" coords="189,5,347,32"/>
-<area shape="rect" id="node3" href="$d4/d05/classODemo_1_1LoadingException.html#a33bbbca3b75ea3b9fdcb47dda5b06df2" title="Get info." alt="" coords="171,57,365,98"/>
-<area shape="rect" id="node4" href="$dc/d0a/classODemo_1_1SailBoat.html#a7773a71ae310c8e81804549ebb0790c9" title="Return identification info." alt="" coords="185,123,351,149"/>
-<area shape="rect" id="node5" href="$dc/d0a/classODemo_1_1SailBoat.html#a8975b4101a5f335bbc5a7f970fd2516c" title="Sailboat motion." alt="" coords="179,173,357,200"/>
-<area shape="rect" id="node6" href="$db/da2/classODemo_1_1WaterVehicle.html#a0a951f1d878d0ceda76654a72978a684" title="Start sinking, even if you are already sinking." alt="" coords="186,225,350,266"/>
-<area shape="rect" id="node7" href="$dd/da3/classODemo_1_1Exception.html#a60590752bfe03f82838d0886f1d62942" title="Return message text." alt="" coords="177,291,359,317"/>
-</map>

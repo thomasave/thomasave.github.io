@@ -1,8 +1,0 @@
-<map id="UA_CoMP::Num::OscillatoryFunctor" name="UA_CoMP::Num::OscillatoryFunctor">
-<area shape="rect" id="node1" title="Oscillatory functor." alt="" coords="110,359,313,480"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,182,153,274"/>
-<area shape="rect" id="node3" title=" " alt="" coords="178,189,245,267"/>
-<area shape="rect" id="node4" href="$d4/d8d/classUA__CoMP_1_1Num_1_1OscillatoryFunctor_1_1Integral.html" title="Nested class contains the analytic integral of the functor for testing purposes." alt="" coords="269,175,471,281"/>
-<area shape="rect" id="node5" title=" " alt="" coords="215,5,365,97"/>
-<area shape="rect" id="node6" title=" " alt="" coords="389,13,511,90"/>
-</map>

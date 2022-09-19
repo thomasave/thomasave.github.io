@@ -1,6 +1,0 @@
-<map id="UA_CoMP::Misc::MemberTracer::~MemberTracer" name="UA_CoMP::Misc::MemberTracer::~MemberTracer">
-<area shape="rect" id="node1" title="Destructor inserts message in TracerOutput about leaving member body." alt="" coords="5,35,229,76"/>
-<area shape="rect" id="node2" href="$df/dd1/classUA__CoMP_1_1Misc_1_1TracerOutput.html#af00dfe175008e503a6902ccaef5e2e99" title="Decrease the indentation level." alt="" coords="291,5,506,47"/>
-<area shape="rect" id="node3" href="$df/dd1/classUA__CoMP_1_1Misc_1_1TracerOutput.html#a820a4dcc16f5b442fbe4ab5eb7bd176d" title="Insert the message in the google log at given severity level." alt="" coords="277,71,520,98"/>
-<area shape="rect" id="node4" href="$df/dd1/classUA__CoMP_1_1Misc_1_1TracerOutput.html#a417cf6722934114aba943167f14f5e4d" title="Indicate whether current making output." alt="" coords="568,64,783,105"/>
-</map>

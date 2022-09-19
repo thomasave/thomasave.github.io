@@ -1,5 +1,0 @@
-<map id="printEmployee" name="printEmployee">
-<area shape="rect" id="node1" title="Writes to standard output all information that pertains to the given employee." alt="" coords="171,31,288,57"/>
-<area shape="rect" id="node2" href="$d6/d94/abstract-factory_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="37,5,91,32"/>
-<area shape="rect" id="node3" href="$d6/d94/abstract-factory_2main_8cpp.html#adf98ce97f606d8d022b155d992b591f6" title="Instructs the given factory to create an Employee instance, and then writes all information pertainin..." alt="" coords="5,56,123,83"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="Raii::File::CloseImpl" name="Raii::File::CloseImpl">
-<area shape="rect" id="node1" title="Closes this file resource." alt="" coords="279,31,429,57"/>
-<area shape="rect" id="node2" href="$da/d7f/classRaii_1_1File.html#ab3ff8c290231d07da6db019141d69e78" title="Performs clean&#45;up for this File instance." alt="" coords="109,5,229,32"/>
-<area shape="rect" id="node3" href="$da/d7f/classRaii_1_1File.html#ae99fdba0580788011d997bae7a99d3b6" title="Closes this file resource." alt="" coords="108,56,231,83"/>
-<area shape="rect" id="node4" href="$d7/db6/raii_2files_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,56,60,83"/>
-</map>

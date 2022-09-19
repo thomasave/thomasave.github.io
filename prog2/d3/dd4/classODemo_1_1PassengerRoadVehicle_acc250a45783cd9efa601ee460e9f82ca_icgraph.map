@@ -1,5 +1,0 @@
-<map id="ODemo::PassengerRoadVehicle::add_passenger" name="ODemo::PassengerRoadVehicle::add_passenger">
-<area shape="rect" id="node1" title="Take an additional passenger on board, if possible." alt="" coords="281,5,507,47"/>
-<area shape="rect" id="node2" href="$d6/d8b/app__hierarchies_8cpp.html#abf38388e7dbaf7791cd378531cd46eee" title="Demo prog for ctor/dtor features in class derivation." alt="" coords="108,13,233,39"/>
-<area shape="rect" id="node3" href="$d4/de9/app__exec_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,13,60,39"/>
-</map>

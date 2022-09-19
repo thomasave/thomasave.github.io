@@ -1,5 +1,0 @@
-<map id="printFile" name="printFile">
-<area shape="rect" id="node1" title="Prints the contents of the given file." alt="" coords="5,5,80,32"/>
-<area shape="rect" id="node2" href="$da/d7f/classRaii_1_1File.html#a6b6a43ad75c186c887fa494ba216c7c7" title="Reads the next input character from this file." alt="" coords="128,5,277,32"/>
-<area shape="rect" id="node3" href="$da/d7f/classRaii_1_1File.html#ac55195a0ee67ea59fae587272d870d2e" title="Checks if this file is still open." alt="" coords="325,5,456,32"/>
-</map>

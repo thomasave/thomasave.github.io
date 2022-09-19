@@ -1,6 +1,0 @@
-<map id="sum" name="sum">
-<area shape="rect" id="node1" title=" " alt="" coords="316,71,367,98"/>
-<area shape="rect" id="node2" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html#a9375cd4f9cc29d45036ab16c4a878f4f" title="Evaluates the quadrature for a functor based on comparing two sum rules." alt="" coords="5,5,268,47"/>
-<area shape="rect" id="node3" href="$d7/d51/functor-state_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="109,71,164,98"/>
-<area shape="rect" id="node4" href="$dc/d77/classUA__CoMP_1_1Num_1_1Bisector.html#a5650318dace99ed027cdc551226c064f" title="Execute the rule on the bisected cell." alt="" coords="26,122,247,149"/>
-</map>

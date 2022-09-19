@@ -1,6 +1,0 @@
-<map id="UA_CoMP::Timekeeper::operator&lt;&lt;" name="UA_CoMP::Timekeeper::operator&lt;&lt;">
-<area shape="rect" id="node1" title="Insert accumulated time into output stream without altering stopwatch state." alt="" coords="5,39,176,80"/>
-<area shape="rect" id="node2" href="$d1/d65/classUA__CoMP_1_1Timekeeper_1_1Stopwatch.html#ad96b2b40d67ac33e0b4dc878dac861e8" title="Returns string representation of readout." alt="" coords="224,39,395,80"/>
-<area shape="rect" id="node3" href="$d1/d65/classUA__CoMP_1_1Timekeeper_1_1Stopwatch.html#a4d2ab956699e5db15b71f03acdbda06a" title="Returns the accumulated value without altering the stopwatch state." alt="" coords="443,5,613,47"/>
-<area shape="rect" id="node4" href="$d0/d3f/structUA__CoMP_1_1Timekeeper_1_1Utils.html#a0917d6d2c45063eec7cf0640f258491c" title="Procude string in hh:mm:ss format." alt="" coords="443,71,613,112"/>
-</map>

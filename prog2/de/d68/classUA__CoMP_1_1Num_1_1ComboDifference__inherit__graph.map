@@ -1,6 +1,0 @@
-<map id="UA_CoMP::Num::ComboDifference" name="UA_CoMP::Num::ComboDifference">
-<area shape="rect" id="node1" title="Policy that checks convergence via combo difference." alt="" coords="45,5,290,83"/>
-<area shape="rect" id="node2" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html" title=" " alt="" coords="5,521,268,833"/>
-<area shape="rect" id="node4" href="$d9/d36/classUA__CoMP_1_1Num_1_1AdaptiveQuadrature.html" title="The AdaptiveQuadrature is a host class with policy classes QuadRule1, QuadRule2, ErrorPolicy and Conv..." alt="" coords="153,132,433,415"/>
-<area shape="rect" id="node3" href="$d3/d1c/classUA__CoMP_1_1Num_1_1AGL__Quadrature.html" title="AGL (Adaptive GaussLegendre) Quadrature." alt="" coords="17,883,256,989"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="Convergence.h" name="Convergence.h">
-<area shape="rect" id="node1" title="Predefined convergence policies for the AdaptiveQuadrature template." alt="" coords="94,5,213,32"/>
-<area shape="rect" id="node2" href="$d5/d15/AdaptiveQuadrature_8h.html" title="The AdaptiveQuadrature template." alt="" coords="71,80,236,107"/>
-<area shape="rect" id="node3" href="$d1/dee/AGL__Quadrature_8h.html" title="AGL (Adaptive GaussLegendre) Quadrature." alt="" coords="83,155,223,181"/>
-<area shape="rect" id="node4" href="$dc/db6/aquad__demo_8cpp.html" title="Demo for the AdaptiveQuadrature template." alt="" coords="5,229,139,256"/>
-<area shape="rect" id="node5" href="$d4/da9/integral__demo_8cpp.html" title="Demo for the Integral template." alt="" coords="163,229,306,256"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="UA_CoMP::Timekeeper::operator&lt;&lt;" name="UA_CoMP::Timekeeper::operator&lt;&lt;">
-<area shape="rect" id="node1" title="TimeStamp helper inserts string representation in output stream." alt="" coords="5,5,176,47"/>
-<area shape="rect" id="node2" href="$db/def/classUA__CoMP_1_1Timekeeper_1_1TimeStamp.html#a59215313e832becfb638a35401985412" title="Returns string with the time stamp after eliminating newline." alt="" coords="224,5,395,47"/>
-</map>

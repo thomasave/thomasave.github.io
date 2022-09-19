@@ -1,3 +1,0 @@
-<map id="UA_CoMP::Num::OnViolationReturn" name="UA_CoMP::Num::OnViolationReturn">
-<area shape="rect" id="node1" title="Policy just returns whatever the condition, after writing a message to standard error." alt="" coords="5,5,213,97"/>
-</map>

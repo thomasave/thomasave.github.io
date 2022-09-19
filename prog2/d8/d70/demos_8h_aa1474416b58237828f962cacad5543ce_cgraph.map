@@ -1,6 +1,0 @@
-<map id="app_copy" name="app_copy">
-<area shape="rect" id="node1" title="Demo prog to demonstrate deep &amp; shallow copy operations." alt="" coords="5,13,89,39"/>
-<area shape="rect" id="node2" href="$df/d03/classODemo_1_1Motorcycle.html#ad7e711e50a045609e22ee0b1ea479a29" title="Stop the motorcycle engine." alt="" coords="137,5,296,47"/>
-<area shape="rect" id="node3" href="$df/d03/classODemo_1_1Motorcycle.html#ae28dde0f757e893537f6bd47ce8b9465" title="Brake to zero speed, keep engine running." alt="" coords="344,13,528,39"/>
-<area shape="rect" id="node4" href="$df/d03/classODemo_1_1Motorcycle.html#a030177683917a5c10936b4035465da94" title="Brake until given speed." alt="" coords="576,5,735,47"/>
-</map>

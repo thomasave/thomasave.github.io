@@ -1,9 +1,0 @@
-<map id="app_hierarchies" name="app_hierarchies">
-<area shape="rect" id="node1" title="Demo prog for ctor/dtor features in class derivation." alt="" coords="5,147,131,174"/>
-<area shape="rect" id="node2" href="$d3/dd4/classODemo_1_1PassengerRoadVehicle.html#acc250a45783cd9efa601ee460e9f82ca" title="Take an additional passenger on board, if possible." alt="" coords="179,5,404,47"/>
-<area shape="rect" id="node3" href="$dd/de3/classODemo_1_1Vehicle.html#a205bf77cb948c027021a262190ab7d72" title="Return vehicle information." alt="" coords="212,71,371,98"/>
-<area shape="rect" id="node4" href="$d6/d19/classODemo_1_1Bicycle.html#ae5d67fab3fdab9dc01e3b84f62af3f92" title="Display info on model and color of the bike." alt="" coords="212,122,371,149"/>
-<area shape="rect" id="node5" href="$dc/d0a/classODemo_1_1SailBoat.html#a7773a71ae310c8e81804549ebb0790c9" title="Return identification info." alt="" coords="208,173,375,199"/>
-<area shape="rect" id="node6" href="$dc/d0a/classODemo_1_1SailBoat.html#a8975b4101a5f335bbc5a7f970fd2516c" title="Sailboat motion." alt="" coords="202,223,381,250"/>
-<area shape="rect" id="node7" href="$db/da2/classODemo_1_1WaterVehicle.html#a0a951f1d878d0ceda76654a72978a684" title="Start sinking, even if you are already sinking." alt="" coords="209,275,373,316"/>
-</map>

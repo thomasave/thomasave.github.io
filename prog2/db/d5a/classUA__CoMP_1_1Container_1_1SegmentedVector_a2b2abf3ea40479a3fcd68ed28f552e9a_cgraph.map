@@ -1,4 +1,0 @@
-<map id="UA_CoMP::Container::SegmentedVector::emplace_back" name="UA_CoMP::Container::SegmentedVector::emplace_back">
-<area shape="rect" id="node1" title="Constructs element in&#45;place at the end." alt="" coords="5,5,252,47"/>
-<area shape="rect" id="node2" href="$db/d5a/classUA__CoMP_1_1Container_1_1SegmentedVector.html#a941e2a8e78a5115226f46783a40493c4" title="Get next available chunk for element construction with placement new." alt="" coords="300,5,520,47"/>
-</map>

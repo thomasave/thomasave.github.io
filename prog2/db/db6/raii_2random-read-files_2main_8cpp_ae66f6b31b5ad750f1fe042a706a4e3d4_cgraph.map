@@ -1,6 +1,0 @@
-<map id="main" name="main">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,60,57"/>
-<area shape="rect" id="node2" href="$db/db6/raii_2random-read-files_2main_8cpp.html#a8bb78d0e11afa6d7ad8be5ae406d596d" title=" " alt="" coords="151,5,216,32"/>
-<area shape="rect" id="node3" href="$da/d7f/classRaii_1_1File.html#ad3b6ffae5554b191a0efeb04a898ea4c" title="Writes a single character to the file." alt="" coords="108,56,259,83"/>
-<area shape="rect" id="node4" href="$da/d7f/classRaii_1_1File.html#ac55195a0ee67ea59fae587272d870d2e" title="Checks if this file is still open." alt="" coords="307,56,437,83"/>
-</map>

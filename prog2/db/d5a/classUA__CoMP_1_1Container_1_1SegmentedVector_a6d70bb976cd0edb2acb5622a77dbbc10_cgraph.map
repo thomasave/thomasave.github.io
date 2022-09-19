@@ -1,4 +1,0 @@
-<map id="UA_CoMP::Container::SegmentedVector::reserve" name="UA_CoMP::Container::SegmentedVector::reserve">
-<area shape="rect" id="node1" title="Allocates aditional blocks to achieve requested capacity." alt="" coords="5,5,208,47"/>
-<area shape="rect" id="node2" href="$db/d5a/classUA__CoMP_1_1Container_1_1SegmentedVector.html#a497d837c4890f4097fad757b39c45d9c" title="Returns number of elements that can be stored without allocating additional blocks." alt="" coords="256,5,464,47"/>
-</map>

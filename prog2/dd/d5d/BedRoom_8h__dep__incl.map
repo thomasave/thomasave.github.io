@@ -1,5 +1,0 @@
-<map id="BedRoom.h" name="BedRoom.h">
-<area shape="rect" id="node1" title="Header for the BedRoom class." alt="" coords="75,5,173,32"/>
-<area shape="rect" id="node2" href="$d8/d12/BedRoom_8cpp.html" title="Implementation for the class BedRoom." alt="" coords="5,80,117,107"/>
-<area shape="rect" id="node3" href="$d7/d82/House_8cpp.html" title="Implementation for the class House." alt="" coords="141,80,232,107"/>
-</map>

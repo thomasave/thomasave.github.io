@@ -1,3 +1,0 @@
-<map id="UA_CoMP::Num::OnViolationThrow" name="UA_CoMP::Num::OnViolationThrow">
-<area shape="rect" id="node1" title="Policy throws a std::runtime_error exception when condition is violated." alt="" coords="5,5,213,97"/>
-</map>
