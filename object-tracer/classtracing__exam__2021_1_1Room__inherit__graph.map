@@ -1,6 +1,6 @@
 <map id="tracing_exam_2021::Room" name="tracing_exam_2021::Room">
-<area shape="rect" id="node1" title=" " alt="" coords="169,5,365,32"/>
-<area shape="rect" id="node2" href="$classtracing__exam__2021_1_1BathRoom.html" title=" " alt="" coords="5,80,164,121"/>
-<area shape="rect" id="node3" href="$classtracing__exam__2021_1_1BedRoom.html" title=" " alt="" coords="188,80,347,121"/>
-<area shape="rect" id="node4" href="$classtracing__exam__2021_1_1Kitchen.html" title=" " alt="" coords="371,80,529,121"/>
+<area shape="rect" id="node1" title=" " alt="" coords="169,5,365,31"/>
+<area shape="rect" id="node2" href="$classtracing__exam__2021_1_1BathRoom.html" title=" " alt="" coords="5,79,164,119"/>
+<area shape="rect" id="node3" href="$classtracing__exam__2021_1_1BedRoom.html" title=" " alt="" coords="188,79,347,119"/>
+<area shape="rect" id="node4" href="$classtracing__exam__2021_1_1Kitchen.html" title=" " alt="" coords="371,79,529,119"/>
 </map>

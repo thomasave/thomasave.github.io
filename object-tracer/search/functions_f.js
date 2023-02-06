@@ -14,5 +14,5 @@ var searchData=
   ['stop_11',['stop',['../classVehicles_1_1Engine.html#a24240c667cf29d79d5c4dd813878f298',1,'Vehicles::Engine::stop()'],['../classVehicles_1_1Wheel.html#a643b63a90cf2e62c8c3ff5463c69c472',1,'Vehicles::Wheel::stop()']]],
   ['stop_5fsinking_12',['stop_sinking',['../classVehicles_1_1WaterVehicle.html#a3e4b5136df0a007e1be6c1febf38da7d',1,'Vehicles::WaterVehicle']]],
   ['stopengine_13',['stopEngine',['../classVehicles_1_1Motorcycle.html#a000c5294de2f88e9f09abff771ebf466',1,'Vehicles::Motorcycle']]],
-  ['subject_14',['Subject',['../classtracing__exam__2022__2_1_1Subject.html#ae4ed1c4bd529f7032c9ed7fa647f0e0b',1,'tracing_exam_2022_2::Subject']]]
+  ['subject_14',['Subject',['../classtracing__exam__2022__2_1_1Subject.html#ae4ed1c4bd529f7032c9ed7fa647f0e0b',1,'tracing_exam_2022_2::Subject::Subject()'],['../classtracing__exam__2023__1_1_1Subject.html#a1ee229f5b9bdb876055789eb669cc2d7',1,'tracing_exam_2023_1::Subject::Subject()']]]
 ];

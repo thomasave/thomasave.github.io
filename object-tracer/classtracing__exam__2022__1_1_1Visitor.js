@@ -4,5 +4,7 @@ var classtracing__exam__2022__1_1_1Visitor =
     [ "visit", "classtracing__exam__2022__1_1_1Visitor.html#a14fdb4fa2589efd04eaced2a825fd1bb", null ],
     [ "visit", "classtracing__exam__2022__1_1_1Visitor.html#a14fdb4fa2589efd04eaced2a825fd1bb", null ],
     [ "visit", "classtracing__exam__2022__1_1_1Visitor.html#a14fdb4fa2589efd04eaced2a825fd1bb", null ],
+    [ "visit", "classtracing__exam__2022__1_1_1Visitor.html#ae13b99f7e89d6910085c06b2f108bdac", null ],
+    [ "visit", "classtracing__exam__2022__1_1_1Visitor.html#ae13b99f7e89d6910085c06b2f108bdac", null ],
     [ "visit", "classtracing__exam__2022__1_1_1Visitor.html#a7bea004c28f1059c89fc3e4fdd84b5dc", null ]
 ];

@@ -1,10 +1,10 @@
 <map id="src/exams/2022_2/BathRoom.h" name="src/exams/2022_2/BathRoom.h">
-<area shape="rect" id="node1" title=" " alt="" coords="212,5,436,32"/>
-<area shape="rect" id="node2" href="$2022__2_2BathRoom_8cpp.html" title=" " alt="" coords="83,80,322,107"/>
-<area shape="rect" id="node3" href="$2022__2_2House_8h.html" title=" " alt="" coords="347,80,544,107"/>
-<area shape="rect" id="node4" href="$2022__2_2HolidayHome_8h.html" title=" " alt="" coords="233,155,428,196"/>
-<area shape="rect" id="node8" href="$2022__2_2House_8cpp.html" title=" " alt="" coords="453,162,665,189"/>
-<area shape="rect" id="node5" href="$2022__2_2HolidayHome_8cpp.html" title=" " alt="" coords="5,244,200,285"/>
-<area shape="rect" id="node6" href="$2022__2_2Visitor_8cpp.html" title=" " alt="" coords="225,251,437,278"/>
-<area shape="rect" id="node7" href="$app__exam__2022__2_8cpp.html" title=" " alt="" coords="461,244,640,285"/>
+<area shape="rect" id="node1" title=" " alt="" coords="212,5,436,31"/>
+<area shape="rect" id="node2" href="$2022__2_2BathRoom_8cpp.html" title=" " alt="" coords="83,79,322,104"/>
+<area shape="rect" id="node3" href="$2022__2_2House_8h.html" title=" " alt="" coords="347,79,544,104"/>
+<area shape="rect" id="node4" href="$2022__2_2HolidayHome_8h.html" title=" " alt="" coords="233,152,428,192"/>
+<area shape="rect" id="node8" href="$2022__2_2House_8cpp.html" title=" " alt="" coords="453,159,665,185"/>
+<area shape="rect" id="node5" href="$2022__2_2HolidayHome_8cpp.html" title=" " alt="" coords="5,240,200,280"/>
+<area shape="rect" id="node6" href="$2022__2_2Visitor_8cpp.html" title=" " alt="" coords="225,247,437,273"/>
+<area shape="rect" id="node7" href="$app__exam__2022__2_8cpp.html" title=" " alt="" coords="461,240,640,280"/>
 </map>

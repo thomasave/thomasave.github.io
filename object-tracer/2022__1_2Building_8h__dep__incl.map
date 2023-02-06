@@ -1,12 +1,12 @@
 <map id="src/exams/2022_1/Building.h" name="src/exams/2022_1/Building.h">
-<area shape="rect" id="node1" title=" " alt="" coords="378,5,587,32"/>
-<area shape="rect" id="node2" href="$2022__1_2Building_8cpp.html" title=" " alt="" coords="136,80,360,107"/>
-<area shape="rect" id="node3" href="$2022__1_2House_8h.html" title=" " alt="" coords="384,80,581,107"/>
-<area shape="rect" id="node9" href="$2022__1_2Road_8h.html" title=" " alt="" coords="605,80,795,107"/>
-<area shape="rect" id="node4" href="$2022__1_2HolidayHome_8h.html" title=" " alt="" coords="195,155,389,196"/>
-<area shape="rect" id="node8" href="$2022__1_2House_8cpp.html" title=" " alt="" coords="414,162,626,189"/>
-<area shape="rect" id="node5" href="$2022__1_2HolidayHome_8cpp.html" title=" " alt="" coords="5,244,200,285"/>
-<area shape="rect" id="node6" href="$2022__1_2Visitor_8cpp.html" title=" " alt="" coords="225,251,437,278"/>
-<area shape="rect" id="node7" href="$app__exam__2022__1_8cpp.html" title=" " alt="" coords="536,244,715,285"/>
-<area shape="rect" id="node10" href="$2022__1_2Road_8cpp.html" title=" " alt="" coords="701,162,905,189"/>
+<area shape="rect" id="node1" title=" " alt="" coords="379,5,589,31"/>
+<area shape="rect" id="node2" href="$2022__1_2Building_8cpp.html" title=" " alt="" coords="137,79,361,104"/>
+<area shape="rect" id="node3" href="$2022__1_2House_8h.html" title=" " alt="" coords="385,79,583,104"/>
+<area shape="rect" id="node9" href="$2022__1_2Road_8h.html" title=" " alt="" coords="607,79,796,104"/>
+<area shape="rect" id="node4" href="$2022__1_2HolidayHome_8h.html" title=" " alt="" coords="195,152,389,192"/>
+<area shape="rect" id="node8" href="$2022__1_2House_8cpp.html" title=" " alt="" coords="414,159,626,185"/>
+<area shape="rect" id="node5" href="$2022__1_2HolidayHome_8cpp.html" title=" " alt="" coords="5,240,200,280"/>
+<area shape="rect" id="node6" href="$2022__1_2Visitor_8cpp.html" title=" " alt="" coords="225,247,437,273"/>
+<area shape="rect" id="node7" href="$app__exam__2022__1_8cpp.html" title=" " alt="" coords="537,240,716,280"/>
+<area shape="rect" id="node10" href="$2022__1_2Road_8cpp.html" title=" " alt="" coords="702,159,906,185"/>
 </map>

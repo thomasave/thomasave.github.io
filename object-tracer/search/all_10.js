@@ -9,5 +9,6 @@ var searchData=
   ['tracing_5fexam_5f2021_6',['tracing_exam_2021',['../namespacetracing__exam__2021.html',1,'']]],
   ['tracing_5fexam_5f2022_5f1_7',['tracing_exam_2022_1',['../namespacetracing__exam__2022__1.html',1,'']]],
   ['tracing_5fexam_5f2022_5f2_8',['tracing_exam_2022_2',['../namespacetracing__exam__2022__2.html',1,'']]],
-  ['turn_9',['turn',['../classVehicles_1_1Motorcycle.html#aa3dd9c7778dc9331c77fe9556e4c3854',1,'Vehicles::Motorcycle::turn()'],['../classVehicles_1_1Unicycle.html#a8c703105f186fa9bf76b20e35839b742',1,'Vehicles::Unicycle::turn()']]]
+  ['tracing_5fexam_5f2023_5f1_9',['tracing_exam_2023_1',['../namespacetracing__exam__2023__1.html',1,'']]],
+  ['turn_10',['turn',['../classVehicles_1_1Motorcycle.html#aa3dd9c7778dc9331c77fe9556e4c3854',1,'Vehicles::Motorcycle::turn()'],['../classVehicles_1_1Unicycle.html#a8c703105f186fa9bf76b20e35839b742',1,'Vehicles::Unicycle::turn()']]]
 ];

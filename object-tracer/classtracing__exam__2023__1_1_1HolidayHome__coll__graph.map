@@ -1,0 +1,11 @@
+<map id="tracing_exam_2023_1::HolidayHome" name="tracing_exam_2023_1::HolidayHome">
+<area shape="rect" id="node1" title=" " alt="" coords="968,39,1133,79"/>
+<area shape="rect" id="node2" href="$classtracing__exam__2023__1_1_1Rentable.html" title=" " alt="" coords="753,5,919,45"/>
+<area shape="rect" id="node3" href="$classtracing__exam__2023__1_1_1Subject.html" title=" " alt="" coords="452,5,617,45"/>
+<area shape="rect" id="node4" href="$classtracing__exam__2023__1_1_1House.html" title=" " alt="" coords="753,69,919,109"/>
+<area shape="rect" id="node5" href="$classtracing__exam__2023__1_1_1Building.html" title=" " alt="" coords="452,69,617,109"/>
+<area shape="rect" id="node6" href="$classtracing__exam__2023__1_1_1Person.html" title=" " alt="" coords="173,69,339,109"/>
+<area shape="rect" id="node7" title=" " alt="" coords="5,77,64,102"/>
+<area shape="rect" id="node8" href="$classtracing__exam__2023__1_1_1BathRoom.html" title=" " alt="" coords="452,133,617,173"/>
+<area shape="rect" id="node9" href="$classtracing__exam__2023__1_1_1Room.html" title=" " alt="" coords="173,133,339,173"/>
+</map>

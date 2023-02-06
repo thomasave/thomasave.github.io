@@ -1,19 +1,19 @@
 <map id="src/exams/2022_2/Rentable.cpp" name="src/exams/2022_2/Rentable.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="276,5,505,32"/>
-<area shape="rect" id="node2" href="$2022__2_2Rentable_8h.html" title=" " alt="" coords="99,80,191,107"/>
-<area shape="rect" id="node6" href="$tracer_8h.html" title=" " alt="" coords="417,304,519,331"/>
-<area shape="rect" id="node16" title=" " alt="" coords="107,229,184,256"/>
-<area shape="rect" id="node17" title=" " alt="" coords="590,80,677,107"/>
-<area shape="rect" id="node3" href="$exams_22022__2_2Person_8h.html" title=" " alt="" coords="43,304,122,331"/>
-<area shape="rect" id="node4" title=" " alt="" coords="157,453,216,480"/>
-<area shape="rect" id="node5" href="$Subject_8h.html" title=" " alt="" coords="268,155,351,181"/>
-<area shape="rect" id="node13" href="$Observer_8h.html" title=" " alt="" coords="422,229,514,256"/>
-<area shape="rect" id="node14" title=" " alt="" coords="347,229,397,256"/>
-<area shape="rect" id="node15" title=" " alt="" coords="209,229,271,256"/>
-<area shape="rect" id="node7" href="$BlockTracer_8h.html" title=" " alt="" coords="290,379,430,405"/>
-<area shape="rect" id="node8" href="$TracerOutput_8h.html" title=" " alt="" coords="307,453,456,480"/>
-<area shape="rect" id="node10" href="$FunctionTracer_8h.html" title=" " alt="" coords="107,379,266,405"/>
-<area shape="rect" id="node11" href="$MemberTracer_8h.html" title=" " alt="" coords="454,379,613,405"/>
-<area shape="rect" id="node9" title=" " alt="" coords="344,528,419,555"/>
-<area shape="rect" id="node12" title=" " alt="" coords="501,453,565,480"/>
+<area shape="rect" id="node1" title=" " alt="" coords="276,5,505,31"/>
+<area shape="rect" id="node2" href="$2022__2_2Rentable_8h.html" title=" " alt="" coords="99,79,191,104"/>
+<area shape="rect" id="node6" href="$tracer_8h.html" title=" " alt="" coords="417,299,519,324"/>
+<area shape="rect" id="node16" title=" " alt="" coords="107,225,184,251"/>
+<area shape="rect" id="node17" title=" " alt="" coords="590,79,677,104"/>
+<area shape="rect" id="node3" href="$exams_22022__2_2Person_8h.html" title=" " alt="" coords="43,299,122,324"/>
+<area shape="rect" id="node4" title=" " alt="" coords="157,445,216,471"/>
+<area shape="rect" id="node5" href="$2022__2_2Subject_8h.html" title=" " alt="" coords="268,152,351,177"/>
+<area shape="rect" id="node13" href="$2022__2_2Observer_8h.html" title=" " alt="" coords="422,225,514,251"/>
+<area shape="rect" id="node14" title=" " alt="" coords="347,225,397,251"/>
+<area shape="rect" id="node15" title=" " alt="" coords="209,225,271,251"/>
+<area shape="rect" id="node7" href="$BlockTracer_8h.html" title=" " alt="" coords="290,372,430,397"/>
+<area shape="rect" id="node8" href="$TracerOutput_8h.html" title=" " alt="" coords="307,445,456,471"/>
+<area shape="rect" id="node10" href="$FunctionTracer_8h.html" title=" " alt="" coords="107,372,266,397"/>
+<area shape="rect" id="node11" href="$MemberTracer_8h.html" title=" " alt="" coords="454,372,613,397"/>
+<area shape="rect" id="node9" title=" " alt="" coords="344,519,419,544"/>
+<area shape="rect" id="node12" title=" " alt="" coords="501,445,565,471"/>
 </map>

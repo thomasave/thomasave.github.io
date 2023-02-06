@@ -1,10 +1,10 @@
 <map id="tracing_exam_2022_1::HolidayHome" name="tracing_exam_2022_1::HolidayHome">
-<area shape="rect" id="node1" title=" " alt="" coords="240,393,405,435"/>
-<area shape="rect" id="node2" href="$classtracing__exam__2022__1_1_1House.html" title=" " alt="" coords="99,303,264,344"/>
-<area shape="rect" id="node3" href="$classtracing__exam__2022__1_1_1Building.html" title=" " alt="" coords="5,199,171,240"/>
-<area shape="rect" id="node4" href="$classtracing__exam__2022__1_1_1Person.html" title=" " alt="" coords="5,95,171,136"/>
-<area shape="rect" id="node5" title=" " alt="" coords="59,5,117,32"/>
-<area shape="rect" id="node6" href="$classtracing__exam__2022__1_1_1Kitchen.html" title=" " alt="" coords="195,199,360,240"/>
-<area shape="rect" id="node7" href="$classtracing__exam__2022__1_1_1Room.html" title=" " alt="" coords="195,95,360,136"/>
-<area shape="rect" id="node8" href="$classtracing__exam__2022__1_1_1Rentable.html" title=" " alt="" coords="288,303,453,344"/>
+<area shape="rect" id="node1" title=" " alt="" coords="240,388,405,428"/>
+<area shape="rect" id="node2" href="$classtracing__exam__2022__1_1_1House.html" title=" " alt="" coords="99,299,264,339"/>
+<area shape="rect" id="node3" href="$classtracing__exam__2022__1_1_1Building.html" title=" " alt="" coords="5,196,171,236"/>
+<area shape="rect" id="node4" href="$classtracing__exam__2022__1_1_1Person.html" title=" " alt="" coords="5,93,171,133"/>
+<area shape="rect" id="node5" title=" " alt="" coords="59,5,117,31"/>
+<area shape="rect" id="node6" href="$classtracing__exam__2022__1_1_1Kitchen.html" title=" " alt="" coords="195,196,360,236"/>
+<area shape="rect" id="node7" href="$classtracing__exam__2022__1_1_1Room.html" title=" " alt="" coords="195,93,360,133"/>
+<area shape="rect" id="node8" href="$classtracing__exam__2022__1_1_1Rentable.html" title=" " alt="" coords="288,299,453,339"/>
 </map>
