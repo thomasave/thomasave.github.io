@@ -1,5 +1,0 @@
-<map id="Vehicles::RoadVehicle" name="Vehicles::RoadVehicle">
-<area shape="rect" id="node1" title=" " alt="" coords="5,152,169,177"/>
-<area shape="rect" id="node2" href="$classVehicles_1_1LandVehicle.html" title=" " alt="" coords="6,79,169,104"/>
-<area shape="rect" id="node3" href="$classVehicles_1_1Vehicle.html" title=" " alt="" coords="22,5,153,31"/>
-</map>
