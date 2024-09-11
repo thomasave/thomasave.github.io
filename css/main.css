@@ -522,11 +522,17 @@ a.fa {
 .media-buttons {
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .social {
     margin-top: 20px;
-    margin-bottom: 20px;
 }
+
+.publications-row {
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+
 .publications {
     font-size: 20px;
     margin-top:40px;
