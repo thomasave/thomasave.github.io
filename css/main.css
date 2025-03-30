@@ -582,3 +582,12 @@ a.fa {
     width: 500px;
     max-width:90%;
 }
+.dark_link {
+    color: white;
+}
+.dark_link:hover {
+    color: white;
+}
+.dark_link:active {
+    color: white;
+}
