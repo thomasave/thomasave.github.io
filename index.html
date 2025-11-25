@@ -1,164 +1,268 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Personal website of Thomas Avé, a computer science student and enthusiast.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Personal website of Thomas Avé, AI & Computer Vision Engineer and PhD Researcher.">
     <meta name="author" content="Thomas Avé">
+    <title>Thomas Avé | AI & Computer Vision</title>
 
-    <title>Thomas Avé</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- Theme CSS -->
-    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
-        type="text/css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Custom gradient text for the name */
+        .text-gradient {
+            background: linear-gradient(to right, #60a5fa, #34d399);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
 </head>
 
-<body id="page-top" class="index">
-    <div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
+<body class="bg-slate-900 text-slate-300 selection:bg-teal-500 selection:text-white">
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">Thomas Avé</a>
+    <nav class="fixed w-full z-50 bg-slate-900/90 backdrop-blur-sm border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0">
+                    <a href="#" class="font-bold text-xl text-white tracking-tighter">TA.</a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#about"
+                            class="hover:text-teal-400 transition-colors px-3 py-2 rounded-md text-sm font-medium">About</a>
+                        <a href="#publications"
+                            class="hover:text-teal-400 transition-colors px-3 py-2 rounded-md text-sm font-medium">Publications</a>
+                        <a href="#contact"
+                            class="hover:text-teal-400 transition-colors px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                    </div>
+                </div>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#maincontent">Home</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#publications">Publications</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
 
-    <!-- Header -->
-    <header>
-        <div class="container" id="maincontent" tabindex="-1">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive profile" src="img/profile.png" alt="">
-                    <div class="intro-text">
-                        <h1 class="name">Thomas Avé</h1>
-                        <hr class="star-light">
-                        <span class="skills">AI &amp; Computer Vision Engineer @ <a class="dark_link"
-                                href="https://www.trackbox.be" target="_blank">TrackBox</a></span><br>
-                        <span class="skills">PhD in Low-Power Reinforcement Learning</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+    <section id="about" class="min-h-screen flex items-center justify-center pt-16">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left md:flex md:items-center md:gap-16">
 
-    <section>
-        <div class="container" id="publications">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Publications</h2>
+            <div class="mb-8 md:mb-0 md:w-1/3 flex justify-center">
+                <div class="relative w-64 h-64 rounded-full overflow-hidden border-4 border-slate-700 shadow-2xl">
+                    <img src="img/profile.png" alt="Thomas Avé" class="w-full h-full object-cover">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-offset-1">
-                    <div class="row publications-row">
-                        <ul class="publications">
-                            <li><a href="https://hdl.handle.net/10067/2015640151162165141" target="_blank">Avé, Thomas,
-                                    et al. "Quantization-aware Policy Distillation (QPD)."<br> Deep Reinforcement
-                                    Learning Workshop, NeurIPS 2022, 9 December, 2022.</a></li>
-                            <li><a href="https://doi.org/10.1109/NOMS59830.2024.10575377" target="_blank">Avé, Thomas,
-                                    et al. "Policy Compression for Low-Power Intelligent Scaling in Software-Based
-                                    Network Architectures."<br> NOMS 2024-2024 IEEE Network Operations and Management
-                                    Symposium. IEEE, 2024.</a></li>
-                            <li><a href="https://doi.org/10.3390/s24154876" target="_blank">Avé, Thomas, et al. "Policy
-                                    Compression for Intelligent Continuous Control on Low-Power Edge Devices."<br>
-                                    Sensors 24.15 (2024): 4876.</a></li>
-                            <li><a href="https://doi.org/10.14428/esann/2024.ES2024-50" target="_blank">Avé, Thomas, et
-                                    al. "Online Adaptation of Compressed Models by Pre-Training and Task-Relevant
-                                    Pruning"<br>The 32nd European Symposium on Artificial Neural Networks, Computational
-                                    Intelligence and Machine Learning (ESANN), Bruges, Belgium, 9-11 October 2024.</a>
-                            </li>
-                            <li><a href="https://doi.org/10.1007/S10994-025-06889-9" target="_blank">Avé, Thomas,
-                                    et al. "Temporal Distillation: Compressing a Policy in Space and Time."<br> Machine
-                                    Learning 114.11 (2025): 248.</a></li>
-                            <!-- https://repository.uantwerpen.be/docman/irua/a6bed5motoM4e -->
-                            <li><a href="https://doi.org/10.63028/10067/2136190151162165141" target="_blank">Avé,
-                                    Thomas. "Towards Efficient Decision-Making: Policy Compression for Reinforcement
-                                    Learning on Resource-Constrained Devices" PhD diss., University of Antwerp, Belgium,
-                                    2025.</a></li>
-                        </ul>
-                    </div>
+
+            <div class="md:w-2/3">
+                <h1 class="text-4xl md:text-6xl font-bold text-white mb-4 tracking-tight">
+                    Hi, I'm <span class="text-gradient whitespace-nowrap">Thomas Avé</span>.
+                </h1>
+                <h2 class="text-xl md:text-2xl text-slate-400 mb-6 font-light">
+                    AI & Computer Vision Engineer @ <a href="https://www.trackbox.be" target="_blank"
+                        class="text-teal-400 hover:underline decoration-teal-400/30 underline-offset-4">TrackBox</a>
+                </h2>
+
+                <p class="text-lg leading-relaxed mb-8 text-slate-400 max-w-2xl">
+                    I hold a PhD in <span class="text-slate-200 font-medium">Low-Power Reinforcement
+                        Learning</span>.
+                    I bridge the gap between complex intelligent scaling and resource-constrained edge devices.
+                </p>
+
+                <div class="flex flex-wrap gap-4 justify-center md:justify-start">
+                    <a href="#contact"
+                        class="bg-teal-500 hover:bg-teal-600 text-slate-900 font-bold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-teal-500/20">
+                        Get in Touch
+                    </a>
+                    <a href="#publications"
+                        class="border border-slate-600 hover:border-slate-400 text-white py-3 px-6 rounded-lg transition-all duration-300">
+                        View Research
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="text-center">
-        <div class="footer-below">
-            <div class="container" id="contact">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2>Find Me At</h2>
-                    </div>
-                </div>
-                <div class="row social">
-                    <div class="col-lg-6 col-lg-offset-3">
-                        <div class="row">
-                            <div class="col-sm-2 col-xs-4 media-buttons"><a href="mailto:email@thomasave.be"
-                                    class="fa fa-envelope"></a></div>
-                            <div class="col-sm-2 col-xs-4 media-buttons"><a href="https://git.thomasave.be"
-                                    class="contact svg-circle forgejo" target="_blank"><img src="img/forgejo.svg"></a>
-                            </div>
-                            <div class="col-sm-2 col-xs-4 media-buttons"><a href="https://orcid.org/0000-0001-9849-5547"
-                                    class="contact svg-circle orcid" target="_blank"><img
-                                        src="img/orcid.logo.icon.svg"></a></div>
-                            <div class="col-sm-2 col-xs-4 media-buttons"><a href="https://github.com/thomasave"
-                                    class="fa fa-github" target="_blank"></a></div>
-                            <div class="col-sm-2 col-xs-4 media-buttons"><a
-                                    href="https://www.linkedin.com/in/thomas-av%C3%A9/" class="fa fa-linkedin"
-                                    target="_blank"></a></div>
-                            <div class="col-sm-2 col-xs-4 media-buttons"><a
-                                    href="https://play.google.com/store/apps/developer?id=Thomas+Av%C3%A9"
-                                    class="contact svg-circle playstore" target="_blank"><img
-                                        src="img/playstore-svgrepo-com.svg"></a></div>
+    <section id="publications" class="py-24 bg-slate-800/50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-white mb-12 flex items-center">
+                <span class="bg-teal-500 w-2 h-8 mr-4 rounded-full"></span>
+                Selected Publications
+            </h2>
+
+            <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
+
+                <a href="https://doi.org/10.63028/10067/2136190151162165141" target="_blank"
+                    class="block bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-teal-500/50 transition-all duration-300 group">
+                    <div class="flex justify-between items-start mb-4">
+                        <span
+                            class="text-teal-400 text-xs font-bold uppercase tracking-wider border border-teal-900 bg-teal-900/20 px-2 py-1 rounded">Dissertation
+                            2025</span>
+                        <div class="text-slate-500 group-hover:text-white transition-colors">
+                            <i class="fas fa-external-link-alt"></i>
                         </div>
                     </div>
-                </div>
+                    <h3 class="text-xl font-semibold text-white mb-2 group-hover:text-teal-400 transition-colors">
+                        Towards Efficient Decision-Making
+                    </h3>
+                    <p class="text-slate-400 text-sm mb-4">
+                        Policy Compression for Reinforcement Learning on Resource-Constrained Devices. PhD diss.,
+                        University of Antwerp.
+                    </p>
+                </a>
+
+                <a href="https://doi.org/10.1007/S10994-025-06889-9" target="_blank"
+                    class="block bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-teal-500/50 transition-all duration-300 group">
+                    <div class="flex justify-between items-start mb-4">
+                        <span
+                            class="text-blue-400 text-xs font-bold uppercase tracking-wider border border-blue-900 bg-blue-900/20 px-2 py-1 rounded">Machine
+                            Learning 2025</span>
+                        <div class="text-slate-500 group-hover:text-white transition-colors">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-2 group-hover:text-blue-400 transition-colors">
+                        Temporal Distillation
+                    </h3>
+                    <p class="text-slate-400 text-sm mb-4">
+                        Compressing a Policy in Space and Time.<br>
+                        Published in Machine Learning 114.11.
+                    </p>
+                </a>
+
+                <a href="https://doi.org/10.3390/s24154876" target="_blank"
+                    class="block bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-teal-500/50 transition-all duration-300 group">
+                    <div class="flex justify-between items-start mb-4">
+                        <span
+                            class="text-orange-400 text-xs font-bold uppercase tracking-wider border border-orange-900 bg-orange-900/20 px-2 py-1 rounded">Sensors
+                            2024</span>
+                        <div class="text-slate-500 group-hover:text-white transition-colors">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-2 group-hover:text-orange-400 transition-colors">
+                        Policy Compression for Intelligent Continuous Control
+                    </h3>
+                    <p class="text-slate-400 text-sm mb-4">
+                        Focus on Low-Power Edge Devices. Published in Sensors 24.15 (2024): 4876.
+                    </p>
+                </a>
+
+                <a href="https://doi.org/10.1109/NOMS59830.2024.10575377" target="_blank"
+                    class="block bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-teal-500/50 transition-all duration-300 group">
+                    <div class="flex justify-between items-start mb-4">
+                        <span
+                            class="text-indigo-400 text-xs font-bold uppercase tracking-wider border border-indigo-900 bg-indigo-900/20 px-2 py-1 rounded">IEEE
+                            NOMS 2024</span>
+                        <div class="text-slate-500 group-hover:text-white transition-colors">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-2 group-hover:text-indigo-400 transition-colors">
+                        Policy Compression for Intelligent Scaling
+                    </h3>
+                    <p class="text-slate-400 text-sm mb-4">
+                        Software-Based Network Architectures. Presented at IEEE Network Operations and Management
+                        Symposium.
+                    </p>
+                </a>
+
+                <a href="https://doi.org/10.14428/esann/2024.ES2024-50" target="_blank"
+                    class="block bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-teal-500/50 transition-all duration-300 group">
+                    <div class="flex justify-between items-start mb-4">
+                        <span
+                            class="text-purple-400 text-xs font-bold uppercase tracking-wider border border-purple-900 bg-purple-900/20 px-2 py-1 rounded">ESANN
+                            2024</span>
+                        <div class="text-slate-500 group-hover:text-white transition-colors">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-2 group-hover:text-purple-400 transition-colors">
+                        Online Adaptation of Compressed Models
+                    </h3>
+                    <p class="text-slate-400 text-sm mb-4">
+                        Pre-Training and Task-Relevant Pruning.<br>
+                        Presented at 32nd European Symposium on Artificial Neural Networks.
+                    </p>
+                </a>
+
+                <a href="https://hdl.handle.net/10067/2015640151162165141" target="_blank"
+                    class="block bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-teal-500/50 transition-all duration-300 group">
+                    <div class="flex justify-between items-start mb-4">
+                        <span
+                            class="text-pink-400 text-xs font-bold uppercase tracking-wider border border-pink-900 bg-pink-900/20 px-2 py-1 rounded">NeurIPS
+                            2022</span>
+                        <div class="text-slate-500 group-hover:text-white transition-colors">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-2 group-hover:text-pink-400 transition-colors">
+                        Quantization-aware Policy Distillation (QPD)
+                    </h3>
+                    <p class="text-slate-400 text-sm mb-4">
+                        Deep Reinforcement Learning Workshop.
+                    </p>
+                </a>
+
             </div>
         </div>
-    </footer>
+    </section>
 
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/index.js"></script>
+    <footer id="contact" class="bg-slate-900 pt-16 pb-8 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h2 class="text-2xl font-bold text-white mb-8">Let's Connect</h2>
+
+            <div class="flex flex-wrap justify-center gap-6 mb-12">
+
+                <a href="mailto:email@thomasave.be"
+                    class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-800 text-slate-400 hover:bg-teal-500 hover:text-slate-900 transition-all duration-300"
+                    title="Email">
+                    <i class="fas fa-envelope text-xl"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/thomas-av%C3%A9/" target="_blank"
+                    class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-800 text-slate-400 hover:bg-[#0077b5] hover:text-white transition-all duration-300"
+                    title="LinkedIn">
+                    <i class="fab fa-linkedin-in text-xl"></i>
+                </a>
+
+                <a href="https://github.com/thomasave" target="_blank"
+                    class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-800 text-slate-400 hover:bg-white hover:text-black transition-all duration-300"
+                    title="GitHub">
+                    <i class="fab fa-github text-xl"></i>
+                </a>
+
+                <a href="https://git.thomasave.be" target="_blank"
+                    class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-800 text-slate-400 hover:bg-orange-600 hover:text-white transition-all duration-300"
+                    title="Forgejo">
+                    <i class="fas fa-code-branch text-xl"></i>
+                </a>
+
+                <a href="https://orcid.org/0000-0001-9849-5547" target="_blank"
+                    class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-800 text-slate-400 hover:bg-[#A6CE39] hover:text-white transition-all duration-300"
+                    title="ORCID">
+                    <i class="fab fa-orcid text-xl"></i>
+                </a>
+
+                <a href="https://play.google.com/store/apps/developer?id=Thomas+Av%C3%A9" target="_blank"
+                    class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-800 text-slate-400 hover:bg-green-600 hover:text-white transition-all duration-300"
+                    title="Google Play">
+                    <i class="fab fa-google-play text-xl"></i>
+                </a>
+            </div>
+
+            <p class="text-slate-600 text-sm">
+                &copy;
+                <script>document.write(new Date().getFullYear())</script> Thomas Avé.
+            </p>
+        </div>
+    </footer>
 
 </body>
 
