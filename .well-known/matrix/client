@@ -1,5 +1,9 @@
 {
     "m.homeserver": {
         "base_url": "https://chat.thomasave.be"
+    },
+    "org.matrix.msc2965.authentication": {
+        "issuer": "https://mas.thomasave.be/",
+        "account": "https://mas.thomasave.be/account"
     }
 }
