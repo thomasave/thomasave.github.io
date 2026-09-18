@@ -1,0 +1,15 @@
+{
+  "name": "Ko Kai: Thai Alphabet",
+  "short_name": "Ko Kai",
+  "description": "Learn to read the Thai alphabet with flashcards, quizzes and audio.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbf8ff",
+  "theme_color": "#fbf8ff",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

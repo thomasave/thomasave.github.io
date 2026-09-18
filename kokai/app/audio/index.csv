@@ -1,0 +1,82 @@
+file,character,code_point,reading,type
+tha-3585_ก_ko-kai.mp3,ก,U+0E01,ko kai,consonant
+tha-3586_ข_kho-khai.mp3,ข,U+0E02,kho khai,consonant
+tha-3587_ฃ_kho-khuat.mp3,ฃ,U+0E03,kho khuat,consonant
+tha-3588_ค_kho-khwai.mp3,ค,U+0E04,kho khwai,consonant
+tha-3589_ฅ_kho-khon.mp3,ฅ,U+0E05,kho khon,consonant
+tha-3590_ฆ_kho-ra-khang.mp3,ฆ,U+0E06,kho ra-khang,consonant
+tha-3591_ง_ngo-ngu.mp3,ง,U+0E07,ngo ngu,consonant
+tha-3592_จ_cho-chan.mp3,จ,U+0E08,cho chan,consonant
+tha-3593_ฉ_cho-ching.mp3,ฉ,U+0E09,cho ching,consonant
+tha-3594_ช_cho-chang.mp3,ช,U+0E0A,cho chang,consonant
+tha-3595_ซ_so-so.mp3,ซ,U+0E0B,so so,consonant
+tha-3596_ฌ_cho-choe.mp3,ฌ,U+0E0C,cho choe,consonant
+tha-3597_ญ_yo-ying.mp3,ญ,U+0E0D,yo ying,consonant
+tha-3598_ฎ_do-cha-da.mp3,ฎ,U+0E0E,do cha-da,consonant
+tha-3599_ฏ_to-pa-tak.mp3,ฏ,U+0E0F,to pa-tak,consonant
+tha-3600_ฐ_tho-than.mp3,ฐ,U+0E10,tho than,consonant
+tha-3601_ฑ_tho-montho.mp3,ฑ,U+0E11,tho montho,consonant
+tha-3602_ฒ_tho-phu-thao.mp3,ฒ,U+0E12,tho phu-thao,consonant
+tha-3603_ณ_no-nen.mp3,ณ,U+0E13,no nen,consonant
+tha-3604_ด_do-dek.mp3,ด,U+0E14,do dek,consonant
+tha-3605_ต_to-tao.mp3,ต,U+0E15,to tao,consonant
+tha-3606_ถ_tho-thung.mp3,ถ,U+0E16,tho thung,consonant
+tha-3607_ท_tho-thahan.mp3,ท,U+0E17,tho thahan,consonant
+tha-3608_ธ_tho-thong.mp3,ธ,U+0E18,tho thong,consonant
+tha-3609_น_no-nu.mp3,น,U+0E19,no nu,consonant
+tha-3610_บ_bo-baimai.mp3,บ,U+0E1A,bo baimai,consonant
+tha-3611_ป_po-pla.mp3,ป,U+0E1B,po pla,consonant
+tha-3612_ผ_pho-phueng.mp3,ผ,U+0E1C,pho phueng,consonant
+tha-3613_ฝ_fo-fa.mp3,ฝ,U+0E1D,fo fa,consonant
+tha-3614_พ_pho-phan.mp3,พ,U+0E1E,pho phan,consonant
+tha-3615_ฟ_fo-fan.mp3,ฟ,U+0E1F,fo fan,consonant
+tha-3616_ภ_pho-sam-phao.mp3,ภ,U+0E20,pho sam-phao,consonant
+tha-3617_ม_mo-ma.mp3,ม,U+0E21,mo ma,consonant
+tha-3618_ย_yo-yak.mp3,ย,U+0E22,yo yak,consonant
+tha-3619_ร_ro-ruea.mp3,ร,U+0E23,ro ruea,consonant
+tha-3621_ล_lo-ling.mp3,ล,U+0E25,lo ling,consonant
+tha-3623_ว_wo-waen.mp3,ว,U+0E27,wo waen,consonant
+tha-3624_ศ_so-sala.mp3,ศ,U+0E28,so sala,consonant
+tha-3625_ษ_so-rue-si.mp3,ษ,U+0E29,so rue-si,consonant
+tha-3626_ส_so-suea.mp3,ส,U+0E2A,so suea,consonant
+tha-3627_ห_ho-hip.mp3,ห,U+0E2B,ho hip,consonant
+tha-3628_ฬ_lo-chu-la.mp3,ฬ,U+0E2C,lo chu-la,consonant
+tha-3629_อ_o-ang.mp3,อ,U+0E2D,o ang,consonant
+tha-3630_ฮ_ho-nok-huk.mp3,ฮ,U+0E2E,ho nok-huk,consonant
+tha-3632_ะ_Wisanchani.mp3,ะ,U+0E30,Wisanchani,vowel
+tha-3633_ั_Mai-han-a-kat.mp3,ั,U+0E31,Mai han a-kat,vowel
+tha-3655_็_Mai-tai-khu.mp3,็,U+0E47,Mai tai khu,vowel
+tha-3634_า_Lak-khang.mp3,า,U+0E32,Lak khang,vowel
+tha-3636_ิ_Phinthu-i.mp3,ิ,U+0E34,Phinthu i,vowel
+tha-781_Fon-thong.mp3,,U+030D,Fon thong,vowel
+tha-782_Fan-nu.mp3,,U+030E,Fan nu,vowel
+tha-3661_ํ_Nikkhahit.mp3,ํ,U+0E4D,Nikkhahit,vowel
+tha-3640_ุ_Tin-yiat.mp3,ุ,U+0E38,Tin yiat,vowel
+tha-3641_ู_Tin-khu.mp3,ู,U+0E39,Tin khu,vowel
+tha-3648_เ_Mai-na.mp3,เ,U+0E40,Mai na,vowel
+tha-3650_โ_Mai-o.mp3,โ,U+0E42,Mai o,vowel
+tha-3651_ใ_Mai-muan.mp3,ใ,U+0E43,Mai muan,vowel
+tha-3652_ไ_Mai-malai.mp3,ไ,U+0E44,Mai malai,vowel
+tha-3620_ฤ_Tua-rue.mp3,ฤ,U+0E24,Tua rue,vowel
+tha-3664_๐_sun.mp3,๐,U+0E50,sun,number 0
+tha-3665_๑_nueng.mp3,๑,U+0E51,nueng,number 1
+tha-3666_๒_song.mp3,๒,U+0E52,song,number 2
+tha-3667_๓_sam.mp3,๓,U+0E53,sam,number 3
+tha-3668_๔_si.mp3,๔,U+0E54,si,number 4
+tha-3669_๕_ha.mp3,๕,U+0E55,ha,number 5
+tha-3670_๖_hok.mp3,๖,U+0E56,hok,number 6
+tha-3671_๗_chet.mp3,๗,U+0E57,chet,number 7
+tha-3672_๘_paet.mp3,๘,U+0E58,paet,number 8
+tha-3673_๙_kao.mp3,๙,U+0E59,kao,number 9
+tha-3637_ี_sara-ii.mp3,ี,U+0E35,sara ii,vowel
+tha-3638_ึ_sara-ue.mp3,ึ,U+0E36,sara ue,vowel
+tha-3639_ื_sara-uue.mp3,ื,U+0E37,sara uue,vowel
+tha-3649_แ_sara-ae.mp3,แ,U+0E41,sara ae,vowel
+tha-3635_ำ_sara-am.mp3,ำ,U+0E33,sara am,vowel
+tha-3656_่_mai-ek.mp3,่,U+0E48,mai ek,tone mark
+tha-3657_้_mai-tho.mp3,้,U+0E49,mai tho,tone mark
+tha-3658_๊_mai-tri.mp3,๊,U+0E4A,mai tri,tone mark
+tha-3659_๋_mai-chattawa.mp3,๋,U+0E4B,mai chattawa,tone mark
+tha-3660_์_thanthakhat.mp3,์,U+0E4C,thanthakhat,sign
+tha-3654_ๆ_mai-yamok.mp3,ๆ,U+0E46,mai yamok,sign
+tha-3631_ฯ_paiyan-noi.mp3,ฯ,U+0E2F,paiyan noi,sign

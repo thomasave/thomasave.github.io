@@ -1,0 +1,83 @@
+character,code_point,transliteration,thai_name,meaning,category,class
+ก,U+0E01,ko kai,กอ ไก่,chicken,consonant,mid
+ข,U+0E02,kho khai,ขอ ไข่,egg,consonant,high
+ฃ,U+0E03,kho khuat,ฃอ ขวด,bottle,consonant,high
+ค,U+0E04,kho khwai,คอ ควาย,buffalo,consonant,low
+ฅ,U+0E05,kho khon,ฅอ คน,person,consonant,low
+ฆ,U+0E06,kho ra-khang,ฆอ ระฆัง,bell,consonant,low
+ง,U+0E07,ngo ngu,งอ งู,snake,consonant,low
+จ,U+0E08,cho chan,จอ จาน,plate,consonant,mid
+ฉ,U+0E09,cho ching,ฉอ ฉิ่ง,cymbals,consonant,high
+ช,U+0E0A,cho chang,ชอ ช้าง,elephant,consonant,low
+ซ,U+0E0B,so so,ซอ โซ่,chain,consonant,low
+ฌ,U+0E0C,cho choe,ฌอ เฌอ,tree,consonant,low
+ญ,U+0E0D,yo ying,ญอ หญิง,woman,consonant,low
+ฎ,U+0E0E,do cha-da,ฎอ ชฎา,headdress,consonant,mid
+ฏ,U+0E0F,to pa-tak,ฏอ ปฏัก,goad,consonant,mid
+ฐ,U+0E10,tho than,ฐอ ฐาน,pedestal,consonant,high
+ฑ,U+0E11,tho montho,ฑอ มณโฑ,Queen Montho,consonant,low
+ฒ,U+0E12,tho phu-thao,ฒอ ผู้เฒ่า,elder,consonant,low
+ณ,U+0E13,no nen,ณอ เณร,novice monk,consonant,low
+ด,U+0E14,do dek,ดอ เด็ก,child,consonant,mid
+ต,U+0E15,to tao,ตอ เต่า,turtle,consonant,mid
+ถ,U+0E16,tho thung,ถอ ถุง,sack,consonant,high
+ท,U+0E17,tho thahan,ทอ ทหาร,soldier,consonant,low
+ธ,U+0E18,tho thong,ธอ ธง,flag,consonant,low
+น,U+0E19,no nu,นอ หนู,mouse,consonant,low
+บ,U+0E1A,bo baimai,บอ ใบไม้,leaf,consonant,mid
+ป,U+0E1B,po pla,ปอ ปลา,fish,consonant,mid
+ผ,U+0E1C,pho phueng,ผอ ผึ้ง,bee,consonant,high
+ฝ,U+0E1D,fo fa,ฝอ ฝา,lid,consonant,high
+พ,U+0E1E,pho phan,พอ พาน,offering tray,consonant,low
+ฟ,U+0E1F,fo fan,ฟอ ฟัน,teeth,consonant,low
+ภ,U+0E20,pho sam-phao,ภอ สำเภา,junk (sailing ship),consonant,low
+ม,U+0E21,mo ma,มอ ม้า,horse,consonant,low
+ย,U+0E22,yo yak,ยอ ยักษ์,giant,consonant,low
+ร,U+0E23,ro ruea,รอ เรือ,boat,consonant,low
+ล,U+0E25,lo ling,ลอ ลิง,monkey,consonant,low
+ว,U+0E27,wo waen,วอ แหวน,ring,consonant,low
+ศ,U+0E28,so sala,ศอ ศาลา,pavilion,consonant,high
+ษ,U+0E29,so rue-si,ษอ ฤๅษี,hermit,consonant,high
+ส,U+0E2A,so suea,สอ เสือ,tiger,consonant,high
+ห,U+0E2B,ho hip,หอ หีบ,chest,consonant,high
+ฬ,U+0E2C,lo chu-la,ฬอ จุฬา,kite,consonant,low
+อ,U+0E2D,o ang,ออ อ่าง,basin,consonant,mid
+ฮ,U+0E2E,ho nok-huk,ฮอ นกฮูก,owl,consonant,low
+ะ,U+0E30,wisanchani,วิสรรชนีย์,,vowel,
+ั,U+0E31,mai han a-kat,ไม้หันอากาศ,,vowel,
+็,U+0E47,mai tai khu,ไม้ไต่คู้,,vowel,
+า,U+0E32,lak khang,ลากข้าง,,vowel,
+ิ,U+0E34,phinthu i,พินทุอิ,,vowel,
+̍,U+030D,fon thong,ฝนทอง,,vowel,
+̎,U+030E,fan nu,ฟันหนู,,vowel,
+ํ,U+0E4D,nikkhahit,นิคหิต,,vowel,
+ุ,U+0E38,tin yiat,ตีนเหยียด,,vowel,
+ู,U+0E39,tin khu,ตีนคู้,,vowel,
+เ,U+0E40,mai na,ไม้หน้า,,vowel,
+โ,U+0E42,mai o,ไม้โอ,,vowel,
+ใ,U+0E43,mai muan,ไม้ม้วน,,vowel,
+ไ,U+0E44,mai malai,ไม้มลาย,,vowel,
+ฤ,U+0E24,tua rue,ตัวรึ,,vowel,
+ฦ,U+0E26,tua lue,ตัวลึ,,vowel,
+ี,U+0E35,sara ii,สระอี,,vowel,
+ึ,U+0E36,sara ue,สระอึ,,vowel,
+ื,U+0E37,sara uue,สระอือ,,vowel,
+แ,U+0E41,sara ae,สระแอ,,vowel,
+ำ,U+0E33,sara am,สระอำ,,vowel,
+่,U+0E48,mai ek,ไม้เอก,first tone mark,tone mark,
+้,U+0E49,mai tho,ไม้โท,second tone mark,tone mark,
+๊,U+0E4A,mai tri,ไม้ตรี,third tone mark,tone mark,
+๋,U+0E4B,mai chattawa,ไม้จัตวา,fourth tone mark,tone mark,
+์,U+0E4C,thanthakhat,ไม้ทัณฑฆาต,silences a letter,sign,
+ๆ,U+0E46,mai yamok,ไม้ยมก,repeats the previous word,sign,
+ฯ,U+0E2F,paiyan noi,ไปยาลน้อย,marks an abbreviation,sign,
+๐,U+0E50,sun,ศูนย์,0,number,
+๑,U+0E51,nueng,หนึ่ง,1,number,
+๒,U+0E52,song,สอง,2,number,
+๓,U+0E53,sam,สาม,3,number,
+๔,U+0E54,si,สี่,4,number,
+๕,U+0E55,ha,ห้า,5,number,
+๖,U+0E56,hok,หก,6,number,
+๗,U+0E57,chet,เจ็ด,7,number,
+๘,U+0E58,paet,แปด,8,number,
+๙,U+0E59,kao,เก้า,9,number,
