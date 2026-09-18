@@ -30,6 +30,7 @@ export const strings = {
     Sign: 'Signs',
     Number: 'Numerals',
   },
+  filterIncludeRare: 'Include rare letters',
   filterSummary: (selected, total) => `${selected} of ${total} letters`,
   filterSummaryAll: (total) => `All ${total} letters`,
   filterSummaryNone: 'No letters selected',

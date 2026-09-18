@@ -181,7 +181,8 @@ function quizDirectionSelector(settings) {
 /** A card that opens to choose which kinds of letters are practised. */
 function categoryFilter(ctx, uiState) {
   const { letters, settings } = ctx;
-  const countIn = (category) => letters.filter((letter) => letter.category === category).length;
+  // The counts are of the letters that would be practised, so they leave out rare letters when those are excluded.
+  const practisedLetters = () => letters.filter((letter) => settings.includeRareLetters || !letter.isRare);
 
   const leadingIcon = h('span', {});
   const summary = h('p', { class: 'summary body-medium' });
@@ -203,7 +204,7 @@ function categoryFilter(ctx, uiState) {
         h('span', {}),
       ),
       h('span', { class: 'name title-medium' }, strings.filterCategory[category]),
-      h('span', { class: 'count title-medium' }, countIn(category)),
+      h('span', { class: 'count title-medium' }),
     );
     option.querySelector('.checkbox span').innerHTML =
       '<svg viewBox="0 0 18 18" aria-hidden="true"><path d="M3.5 9.2l3.6 3.6L14.5 5.4"/></svg>';
@@ -217,16 +218,39 @@ function categoryFilter(ctx, uiState) {
     return { category, option };
   });
 
+  const rareSwitch = h('span', { class: 'switch' });
+  const rareOption = h(
+    'button',
+    { type: 'button', class: 'filter-option rare-option ripple', role: 'switch' },
+    icon('historyEdu'),
+    h(
+      'span',
+      { class: 'name' },
+      h('span', { class: 'title-medium' }, strings.filterIncludeRare),
+      h(
+        'span',
+        { class: 'rare-letters body-medium thai', lang: 'th' },
+        letters.filter((letter) => letter.isRare).map((letter) => letter.symbol).join(' '),
+      ),
+    ),
+    rareSwitch,
+  );
+  rareOption.addEventListener('click', () => {
+    settings.setIncludeRareLetters(!settings.includeRareLetters);
+    update();
+  });
+
   const body = h(
     'div',
     { class: 'filter-body' },
-    h('div', {}, h('div', { class: 'filter-options' }, options.map(({ option }) => option))),
+    h('div', {}, h('div', { class: 'filter-options' }, options.map(({ option }) => option), rareOption)),
   );
   const el = h('section', { class: 'filter-card elevated-card' }, header, body);
 
   function update() {
     const selected = settings.practiceCategories;
-    const selectedCount = letters.filter((letter) => selected.has(letter.category)).length;
+    const practised = practisedLetters();
+    const selectedCount = practised.filter((letter) => selected.has(letter.category)).length;
     leadingIcon.replaceChildren(
       selected.size === 0 ? icon('errorOutline', 'filter-icon error') : icon('filterList', 'filter-icon'),
     );
@@ -240,7 +264,11 @@ function categoryFilter(ctx, uiState) {
       const isSelected = selected.has(category);
       option.classList.toggle('selected', isSelected);
       option.setAttribute('aria-checked', String(isSelected));
+      option.querySelector('.count').textContent = practised.filter((letter) => letter.category === category).length;
     }
+    rareOption.classList.toggle('selected', settings.includeRareLetters);
+    rareOption.setAttribute('aria-checked', String(settings.includeRareLetters));
+    rareSwitch.classList.toggle('checked', settings.includeRareLetters);
   }
 
   function setExpanded(expanded) {

@@ -43,6 +43,7 @@ export function parseLetters(lettersCsv, audioIndexCsv) {
     if (category === undefined) throw new Error(`Unknown category: ${record.category}`);
     const consonantClass = record.class === '' ? null : CLASSES_BY_NAME[record.class];
     if (consonantClass === undefined) throw new Error(`Unknown consonant class: ${record.class}`);
+    if (record.rare !== '' && record.rare !== 'yes') throw new Error(`Unknown value for rare: ${record.rare}`);
     return Object.freeze({
       symbol: displaySymbol(record.code_point),
       transliteration: record.transliteration,
@@ -51,6 +52,8 @@ export function parseLetters(lettersCsv, audioIndexCsv) {
       category,
       consonantClass,
       audioFile: audioFiles.get(record.code_point) ?? null,
+      // Whether the letter is obsolete or mostly found in words from Sanskrit and Pali.
+      isRare: record.rare === 'yes',
     });
   });
 }
@@ -85,24 +88,27 @@ export function shuffled(items, random = Math.random) {
 }
 
 /**
- * Returns the indices of the `letters` in the given `categories`, in alphabetical order or in
- * random order when `shuffle` is set.
+ * Returns the indices of the `letters` in the given `categories`, leaving out rare letters unless
+ * `includeRare` is set, in alphabetical order or in random order when `shuffle` is set.
  */
-export function deckOrder(letters, categories, shuffle) {
-  const indices = letters.flatMap((letter, i) => (categories.has(letter.category) ? [i] : []));
+export function deckOrder(letters, categories, includeRare, shuffle) {
+  const indices = letters.flatMap((letter, i) =>
+    (categories.has(letter.category) && (includeRare || !letter.isRare) ? [i] : []));
   return shuffle ? shuffled(indices) : indices;
 }
 
 /**
  * Returns the indices of `count` different `letters` in random order: the `answer` and others to
  * choose from. The others come from the answer's category where possible, so a numeral is mixed
- * with numerals and a vowel with vowels.
+ * with numerals and a vowel with vowels. Rare letters are only among the others if `includeRare`
+ * is set or the answer is rare itself, so a rare answer doesn't stand out.
  */
-export function quizChoices(answer, letters, count = 4, random = Math.random) {
+export function quizChoices(answer, letters, includeRare = true, count = 4, random = Math.random) {
+  const allowRare = includeRare || letters[answer].isRare;
   const sameCategory = [];
   const otherCategories = [];
   letters.forEach((letter, i) => {
-    if (i === answer) return;
+    if (i === answer || (!allowRare && letter.isRare)) return;
     (letter.category === letters[answer].category ? sameCategory : otherCategories).push(i);
   });
   const others = shuffled(sameCategory, random).slice(0, count - 1);

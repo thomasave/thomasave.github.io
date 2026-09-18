@@ -26,7 +26,7 @@ export function createFlashcards(ctx, args, saved) {
 
   // The saved round this screen continues, when it was opened to resume one.
   const resumed = args.resume ? sessions.flashcards : null;
-  const order = saved?.order ?? resumed?.order ?? deckOrder(letters, settings.practiceCategories, isShuffled);
+  const order = saved?.order ?? resumed?.order ?? deckOrder(letters, settings.practiceCategories, settings.includeRareLetters, isShuffled);
   const cards = order.map((index) => letters[index]);
   let currentPage = Math.min(saved?.page ?? resumed?.page ?? 0, cards.length - 1);
 

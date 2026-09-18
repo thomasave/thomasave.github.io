@@ -28,10 +28,13 @@ export function createQuiz(ctx, args, saved) {
   const withNewChoices = (session) => {
     const letter = QuizSession.current(session);
     return direction === QuizDirection.NameToLetter && letter !== null
-      ? QuizSession.withChoices(session, quizChoices(letter, letters))
+      ? QuizSession.withChoices(session, quizChoices(letter, letters, settings.includeRareLetters))
       : session;
   };
-  const newSession = () => withNewChoices(QuizSession.start(deckOrder(letters, settings.practiceCategories, isShuffled)));
+  const newSession = () => {
+    const order = deckOrder(letters, settings.practiceCategories, settings.includeRareLetters, isShuffled);
+    return withNewChoices(QuizSession.start(order));
+  };
 
   let session = saved?.session ?? (args.resume ? sessions.quiz?.session : null) ?? newSession();
 

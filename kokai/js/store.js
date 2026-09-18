@@ -36,6 +36,8 @@ export class Settings {
         ? ALL_CATEGORIES.filter((category) => stored.practiceCategories.includes(category))
         : ALL_CATEGORIES,
     );
+    /** Whether flashcards and quizzes include the letters that are obsolete or rarely used. */
+    this.includeRareLetters = stored.includeRareLetters ?? true;
     this.quizDirection = Object.values(QuizDirection).includes(stored.quizDirection)
       ? stored.quizDirection
       : QuizDirection.LetterToName;
@@ -51,6 +53,11 @@ export class Settings {
     this.#save();
   }
 
+  setIncludeRareLetters(include) {
+    this.includeRareLetters = include;
+    this.#save();
+  }
+
   setQuizDirection(direction) {
     this.quizDirection = direction;
     this.#save();
@@ -60,6 +67,7 @@ export class Settings {
     write(KEY_SETTINGS, {
       showTransliteration: this.showTransliteration,
       practiceCategories: [...this.practiceCategories],
+      includeRareLetters: this.includeRareLetters,
       quizDirection: this.quizDirection,
     });
   }
