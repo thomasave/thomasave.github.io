@@ -7,7 +7,10 @@ const CACHE = `kokai-${VERSION}`;
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE).then((cache) => cache.addAll(FILES)).then(() => self.skipWaiting()),
+    // Skips the browser's own cache, which can still hold the files of the previous version.
+    caches.open(CACHE)
+      .then((cache) => cache.addAll(FILES.map((file) => new Request(file, { cache: 'reload' }))))
+      .then(() => self.skipWaiting()),
   );
 });
 
