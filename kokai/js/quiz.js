@@ -24,14 +24,13 @@ export function createQuiz(ctx, args, saved) {
   const isShuffled = args.shuffle;
   const direction = Object.values(QuizDirection).includes(args.direction) ? args.direction : QuizDirection.LetterToName;
 
-  // Rare letters are only among the choices when some of them are practised.
-  const includeRare = letters.some((letter) => letter.isRare && settings.letterSelection.has(letter.symbol));
-
   /** Adds options to pick from for the current letter when the quiz asks to find letters. */
   const withNewChoices = (session) => {
     const letter = QuizSession.current(session);
     return direction === QuizDirection.NameToLetter && letter !== null
-      ? QuizSession.withChoices(session, quizChoices(letter, letters, includeRare))
+      // The options are only letters of this quiz. Quizzes saved without their deck take them from
+      // the letters that are left.
+      ? QuizSession.withChoices(session, quizChoices(letter, letters, session.deck ?? session.queue))
       : session;
   };
   const newSession = () => {
@@ -282,8 +281,8 @@ function promptCard(letter, session, audio) {
       h(
         'div',
         { class: 'prompt-card-body' },
-        h('p', { class: 'body-large on-surface-variant' }, strings.findPrompt),
-        h('p', { class: 'display-small medium' }, letter.transliteration),
+        h('p', { class: 'prompt body-large on-surface-variant' }, strings.findPrompt),
+        h('p', { class: 'transliteration display-small medium' }, letter.transliteration),
         details,
         letter.audioFile && pronounceButton(audio, letter),
       ),

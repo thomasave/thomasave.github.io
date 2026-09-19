@@ -599,6 +599,22 @@ svg.icon {
       font-size: calc(0.6 * min(50cqw, 100cqh - 56px));
     }
   }
+
+  /* Very wide ones have room to put the action in a column of its own, next to the details. */
+  @container (aspect-ratio >= 3) {
+    .letter-card-layout {
+      grid-template: 'symbol details action' minmax(0, 1fr) / minmax(0, 1fr) minmax(0, 1fr) auto;
+      column-gap: 16px;
+    }
+
+    .letter-action {
+      margin-top: 0;
+    }
+
+    .letter-symbol span {
+      font-size: calc(0.6 * min(50cqw, 100cqh));
+    }
+  }
 }
 
 .letter-answer {
@@ -1149,6 +1165,11 @@ svg.icon {
 /* Flashcards */
 
 .deck {
+  height: 100%;
+  container-type: size;
+}
+
+.deck-layout {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1227,11 +1248,65 @@ svg.icon {
   flex: 1 1 0;
 }
 
+/*
+ * On short, wide screens, such as phones in landscape, the buttons are round icons on either side
+ * of the card instead of below it, which leaves the card more height.
+ */
+@container (aspect-ratio >= 1.5) {
+  .deck-layout {
+    display: grid;
+    grid-template: '. progress .' auto 'previous pager next' minmax(0, 1fr) / auto minmax(0, 1fr) auto;
+    justify-items: center;
+    align-items: center;
+    padding: 0 24px;
+  }
+
+  .deck-progress {
+    grid-area: progress;
+  }
+
+  .pager {
+    grid-area: pager;
+    height: 100%;
+  }
+
+  .deck-navigation {
+    display: contents;
+  }
+
+  .deck-navigation .button {
+    flex: none;
+    width: 56px;
+    min-width: 0;
+    height: 56px;
+    min-height: 0;
+    padding: 0;
+  }
+
+  .deck-navigation .button:first-child {
+    grid-area: previous;
+  }
+
+  .deck-navigation .button:last-child {
+    grid-area: next;
+  }
+
+  /* Only the icon shows, while the text still names the button for screen readers. */
+  .deck-navigation .button .label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+}
+
 /* Quiz */
 
 .quiz-layout {
   height: 100%;
-  container-type: size;
+  container: quiz / size;
 }
 
 .quiz-column {
@@ -1250,7 +1325,8 @@ svg.icon {
   padding: 16px 0;
 }
 
-@container (aspect-ratio > 1) and (max-height: 559.98px) {
+/* Only when there's room for both, so not in split-screen. */
+@container (aspect-ratio >= 1.5) and (max-height: 559.98px) and (min-width: 600px) {
   .quiz-column {
     grid-template-columns: minmax(0, 1fr) 300px;
     grid-template-rows: 1fr auto auto 1fr;
@@ -1463,6 +1539,100 @@ svg.icon {
 
 .feedback .button {
   width: 100%;
+}
+
+/*
+ * Questions with their controls below the card and little height, such as in split-screen, show
+ * the choices in one row and the hint next to the button, while the card leaves out its prompt and
+ * shows the button to listen as an icon next to the transliteration.
+ */
+@container quiz (max-height: 479.98px) and ((aspect-ratio < 1.5) or (max-width: 599.98px)) {
+  .quiz-card-area {
+    padding: 8px 0;
+  }
+
+  .prompt-card-content {
+    inset: 12px;
+  }
+
+  .prompt-card-body {
+    display: grid;
+    grid-template: 'name listen' auto 'details details' auto / auto auto;
+    justify-content: center;
+    align-content: center;
+    row-gap: 4px;
+  }
+
+  .prompt-card-body .prompt {
+    display: none;
+  }
+
+  .prompt-card-body .transliteration {
+    grid-area: name;
+    align-self: center;
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .prompt-card-body .details {
+    grid-area: details;
+  }
+
+  .prompt-card-body .pronounce-button {
+    grid-area: listen;
+    width: 48px;
+    min-width: 0;
+    height: 48px;
+    margin-left: 8px;
+    padding: 0;
+  }
+
+  /* Only the icon shows, while the text still names the button for screen readers. */
+  .prompt-card-body .pronounce-button .label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .choice-slot {
+    height: 56px;
+  }
+
+  .choice-grid {
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+
+  .choice {
+    height: 56px;
+  }
+
+  /* The narrow buttons keep the icon in the corner, clear of the letter. */
+  .choice .result-icon {
+    top: 6px;
+    right: 6px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .feedback {
+    flex-direction: row;
+    gap: 16px;
+    text-align: start;
+  }
+
+  .feedback .text {
+    flex: 1;
+  }
+
+  .feedback .button {
+    width: auto;
+    min-height: 48px;
+  }
 }
 
 /* Quiz results */

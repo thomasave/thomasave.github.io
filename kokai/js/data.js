@@ -152,19 +152,17 @@ export function deckOrder(letters, selection, shuffle) {
 }
 
 /**
- * Returns the indices of `count` different `letters` in random order: the `answer` and others to
- * choose from. The others come from the answer's category where possible, so a numeral is mixed
- * with numerals and a vowel with vowels. Rare letters are only among the others if `includeRare`
- * is set or the answer is rare itself, so a rare answer doesn't stand out.
+ * Returns the indices of up to `count` different letters of the `deck` in random order: the
+ * `answer` and others to choose from. The others come from the answer's category where possible,
+ * so a numeral is mixed with numerals and a vowel with vowels.
  */
-export function quizChoices(answer, letters, includeRare = true, count = 4, random = Math.random) {
-  const allowRare = includeRare || letters[answer].isRare;
+export function quizChoices(answer, letters, deck, count = 4, random = Math.random) {
   const sameCategory = [];
   const otherCategories = [];
-  letters.forEach((letter, i) => {
-    if (i === answer || (!allowRare && letter.isRare)) return;
-    (letter.category === letters[answer].category ? sameCategory : otherCategories).push(i);
-  });
+  for (const i of new Set(deck)) {
+    if (i === answer) continue;
+    (letters[i].category === letters[answer].category ? sameCategory : otherCategories).push(i);
+  }
   const others = shuffled(sameCategory, random).slice(0, count - 1);
   const fillers = shuffled(otherCategories, random).slice(0, count - 1 - others.length);
   return shuffled([...others, ...fillers, answer], random);
@@ -183,7 +181,17 @@ export function quizChoices(answer, letters, includeRare = true, count = 4, rand
  */
 export const QuizSession = {
   start(order) {
-    return { queue: order, total: order.length, misses: [], isRevealed: false, answered: 0, choices: [], selected: null };
+    // The deck holds all letters of the quiz, which the choices are taken from.
+    return {
+      queue: order,
+      total: order.length,
+      misses: [],
+      isRevealed: false,
+      answered: 0,
+      choices: [],
+      selected: null,
+      deck: order,
+    };
   },
 
   current: (session) => session.queue[0] ?? null,

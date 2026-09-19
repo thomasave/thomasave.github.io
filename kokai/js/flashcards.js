@@ -54,9 +54,13 @@ export function createFlashcards(ctx, args, saved) {
       h(
         'div',
         { class: 'deck' },
-        h('div', { class: 'deck-progress' }, progress.el, position),
-        pager,
-        h('div', { class: 'deck-navigation' }, previous, next),
+        h(
+          'div',
+          { class: 'deck-layout' },
+          h('div', { class: 'deck-progress' }, progress.el, position),
+          pager,
+          h('div', { class: 'deck-navigation' }, previous, next),
+        ),
       ),
     ),
   );
