@@ -137,7 +137,8 @@ function flashcard(letter, audio) {
   let showTransliteration = true;
   const answer = letterAnswer(letter, { isVisible: true, placeholder: strings.tapToReveal });
   const card = letterCard(letter, {
-    details: [answer.el, letter.audioFile && pronounceButton(audio, letter)],
+    details: answer.el,
+    action: letter.audioFile && pronounceButton(audio, letter),
   });
   // The listen button shouldn't also reveal or hide the answer.
   card.el.querySelector('.pronounce-button')?.addEventListener('click', (event) => event.stopPropagation());

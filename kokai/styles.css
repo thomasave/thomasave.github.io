@@ -496,21 +496,34 @@ svg.icon {
 .letter-card-content {
   position: absolute;
   inset: 20px;
+  display: flex;
+  flex-direction: column;
+  container: letter-card / size;
+}
+
+/* The space below the labels, whose shape decides whether the details go below or next to the letter. */
+.letter-card-body {
+  flex: 1;
+  min-height: 0;
+  margin-top: 16px;
   container-type: size;
 }
 
+/* On tall cards, the letter is followed by its details and the action, such as a button to listen. */
 .letter-card-layout {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template: 'symbol' minmax(0, 1fr) 'details' auto 'action' auto / 100%;
+  justify-items: center;
   width: 100%;
   height: 100%;
+  padding-bottom: 8px;
 }
 
 .letter-symbol {
-  flex: 1;
+  grid-area: symbol;
   min-height: 0;
   width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -526,41 +539,66 @@ svg.icon {
 }
 
 .letter-details {
-  flex: none;
+  grid-area: details;
   width: 100%;
-  padding-bottom: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
 }
 
+.letter-action {
+  grid-area: action;
+  margin-top: 16px;
+}
+
+/* On wide cards, the details and the action are centred next to the letter. */
 @container (aspect-ratio > 1) {
   .letter-card-layout {
-    flex-direction: row;
-  }
-
-  .letter-symbol {
-    height: 100%;
-    width: auto;
-    flex: 1 1 0;
+    grid-template:
+      'symbol .' 1fr
+      'symbol details' auto
+      'symbol action' auto
+      'symbol .' 1fr
+      / minmax(0, 1fr) minmax(0, 1fr);
+    align-items: center;
+    padding-bottom: 0;
   }
 
   .letter-symbol span {
     font-size: calc(0.6 * min(50cqw, 100cqh));
   }
-
-  .letter-details {
-    flex: 1 1 0;
-    padding-bottom: 0;
-  }
 }
 
-.letter-card .labels {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+/* Short cards, such as in landscape or split-screen, use smaller text and less spacing. */
+@container letter-card (height < 300px) {
+  .letter-card-body {
+    margin-top: 8px;
+  }
+
+  .letter-details {
+    gap: 8px;
+  }
+
+  .letter-action {
+    margin-top: 8px;
+  }
+
+  .letter-answer .transliteration {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  /* The details need the whole height of short, wide cards, so the action goes below the letter. */
+  @container (aspect-ratio > 1) {
+    .letter-card-layout {
+      grid-template: 'symbol details' minmax(0, 1fr) 'action details' auto / minmax(0, 1fr) minmax(0, 1fr);
+    }
+
+    .letter-symbol span {
+      font-size: calc(0.6 * min(50cqw, 100cqh - 56px));
+    }
+  }
 }
 
 .letter-answer {

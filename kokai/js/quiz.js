@@ -189,7 +189,7 @@ function quizCard(letter, session, audio, actions) {
   // The pronunciation gives the answer away, so it's only offered after revealing. An empty space
   // of the same height keeps the card from shifting.
   const audioSlot = letter.audioFile ? h('div', { class: 'audio-spacer' }) : null;
-  const card = letterCard(letter, { details: [answer.el, audioSlot] });
+  const card = letterCard(letter, { details: answer.el, action: audioSlot });
   let isRevealed = null;
 
   const update = (state) => {

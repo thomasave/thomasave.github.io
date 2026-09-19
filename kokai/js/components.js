@@ -100,7 +100,7 @@ export function letterAnswer(letter, { isVisible, placeholder }) {
   const answer = h(
     'div',
     { class: 'answer' },
-    h('p', { class: 'headline-medium medium' }, letter.transliteration),
+    h('p', { class: 'transliteration headline-medium medium' }, letter.transliteration),
     letterNameAndMeaning(letter),
   );
   const placeholderText = h('p', { class: 'body-large on-surface-variant' }, placeholder);
@@ -138,21 +138,29 @@ export function pronounceButton(audio, letter) {
 }
 
 /**
- * A flashcard showing a large Thai letter, with its `details` below the letter on tall cards and
- * next to it on wide ones. Returns the card and a function to replace its labels.
+ * A flashcard showing a large Thai letter, with its labels on top and its `details` below the
+ * letter on tall cards and next to it on wide ones. The `action`, such as a button to listen to the
+ * letter, follows the details, or goes below the letter on short, wide cards where the details need
+ * all the height. Returns the card and a function to replace its labels.
  */
-export function letterCard(letter, { showConsonantClass = true, badge = null, details }) {
+export function letterCard(letter, { showConsonantClass = true, badge = null, details, action = null }) {
   let labels = letterLabels(letter, { showConsonantClass, badge });
+  // The labels get a row of their own, so the letter and its details never run into them.
   const content = h(
     'div',
     { class: 'letter-card-content' },
+    labels,
     h(
       'div',
-      { class: 'letter-card-layout' },
-      h('div', { class: 'letter-symbol' }, h('span', { lang: 'th' }, letter.symbol)),
-      h('div', { class: 'letter-details' }, details),
+      { class: 'letter-card-body' },
+      h(
+        'div',
+        { class: 'letter-card-layout' },
+        h('div', { class: 'letter-symbol' }, h('span', { lang: 'th' }, letter.symbol)),
+        h('div', { class: 'letter-details' }, details),
+        action && h('div', { class: 'letter-action' }, action),
+      ),
     ),
-    labels,
   );
   const el = h('div', { class: 'letter-card elevated-card' }, content);
   const setLabels = (options) => {
