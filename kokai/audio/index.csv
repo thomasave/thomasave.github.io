@@ -43,20 +43,20 @@ tha-3627_ห_ho-hip.mp3,ห,U+0E2B,ho hip,consonant
 tha-3628_ฬ_lo-chu-la.mp3,ฬ,U+0E2C,lo chu-la,consonant
 tha-3629_อ_o-ang.mp3,อ,U+0E2D,o ang,consonant
 tha-3630_ฮ_ho-nok-huk.mp3,ฮ,U+0E2E,ho nok-huk,consonant
-tha-3632_ะ_Wisanchani.mp3,ะ,U+0E30,Wisanchani,vowel
+thai-alphabet_ะ_sara-a.mp3,ะ,U+0E30,sara a,vowel
 tha-3633_ั_Mai-han-a-kat.mp3,ั,U+0E31,Mai han a-kat,vowel
 tha-3655_็_Mai-tai-khu.mp3,็,U+0E47,Mai tai khu,vowel
-tha-3634_า_Lak-khang.mp3,า,U+0E32,Lak khang,vowel
-tha-3636_ิ_Phinthu-i.mp3,ิ,U+0E34,Phinthu i,vowel
+thai-alphabet_า_sara-aa.mp3,า,U+0E32,sara aa,vowel
+thai-alphabet_ิ_sara-i.mp3,ิ,U+0E34,sara i,vowel
 tha-781_Fon-thong.mp3,,U+030D,Fon thong,vowel
 tha-782_Fan-nu.mp3,,U+030E,Fan nu,vowel
 tha-3661_ํ_Nikkhahit.mp3,ํ,U+0E4D,Nikkhahit,vowel
-tha-3640_ุ_Tin-yiat.mp3,ุ,U+0E38,Tin yiat,vowel
-tha-3641_ู_Tin-khu.mp3,ู,U+0E39,Tin khu,vowel
-tha-3648_เ_Mai-na.mp3,เ,U+0E40,Mai na,vowel
-tha-3650_โ_Mai-o.mp3,โ,U+0E42,Mai o,vowel
-tha-3651_ใ_Mai-muan.mp3,ใ,U+0E43,Mai muan,vowel
-tha-3652_ไ_Mai-malai.mp3,ไ,U+0E44,Mai malai,vowel
+thai-alphabet_ุ_sara-u.mp3,ุ,U+0E38,sara u,vowel
+thai-alphabet_ู_sara-uu.mp3,ู,U+0E39,sara uu,vowel
+thai-alphabet_เ_sara-e.mp3,เ,U+0E40,sara e,vowel
+thai-alphabet_โ_sara-o.mp3,โ,U+0E42,sara o,vowel
+thai-alphabet_ใ_sara-ai-mai-muan.mp3,ใ,U+0E43,sara ai mai muan,vowel
+thai-alphabet_ไ_sara-ai-mai-malai.mp3,ไ,U+0E44,sara ai mai malai,vowel
 tha-3620_ฤ_Tua-rue.mp3,ฤ,U+0E24,Tua rue,vowel
 tha-3664_๐_sun.mp3,๐,U+0E50,sun,number 0
 tha-3665_๑_nueng.mp3,๑,U+0E51,nueng,number 1
