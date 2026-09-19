@@ -1,6 +1,6 @@
 // Settings and unfinished rounds, kept in local storage so they persist between visits.
 
-import { ALL_CATEGORIES, QuizDirection, QuizSession } from './data.js';
+import { ALL_CATEGORIES, LetterSelection, QuizDirection, QuizSession } from './data.js';
 
 const KEY_SETTINGS = 'kokai.settings';
 const KEY_FLASHCARDS = 'kokai.flashcards';
@@ -27,17 +27,22 @@ function write(key, value) {
 
 /** User preferences that persist between visits. */
 export class Settings {
-  constructor() {
+  constructor(letters) {
     const stored = read(KEY_SETTINGS) ?? {};
     this.showTransliteration = stored.showTransliteration ?? true;
-    /** The kinds of letters included in flashcards and quizzes. */
-    this.practiceCategories = new Set(
-      Array.isArray(stored.practiceCategories)
-        ? ALL_CATEGORIES.filter((category) => stored.practiceCategories.includes(category))
-        : ALL_CATEGORIES,
-    );
-    /** Whether flashcards and quizzes include the letters that are obsolete or rarely used. */
+    /** Whether selecting a category also picks its letters that are obsolete or rarely used. */
     this.includeRareLetters = stored.includeRareLetters ?? true;
+    /** The symbols of the letters included in flashcards and quizzes. */
+    this.letterSelection = Array.isArray(stored.pickedLetters)
+      ? new Set(stored.pickedLetters)
+      // Otherwise the selection starts from the stored categories, or from all of them.
+      : LetterSelection.of(
+        new Set(Array.isArray(stored.practiceCategories) ? stored.practiceCategories : ALL_CATEGORIES),
+        letters,
+        this.includeRareLetters,
+      );
+    /** Whether letters are chosen one by one rather than by category. */
+    this.showLetterPicker = stored.showLetterPicker ?? false;
     this.quizDirection = Object.values(QuizDirection).includes(stored.quizDirection)
       ? stored.quizDirection
       : QuizDirection.LetterToName;
@@ -48,8 +53,13 @@ export class Settings {
     this.#save();
   }
 
-  setPracticeCategories(categories) {
-    this.practiceCategories = new Set(categories);
+  setLetterSelection(selection) {
+    this.letterSelection = new Set(selection);
+    this.#save();
+  }
+
+  setShowLetterPicker(show) {
+    this.showLetterPicker = show;
     this.#save();
   }
 
@@ -66,8 +76,9 @@ export class Settings {
   #save() {
     write(KEY_SETTINGS, {
       showTransliteration: this.showTransliteration,
-      practiceCategories: [...this.practiceCategories],
       includeRareLetters: this.includeRareLetters,
+      pickedLetters: [...this.letterSelection],
+      showLetterPicker: this.showLetterPicker,
       quizDirection: this.quizDirection,
     });
   }

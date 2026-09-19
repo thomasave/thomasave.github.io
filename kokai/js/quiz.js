@@ -25,15 +25,18 @@ export function createQuiz(ctx, args, saved) {
   const isShuffled = args.shuffle;
   const direction = Object.values(QuizDirection).includes(args.direction) ? args.direction : QuizDirection.LetterToName;
 
+  // Rare letters are only among the choices when some of them are practised.
+  const includeRare = letters.some((letter) => letter.isRare && settings.letterSelection.has(letter.symbol));
+
   /** Adds options to pick from for the current letter when the quiz asks to find letters. */
   const withNewChoices = (session) => {
     const letter = QuizSession.current(session);
     return direction === QuizDirection.NameToLetter && letter !== null
-      ? QuizSession.withChoices(session, quizChoices(letter, letters, settings.includeRareLetters))
+      ? QuizSession.withChoices(session, quizChoices(letter, letters, includeRare))
       : session;
   };
   const newSession = () => {
-    const order = deckOrder(letters, settings.practiceCategories, settings.includeRareLetters, isShuffled);
+    const order = deckOrder(letters, settings.letterSelection, isShuffled);
     return withNewChoices(QuizSession.start(order));
   };
 

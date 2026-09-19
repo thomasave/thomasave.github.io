@@ -19,7 +19,7 @@ async function readText(path) {
 async function start() {
   const [lettersCsv, audioIndexCsv] = await Promise.all([readText('letters.csv'), readText('audio/index.csv')]);
   const letters = parseLetters(lettersCsv, audioIndexCsv);
-  const settings = new Settings();
+  const settings = new Settings(letters);
   const sessions = new SessionStore(letters);
   const audio = new AudioPlayer();
   const root = document.getElementById('app');

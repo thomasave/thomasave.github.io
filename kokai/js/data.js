@@ -88,12 +88,66 @@ export function shuffled(items, random = Math.random) {
 }
 
 /**
- * Returns the indices of the `letters` in the given `categories`, leaving out rare letters unless
- * `includeRare` is set, in alphabetical order or in random order when `shuffle` is set.
+ * The letters picked for practice, as a set of their symbols. Letters are picked one by one or a
+ * whole category at a time, and a category counts as selected when exactly the letters that
+ * selecting it picks are picked.
  */
-export function deckOrder(letters, categories, includeRare, shuffle) {
-  const indices = letters.flatMap((letter, i) =>
-    (categories.has(letter.category) && (includeRare || !letter.isRare) ? [i] : []));
+export const LetterSelection = Object.freeze({
+  /** The letters of the given `categories`, leaving out rare letters unless `includeRare` is set. */
+  of(categories, letters, includeRare) {
+    return categorySymbols(letters.filter((letter) => categories.has(letter.category)), includeRare);
+  },
+
+  /**
+   * Whether the picked letters of `category` are exactly those that selecting it picks: all of
+   * them, or all but the rare ones unless `includeRare` is set.
+   */
+  isSelected(selection, category, letters, includeRare) {
+    const group = letters.filter((letter) => letter.category === category);
+    return group.some((letter) => includeRare || !letter.isRare) &&
+      group.every((letter) => selection.has(letter.symbol) === (includeRare || !letter.isRare));
+  },
+
+  /**
+   * Picks the letters that selecting `category` picks when `selected` is set, replacing the letters
+   * of that category picked before, and otherwise leaves out the whole category.
+   */
+  withCategory(selection, category, selected, letters, includeRare) {
+    const group = letters.filter((letter) => letter.category === category);
+    const result = new Set(selection);
+    for (const letter of group) result.delete(letter.symbol);
+    if (selected) for (const symbol of categorySymbols(group, includeRare)) result.add(symbol);
+    return result;
+  },
+
+  /**
+   * Adds or removes the rare letters of the categories that are selected, so they stay selected
+   * once rare letters are included or left out. Other picked letters are kept as they are.
+   */
+  withRareLetters(selection, include, letters) {
+    const selected = new Set(
+      ALL_CATEGORIES.filter((category) => LetterSelection.isSelected(selection, category, letters, !include)),
+    );
+    const result = new Set(selection);
+    for (const letter of letters) {
+      if (!letter.isRare || !selected.has(letter.category)) continue;
+      if (include) result.add(letter.symbol);
+      else result.delete(letter.symbol);
+    }
+    return result;
+  },
+});
+
+function categorySymbols(letters, includeRare) {
+  return new Set(letters.filter((letter) => includeRare || !letter.isRare).map((letter) => letter.symbol));
+}
+
+/**
+ * Returns the indices of the `letters` in the `selection`, in alphabetical order or in random order
+ * when `shuffle` is set.
+ */
+export function deckOrder(letters, selection, shuffle) {
+  const indices = letters.flatMap((letter, i) => (selection.has(letter.symbol) ? [i] : []));
   return shuffle ? shuffled(indices) : indices;
 }
 

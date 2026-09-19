@@ -7,11 +7,16 @@ import { strings } from './strings.js';
 // and are missing from Noto Sans Thai Looped.
 const LATIN_MARKS = /[\u0300-\u036F]/u;
 
+/** Whether `symbol` holds one of the Latin combining marks that Noto Sans Thai Looped is missing. */
+export function usesLatinMarks(symbol) {
+  return LATIN_MARKS.test(symbol);
+}
+
 /** The symbol of a letter, in a font that has all of its characters. */
 export function symbolText(symbol, className = null) {
   // Symbols with a Latin mark are drawn entirely in Noto Sans, since browsers could otherwise take
   // the mark and its dotted circle from different fonts.
-  return h('span', { class: [className, LATIN_MARKS.test(symbol) && 'latin-marks'], lang: 'th' }, symbol);
+  return h('span', { class: [className, usesLatinMarks(symbol) && 'latin-marks'], lang: 'th' }, symbol);
 }
 
 /**
