@@ -3,22 +3,6 @@
 import { h, icon } from './dom.js';
 import { strings } from './strings.js';
 
-// The Latin combining marks that stand in for fon thong and fan nu, which have no Thai code points
-// and are missing from Noto Sans Thai Looped.
-const LATIN_MARKS = /[\u0300-\u036F]/u;
-
-/** Whether `symbol` holds one of the Latin combining marks that Noto Sans Thai Looped is missing. */
-export function usesLatinMarks(symbol) {
-  return LATIN_MARKS.test(symbol);
-}
-
-/** The symbol of a letter, in a font that has all of its characters. */
-export function symbolText(symbol, className = null) {
-  // Symbols with a Latin mark are drawn entirely in Noto Sans, since browsers could otherwise take
-  // the mark and its dotted circle from different fonts.
-  return h('span', { class: [className, usesLatinMarks(symbol) && 'latin-marks'], lang: 'th' }, symbol);
-}
-
 /**
  * A Material button. The `variant` is `filled`, `tonal`, `outlined` or `text`, and `size` makes it
  * `tall` (52px) or `taller` (56px) than the default 40px.
@@ -165,7 +149,7 @@ export function letterCard(letter, { showConsonantClass = true, badge = null, de
     h(
       'div',
       { class: 'letter-card-layout' },
-      h('div', { class: 'letter-symbol' }, symbolText(letter.symbol)),
+      h('div', { class: 'letter-symbol' }, h('span', { lang: 'th' }, letter.symbol)),
       h('div', { class: 'letter-details' }, details),
     ),
     labels,

@@ -2,7 +2,7 @@
 
 import { ALL_CATEGORIES, ConsonantClass, LetterCategory, LetterSelection, QuizDirection } from './data.js';
 import { h, icon } from './dom.js';
-import { button, showDialog, showMenu, usesLatinMarks } from './components.js';
+import { button, showDialog, showMenu } from './components.js';
 import { strings } from './strings.js';
 
 const CARD_PATH = 'M40,29h28a6,6 0,0 1,6 6v38a6,6 0,0 1,-6 6h-28a6,6 0,0 1,-6 -6v-38a6,6 0,0 1,6 -6z';
@@ -400,9 +400,9 @@ function letterPicker(letters, settings, onChange) {
     return { el, update, tiles };
   });
 
-  // The symbols can only be centred once their fonts are loaded and can be measured.
+  // The symbols can only be centred once their font is loaded and they can be measured.
   const allTiles = groups.flatMap((group) => group.tiles);
-  Promise.all(TILE_FONTS.map((font) => document.fonts.load(`${TILE_FONT_SIZE}px ${font}`)))
+  document.fonts.load(`${TILE_FONT_SIZE}px ${TILE_FONT}`)
     .then(() => allTiles.forEach(({ symbol }) => symbol.centre()))
     .catch(() => {});
 
@@ -415,7 +415,7 @@ function letterPicker(letters, settings, onChange) {
 const SVG_NS = 'http://www.w3.org/2000/svg';
 const TILE_SIZE = 48;
 const TILE_FONT_SIZE = 22;
-const TILE_FONTS = ['"Thai Looped"', '"Latin Marks"'];
+const TILE_FONT = '"Thai Looped"';
 let measuringContext = null;
 
 /**
@@ -424,13 +424,12 @@ let measuringContext = null;
  * off-centre. `centre` moves the middle of the drawn outline to the middle of the tile instead.
  */
 function letterTileSymbol(symbol) {
-  const font = usesLatinMarks(symbol) ? TILE_FONTS[1] : TILE_FONTS[0];
   const svg = document.createElementNS(SVG_NS, 'svg');
   svg.setAttribute('viewBox', `0 0 ${TILE_SIZE} ${TILE_SIZE}`);
   svg.setAttribute('aria-hidden', 'true');
   const text = document.createElementNS(SVG_NS, 'text');
   text.setAttribute('font-size', String(TILE_FONT_SIZE));
-  text.style.fontFamily = font;
+  text.style.fontFamily = TILE_FONT;
   text.setAttribute('lang', 'th');
   // Until the outline is measured, the symbol is centred by its line.
   text.setAttribute('x', String(TILE_SIZE / 2));
@@ -442,7 +441,7 @@ function letterTileSymbol(symbol) {
 
   const centre = () => {
     measuringContext ??= document.createElement('canvas').getContext('2d');
-    measuringContext.font = `${TILE_FONT_SIZE}px ${font}`;
+    measuringContext.font = `${TILE_FONT_SIZE}px ${TILE_FONT}`;
     const ink = measuringContext.measureText(symbol);
     // Measured from the start of the text on its baseline, with the left and top edges as positive distances.
     const inkCentreX = (ink.actualBoundingBoxRight - ink.actualBoundingBoxLeft) / 2;
