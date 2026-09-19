@@ -44,6 +44,17 @@
   src: url('fonts/thai_looped_semibold.ttf') format('truetype');
 }
 
+/*
+ * Noto Sans, reduced to the dotted circle and the Latin combining marks that stand in for fon thong
+ * and fan nu, which are missing from Noto Sans Thai Looped.
+ */
+@font-face {
+  font-family: 'Latin Marks';
+  font-display: block;
+  font-weight: 400;
+  src: url('fonts/noto_sans_marks_regular.ttf') format('truetype');
+}
+
 :root {
   color-scheme: light;
   --primary: #34469d;
@@ -214,6 +225,11 @@ svg.icon {
 
 .thai {
   font-family: 'Thai Looped', 'Roboto', sans-serif;
+}
+
+.thai.latin-marks,
+.letter-symbol .latin-marks {
+  font-family: 'Latin Marks', sans-serif;
 }
 
 /* Typography, from the Material 3 type scale */

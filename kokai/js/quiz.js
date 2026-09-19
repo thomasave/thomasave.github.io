@@ -11,6 +11,7 @@ import {
   linearProgress,
   pronounceButton,
   setClickable,
+  symbolText,
   topAppBar,
 } from './components.js';
 import { strings } from './strings.js';
@@ -310,7 +311,7 @@ function choiceGrid(session, letters, actions) {
     const choiceButton = h(
       'button',
       { type: 'button', class: 'choice ripple', onClick: () => actions.select(choice) },
-      h('span', { class: 'thai', lang: 'th' }, letters[choice].symbol),
+      symbolText(letters[choice].symbol, 'thai'),
     );
     return { choice, button: choiceButton };
   });
@@ -389,7 +390,7 @@ function quizResults(session, letters, actions, ctx) {
               h(
                 'div',
                 { class: 'missed-letter' },
-                h('span', { class: 'thai', lang: 'th' }, letters[index].symbol),
+                symbolText(letters[index].symbol, 'thai'),
                 h('span', { class: 'label-large' }, letters[index].transliteration),
                 h('span', { class: 'count label-medium' }, strings.resultsMissCount(count)),
               ),
